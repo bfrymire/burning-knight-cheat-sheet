@@ -1,0 +1,10 @@
+{
+    "items": [
+        {
+            "name": "Sword",
+            "description": "Just a standard sword.",
+            "image": "sword.png",
+            "tags": ["weapon", "sword", "wood", "brown"]
+        }
+    ]
+}
