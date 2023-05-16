@@ -4,7 +4,15 @@
             "name": "Sword",
             "description": "Just a standard sword.",
             "image": "sword.png",
-            "tags": ["weapon", "sword", "wood", "brown"]
+            "tags": ["weapon", "sword", "wooden"],
+            "color": "brown"
+        },
+        {
+            "name": "Sword2",
+            "description": "Just a standard sword.",
+            "image": "sword.png",
+            "tags": ["weapon", "sword", "wooden"],
+            "color": "brown"
         }
     ]
 }

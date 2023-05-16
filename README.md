@@ -1,2 +1,2 @@
-# burning-knight-cheat-sheet
+# Burning Knight Cheat Sheet
 
