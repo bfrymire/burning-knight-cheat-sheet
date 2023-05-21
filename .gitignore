@@ -23,4 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-notes
+# BKCS
+notes/
+tmp/
+credentials.py
