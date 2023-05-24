@@ -1,2 +1,0 @@
-# burning-knight-cheat-sheet
-
