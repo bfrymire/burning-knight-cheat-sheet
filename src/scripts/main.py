@@ -77,11 +77,7 @@ def download_item_images():
     images = [x for x in r if x['type'] == 'file' and x['name'].startswith('bk') and x['name'].endswith('.png')]
     i = 0
     for image in images:
-        # download_file(image['download_url'], f'{data_dir}images/{image["name"].replace("bk:", "bk_")}')
         download_file(image['download_url'], f'../../public/assets/images/items/items.json')
-        # i += 1
-        # if i >= 5:
-        #     break
 
 def resize_item_images():
     scalar = 0.25
@@ -233,10 +229,10 @@ def rgb_to_scalar(color) -> float:
     return scalar
 
 def main():
-    # download_item_images()
+    download_item_images()
     # resize_item_images()
 
-    # download_items_data()
+    download_items_data()
     format_items_data()
 
 
