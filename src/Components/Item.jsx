@@ -4,7 +4,7 @@ export default function Item({ item, handleOnMouseOver }) {
 
     return (
         <div
-            className="bg-slate-500 rounded w-24 h-24 p-1 flex justify-center"
+            className="w-24 h-24 p-1 flex justify-center"
             onMouseEnter={() => handleOnMouseOver({ imageSource: imageSource, ...item })}
             onMouseLeave={() => handleOnMouseOver({})}
         >
