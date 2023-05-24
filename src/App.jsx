@@ -1,8 +1,8 @@
-import Disclaimer from "./Components/Disclaimer";
-import Header from "./Components/Header";
-import GamePurchase from "./Components/GamePurchase";
-import ItemsManager from "./Components/ItemsManager";
-import Footer from "./Components/Footer";
+import Disclaimer from "./components/Disclaimer";
+import Header from "./components/Header";
+import GamePurchase from "./components/GamePurchase";
+import ItemsManager from "./components/ItemsManager";
+import Footer from "./components/Footer";
 
 export default function App() {
     return (

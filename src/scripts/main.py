@@ -1,17 +1,18 @@
 import os
 import json
+import colorsys
+from collections import Counter
 
 import requests
-from ratelimit import limits, sleep_and_retry
 from PIL import Image
-
 
 from credentials import credentials
 
 
 ONE_MINUTE = 60
+ONE_HOUR = ONE_MINUTE * 60
 
-data_dir = '../Data/'
+data_dir = '../data/'
 git_api_url = 'https://api.github.com/'
 bk_owner = 'RexcellentGames'
 bk_repo = 'BkWikiData'
@@ -31,8 +32,6 @@ def create_credentials_file():
         file.write('}')
     print('Created credentials.py file. Please add your GitHub PAT to it.')
 
-# @sleep_and_retry
-# @limits(calls=15, period=ONE_MINUTE)
 def call_api(url) -> bytes:
     """
     Calls the URL and returns the response.
@@ -63,7 +62,13 @@ def get_repo_contents(owner, repo, path=''):
         return None
 
 def download_items_data():
-    download_file(f'{bk_repo_url}data/items/{bk_items_file}', f'{data_dir}{bk_items_file}')
+    api_url = f'{bk_repo_url}contents/data/items/items.json'
+    r = call_api(api_url).json()
+    download_file(r['download_url'], f'{data_dir}items.json')
+
+    api_url = f'{bk_repo_url}contents/data/en.json'
+    r = call_api(api_url).json()
+    download_file(r['download_url'], f'{data_dir}en.json')
 
 def download_item_images():
     api_url = f'{bk_repo_url}contents/data/images/'
@@ -72,20 +77,20 @@ def download_item_images():
     images = [x for x in r if x['type'] == 'file' and x['name'].startswith('bk') and x['name'].endswith('.png')]
     i = 0
     for image in images:
-        download_file(image['download_url'], f'{data_dir}images/{image["name"].replace("bk:", "bk_")}')
-        i += 1
-        if i >= 5:
-            break
+        # download_file(image['download_url'], f'{data_dir}images/{image["name"].replace("bk:", "bk_")}')
+        download_file(image['download_url'], f'../../public/assets/images/items/items.json')
+        # i += 1
+        # if i >= 5:
+        #     break
 
 def resize_item_images():
     scalar = 0.25
-    images_dir = f'{data_dir}/images/'
+    images_dir = f'../../public/assets/images/items/'
     for image in os.listdir(images_dir):
         if image.endswith('.png'):
             with open(f'{images_dir}{image}', 'r+b') as file:
                 with Image.open(file) as img:
                     (width, height) = (int(img.width * scalar), int(img.height * scalar))
-                    img.Resampling = Image.NEAREST
                     img = img.resize((width, height), resample=Image.NEAREST)
                     img.save(f'{images_dir}{image}', img.format)
 
@@ -102,10 +107,138 @@ def download_file(url, filename):
 
     print(f'File "{filename}" downloaded successfully.')
 
+def format_items_data():
+    with open(f'../data/items.json', 'r') as file:
+        items = json.load(file)
+    with open(f'../data/en.json', 'r') as file:
+        english = json.load(file)
+    # Get name and description from english file
+    for _id in items:
+        item = items[_id]
+        item['file'] = f'{_id.replace(":", "_")}.png'
+        if _id in english:
+            item['name'] = english[_id]
+        if f'{_id}_desc' in english:
+            item['description'] = english[f'{_id}_desc']
+        # Get image colors
+        img = Image.open(f'../../public/assets/images/items/{item["file"]}')
+        # print(calculate_average_color(f'../../public/assets/images/items/{item["file"]}'))
+        average_color = calculate_average_color(img)
+        item['color'] = {
+            'rgb': average_color,
+            'hex': rgb_to_hex(average_color),
+            'hsv': rgb_to_hsv(average_color),
+            'scalar': rgb_to_scalar(find_most_common_color(img))
+        }
+    with open(f'{data_dir}{bk_items_file}', 'w') as file:
+        json.dump(items, file, indent=4)
+    print(items['bk:sword'])
+
+def calculate_average_color(image) -> tuple:
+    width, height = image.size
+    total = 0
+    red = 0
+    green = 0
+    blue = 0
+
+    for x in range(width):
+        for y in range(height):
+            try:
+                r, g, b, a = image.getpixel((x, y))
+            except TypeError:
+                r, g, b, a = (0, 0, 0, 0)
+
+            # Skip not fully opaque pixels
+            if a < 255:
+                continue
+
+            # Skip black pixels
+            if r == 0 and g == 0 and b == 0:
+                continue
+
+            total += 1
+            red += r
+            green += g
+            blue += b
+
+    if total == 0:
+        return (0, 0, 0)  # No valid pixels found
+
+    average_red = red // total
+    average_green = green // total
+    average_blue = blue // total
+
+    return (average_red, average_green, average_blue)
+
+def find_most_common_color(image) -> tuple:
+    # Convert image to RGBA mode if it's not already
+    image = image.convert("RGBA")
+
+    # Iterate over each pixel and count the occurrences of each color
+    color_counter = Counter()
+    width, height = image.size
+    for x in range(width):
+        for y in range(height):
+            r, g, b, a = image.getpixel((x, y))
+
+            # Skip fully transparent pixels
+            if image.mode == "RGBA" and (r, g, b) == (0, 0, 0):
+                continue
+
+            # Skip black pixels
+            if (r, g, b) == (0, 0, 0):
+                continue
+
+            color_counter[(r, g, b)] += 1
+
+    # Find the color with the highest count
+    most_common_color = color_counter.most_common(1)[0][0]
+    return most_common_color
+
+def rgb_to_hex(rgb) -> str:
+    r, g, b = rgb
+    hex_color = '#{:02x}{:02x}{:02x}'.format(r, g, b)
+    return hex_color
+
+def rgb_to_hsv(rgb_color) -> list:
+    r, g, b = rgb_color
+    r /= 255.0
+    g /= 255.0
+    b /= 255.0
+    hsv_color = colorsys.rgb_to_hsv(r, g, b)
+    h, s, v = hsv_color
+    h *= 360.0
+    s *= 100.0
+    v *= 100.0
+    return [h, s, v]
+
+def rgb_to_scalar(color) -> float:
+    # Scale the RGB values to the range [0, 1]
+    r, g, b = [value / 255 for value in color]
+
+    # Calculate the scalar value based on the color's position on the ROYGBIV scale
+    max_value = max(r, g, b)
+    min_value = min(r, g, b)
+    chroma = max_value - min_value
+
+    scalar = 0.0
+    if chroma != 0:
+        if max_value == r:
+            scalar = ((g - b) / chroma) % 6 / 6
+        elif max_value == g:
+            scalar = ((b - r) / chroma + 2) / 6
+        else:
+            scalar = ((r - g) / chroma + 4) / 6
+
+    return scalar
+
 def main():
-    download_items_data()
-    download_item_images()
-    resize_item_images()
+    # download_item_images()
+    # resize_item_images()
+
+    # download_items_data()
+    format_items_data()
+
 
 if __name__ == '__main__':
     main()

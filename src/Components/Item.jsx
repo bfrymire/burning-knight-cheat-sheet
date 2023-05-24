@@ -1,10 +1,18 @@
 export default function Item({ item, handleOnMouseOver }) {
-    const { image } = item;
-    const imageSource = `../assets/items/${image}`;
+    const { id, name, description, color, file, image, pool, quality } = item;
+    const imageSource = `/assets/images/items/${file}`;
 
     return (
-        <div className="bg-slate-500 rounded aspect-w-1 w-12 p-1" onMouseEnter={() => handleOnMouseOver({ imageSource: imageSource, ...item })} onMouseLeave={() => handleOnMouseOver({})}>
-            <img className="pixelate mx-auto h-auto" src={imageSource} alt={`Item {name}`} />
+        <div
+            className="bg-slate-500 rounded w-24 h-24 p-1 flex justify-center"
+            onMouseEnter={() => handleOnMouseOver({ imageSource: imageSource, ...item })}
+            onMouseLeave={() => handleOnMouseOver({})}
+        >
+            <img
+                className="pixelate mx-auto aspect-auto"
+                src={imageSource}
+                alt={`Item ${name}`}
+            />
         </div>
     );
 }
