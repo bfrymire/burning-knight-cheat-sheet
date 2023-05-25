@@ -31,7 +31,7 @@ export default function ItemsDisplay({ setItem }) {
                     Burning Knight Cheat Sheet
                 </h1>
             </div>
-            <div className="p-4 flex flex-wrap gap-3">
+            <div className="p-4 flex flex-wrap gap-0">
                 {items.map((item, index) => {
                     return (
                         <Item key={index} item={item} handleOnMouseOver={setItem} />

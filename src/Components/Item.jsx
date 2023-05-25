@@ -4,12 +4,12 @@ export default function Item({ item, handleOnMouseOver }) {
 
     return (
         <div
-            className="w-12 h-12 p-1 flex justify-center"
+            className="h-12 p-1 flex items-center"
             onMouseEnter={() => handleOnMouseOver({ imageSource: imageSource, ...item })}
             onMouseLeave={() => handleOnMouseOver({})}
         >
             <img
-                className="pixelate mx-auto aspect-auto"
+                className="pixelate max-h-full"
                 src={imageSource}
                 alt={`Item ${name}`}
             />
