@@ -31,7 +31,7 @@
         "weapon": 0,
         "file": "bk_sword.png",
         "name": "Wooden Sword",
-        "description": "Not just a stick",
+        "pickup": "Not just a stick",
         "color": {
             "average": [
                 95,
@@ -124,7 +124,7 @@
         "renderer": {},
         "file": "bk_halo.png",
         "name": "Halo",
-        "description": "Health up",
+        "pickup": "Health up",
         "color": {
             "average": [
                 139,
@@ -420,7 +420,7 @@
         "uprice": 0,
         "file": "bk_infinite_bomb.png",
         "name": "Infinite Bomb",
-        "description": "Reusable bomb",
+        "pickup": "Reusable bomb",
         "color": {
             "average": [
                 55,
@@ -490,7 +490,7 @@
         "weapon": 1,
         "file": "bk_revolver.png",
         "name": "Revolver",
-        "description": "Hands up, @everyone!",
+        "pickup": "Hands up, @everyone!",
         "color": {
             "average": [
                 49,
@@ -563,7 +563,7 @@
         "weapon": 1,
         "file": "bk_shotgun.png",
         "name": "Shotgun",
-        "description": "Salt into the face!",
+        "pickup": "Salt into the face!",
         "color": {
             "average": [
                 67,
@@ -613,7 +613,7 @@
         "renderer": {},
         "file": "bk_idol.png",
         "name": "Idol",
-        "description": "A hidden trap activates!",
+        "pickup": "A hidden trap activates!",
         "color": {
             "average": [
                 136,
@@ -707,7 +707,7 @@
         "uprice": 1,
         "file": "bk_potatoo.png",
         "name": "Potatoo",
-        "description": "Splits projectiles",
+        "pickup": "Splits projectiles",
         "color": {
             "average": [
                 113,
@@ -748,7 +748,7 @@
         "uprice": 1,
         "file": "bk_spectacles.png",
         "name": "Spectacles",
-        "description": "Reveals secrets",
+        "pickup": "Reveals secrets",
         "color": {
             "average": [
                 126,
@@ -787,7 +787,7 @@
         "renderer": {},
         "file": "bk_cross.png",
         "name": "Cross",
-        "description": "Increases invincibility time",
+        "pickup": "Increases invincibility time",
         "color": {
             "average": [
                 123,
@@ -826,7 +826,7 @@
         "renderer": {},
         "file": "bk_slime.png",
         "name": "Slime",
-        "description": "Bouncy shots",
+        "pickup": "Bouncy shots",
         "color": {
             "average": [
                 49,
@@ -888,7 +888,7 @@
         "renderer": {},
         "file": "bk_missile.png",
         "name": "Missile",
-        "description": "Homing shots",
+        "pickup": "Homing shots",
         "color": {
             "average": [
                 87,
@@ -957,7 +957,7 @@
         "weapon": 2,
         "file": "bk_rod_of_discord.png",
         "name": "Rod of Discord",
-        "description": "Teleporter for @everyone",
+        "pickup": "Teleporter for @everyone",
         "color": {
             "average": [
                 75,
@@ -997,7 +997,7 @@
         "renderer": {},
         "file": "bk_goo.png",
         "name": "Goo",
-        "description": "Orbiting friend",
+        "pickup": "Orbiting friend",
         "color": {
             "average": [
                 61,
@@ -1037,7 +1037,7 @@
         "renderer": {},
         "file": "bk_jelly.png",
         "name": "Jelly!",
-        "description": "^^Bouncy^^",
+        "pickup": "^^Bouncy^^",
         "color": {
             "average": [
                 112,
@@ -1079,7 +1079,7 @@
         "uprice": 0,
         "file": "bk_broken_stone.png",
         "name": "Broken Stone",
-        "description": "Well-built orbital",
+        "pickup": "Well-built orbital",
         "color": {
             "average": [
                 51,
@@ -1120,7 +1120,7 @@
         "renderer": {},
         "file": "bk_nano_orb.png",
         "name": "Nano Orb",
-        "description": "Micro friend",
+        "pickup": "Micro friend",
         "color": {
             "average": [
                 39,
@@ -1160,7 +1160,7 @@
         "renderer": {},
         "file": "bk_saturn.png",
         "name": "Planet",
-        "description": "Of course we still love it",
+        "pickup": "Of course we still love it",
         "color": {
             "average": [
                 143,
@@ -1206,7 +1206,7 @@
         "renderer": {},
         "file": "bk_soap.png",
         "name": "Soap",
-        "description": "Slows down your projectiles",
+        "pickup": "Slows down your projectiles",
         "color": {
             "average": [
                 170,
@@ -1257,7 +1257,7 @@
         "uprice": 0,
         "file": "bk_d6.png",
         "name": "D6",
-        "description": "^^Reroll^^ items!",
+        "pickup": "^^Reroll^^ items!",
         "color": {
             "average": [
                 104,
@@ -1300,7 +1300,7 @@
         "renderer": {},
         "file": "bk_my_heart.png",
         "name": "My Heart",
-        "description": "Health up",
+        "pickup": "Health up",
         "color": {
             "average": [
                 137,
@@ -1342,7 +1342,7 @@
         "renderer": {},
         "file": "bk_broken_heart.png",
         "name": "Broken Heart",
-        "description": "Health up",
+        "pickup": "Health up",
         "color": {
             "average": [
                 114,
@@ -1384,7 +1384,7 @@
         "uprice": 3,
         "file": "bk_parcel.png",
         "name": "Parcel",
-        "description": "Reusable healer",
+        "pickup": "Reusable healer",
         "color": {
             "average": [
                 170,
@@ -1425,7 +1425,7 @@
         "uprice": 1,
         "file": "bk_glass.png",
         "name": "Glass",
-        "description": "##Fragile## projectiles",
+        "pickup": "##Fragile## projectiles",
         "color": {
             "average": [
                 59,
@@ -1472,7 +1472,7 @@
         "renderer": {},
         "file": "bk_broken_guitar.png",
         "name": "Broken Guitar",
-        "description": "Roll'n'rock!",
+        "pickup": "Roll'n'rock!",
         "color": {
             "average": [
                 82,
@@ -1541,7 +1541,7 @@
         "weapon": 1,
         "file": "bk_machine_gun.png",
         "name": "Machine Gun",
-        "description": "Automatic",
+        "pickup": "Automatic",
         "color": {
             "average": [
                 49,
@@ -1598,7 +1598,7 @@
         "weapon": 1,
         "file": "bk_grenade_launcher.png",
         "name": "Grenade Launcher",
-        "description": "Kaboom!",
+        "pickup": "Kaboom!",
         "color": {
             "average": [
                 60,
@@ -1673,7 +1673,7 @@
         "weapon": 1,
         "file": "bk_missile_launcher.png",
         "name": "Missile Launcher",
-        "description": "Target detected!",
+        "pickup": "Target detected!",
         "color": {
             "average": [
                 68,
@@ -1743,7 +1743,7 @@
         "weapon": 1,
         "file": "bk_burst_gun.png",
         "name": "Burst Gun",
-        "description": "Speed of light",
+        "pickup": "Speed of light",
         "color": {
             "average": [
                 57,
@@ -1816,7 +1816,7 @@
         "weapon": 1,
         "file": "bk_flak_cannon.png",
         "name": "Flak Cannon",
-        "description": "It's party time!",
+        "pickup": "It's party time!",
         "color": {
             "average": [
                 64,
@@ -1888,7 +1888,7 @@
         "weapon": 1,
         "file": "bk_disk_gun.png",
         "name": "Disk Gun",
-        "description": "Sharp matter",
+        "pickup": "Sharp matter",
         "color": {
             "average": [
                 56,
@@ -1964,7 +1964,7 @@
         "weapon": 1,
         "file": "bk_duck_gun.png",
         "name": "Duck Gun",
-        "description": "Quakers!",
+        "pickup": "Quakers!",
         "color": {
             "average": [
                 106,
@@ -2037,7 +2037,7 @@
         "weapon": 1,
         "file": "bk_follower.png",
         "name": "Follower",
-        "description": "Follow me!",
+        "pickup": "Follow me!",
         "color": {
             "average": [
                 46,
@@ -2111,7 +2111,7 @@
         "weapon": 1,
         "file": "bk_portal_gun.png",
         "name": "Portal Gun",
-        "description": "Cake is a lie",
+        "pickup": "Cake is a lie",
         "color": {
             "average": [
                 62,
@@ -2151,7 +2151,7 @@
         "renderer": {},
         "file": "bk_restock.png",
         "name": "Restock",
-        "description": "Infinite shop supply",
+        "pickup": "Infinite shop supply",
         "color": {
             "average": [
                 59,
@@ -2190,7 +2190,7 @@
         "renderer": {},
         "file": "bk_charisma_ring.png",
         "name": "Charisma Ring",
-        "description": "Royal Sales",
+        "pickup": "Royal Sales",
         "color": {
             "average": [
                 130,
@@ -2282,7 +2282,7 @@
         "uprice": 3,
         "file": "bk_homemade_dice.png",
         "name": "Homemade Dice",
-        "description": "^^Reroll^^ items! (DIY)",
+        "pickup": "^^Reroll^^ items! (DIY)",
         "color": {
             "average": [
                 104,
@@ -2324,7 +2324,7 @@
         "uprice": 0,
         "file": "bk_iron_boots.png",
         "name": "Iron Boots",
-        "description": "Spikes hurt no more",
+        "pickup": "Spikes hurt no more",
         "color": {
             "average": [
                 76,
@@ -2406,7 +2406,7 @@
         "weapon": 1,
         "file": "bk_glass_gun.png",
         "name": "Glass Gun",
-        "description": "##Fragile##",
+        "pickup": "##Fragile##",
         "color": {
             "average": [
                 23,
@@ -2461,7 +2461,7 @@
         "weapon": 0,
         "file": "bk_glass_shard.png",
         "name": "Glass Shard",
-        "description": "Just a piece of the whole",
+        "pickup": "Just a piece of the whole",
         "color": {
             "average": [
                 36,
@@ -2517,7 +2517,7 @@
         "weapon": 0,
         "file": "bk_dagger.png",
         "name": "Dagger",
-        "description": "Nostalgia...",
+        "pickup": "Nostalgia...",
         "color": {
             "average": [
                 88,
@@ -2572,7 +2572,7 @@
         "weapon": 0,
         "file": "bk_spear.png",
         "name": "Spear",
-        "description": "Longer arms?",
+        "pickup": "Longer arms?",
         "color": {
             "average": [
                 40,
@@ -2660,7 +2660,7 @@
         "uprice": 1,
         "file": "bk_magnifier.png",
         "name": "Magnifier",
-        "description": "Bigger Projectiles",
+        "pickup": "Bigger Projectiles",
         "color": {
             "average": [
                 35,
@@ -2713,7 +2713,7 @@
         "renderer": {},
         "file": "bk_spike.png",
         "name": "Spike",
-        "description": "Damage Up",
+        "pickup": "Damage Up",
         "color": {
             "average": [
                 80,
@@ -2751,7 +2751,7 @@
         "uprice": 5,
         "file": "bk_mushroom_hat.png",
         "name": "Mushroom Hat",
-        "description": "Tasty?",
+        "pickup": "Tasty?",
         "color": {
             "average": [
                 151,
@@ -2789,7 +2789,7 @@
         "uprice": 3,
         "file": "bk_stone_hat.png",
         "name": "Stone Hat",
-        "description": "Heavy",
+        "pickup": "Heavy",
         "color": {
             "average": [
                 75,
@@ -2827,7 +2827,7 @@
         "uprice": 8,
         "file": "bk_knight_hat.png",
         "name": "Knight Hat",
-        "description": "Good old enemies...",
+        "pickup": "Good old enemies...",
         "color": {
             "average": [
                 114,
@@ -2865,7 +2865,7 @@
         "uprice": 5,
         "file": "bk_cowboy_hat.png",
         "name": "Cowboy Hat",
-        "description": "Wild west!",
+        "pickup": "Wild west!",
         "color": {
             "average": [
                 72,
@@ -2903,7 +2903,7 @@
         "uprice": 5,
         "file": "bk_soup_hat.png",
         "name": "Soup Hat",
-        "description": "^^Yummy^^",
+        "pickup": "^^Yummy^^",
         "color": {
             "average": [
                 104,
@@ -2941,7 +2941,7 @@
         "uprice": 99,
         "file": "bk_gold_hat.png",
         "name": "Gold Hat",
-        "description": "[cl yellow]Rich!",
+        "pickup": "[cl yellow]Rich!",
         "color": {
             "average": [
                 135,
@@ -2979,7 +2979,7 @@
         "uprice": 9,
         "file": "bk_viking_hat.png",
         "name": "Viking Hat",
-        "description": "America!",
+        "pickup": "America!",
         "color": {
             "average": [
                 102,
@@ -3017,7 +3017,7 @@
         "uprice": 1,
         "file": "bk_dunce_hat.png",
         "name": "Dunce Hat",
-        "description": "@-@",
+        "pickup": "@-@",
         "color": {
             "average": [
                 140,
@@ -3055,7 +3055,7 @@
         "uprice": 2,
         "file": "bk_top_hat.png",
         "name": "Top Hat",
-        "description": "Fashion!",
+        "pickup": "Fashion!",
         "color": {
             "average": [
                 124,
@@ -3093,7 +3093,7 @@
         "uprice": 3,
         "file": "bk_ushanka.png",
         "name": "Ushanka",
-        "description": "Where is my ##balalaika?##",
+        "pickup": "Where is my ##balalaika?##",
         "color": {
             "average": [
                 55,
@@ -3131,7 +3131,7 @@
         "uprice": 1,
         "file": "bk_valkyrie_hat.png",
         "name": "Valkyrie Hat",
-        "description": "I believe ^^I can fly!^^",
+        "pickup": "I believe ^^I can fly!^^",
         "color": {
             "average": [
                 78,
@@ -3169,7 +3169,7 @@
         "uprice": 6,
         "file": "bk_skull_hat.png",
         "name": "Skull Hat",
-        "description": "Money or life!",
+        "pickup": "Money or life!",
         "color": {
             "average": [
                 137,
@@ -3207,7 +3207,7 @@
         "uprice": 7,
         "file": "bk_grandma_head.png",
         "name": "Grandma Head",
-        "description": "Tea?",
+        "pickup": "Tea?",
         "color": {
             "average": [
                 130,
@@ -3245,7 +3245,7 @@
         "uprice": 15,
         "file": "bk_diamond_helmet.png",
         "name": "Diamond Helmet",
-        "description": "Shut up and dig!",
+        "pickup": "Shut up and dig!",
         "color": {
             "average": [
                 7,
@@ -3283,7 +3283,7 @@
         "uprice": 15,
         "file": "bk_villager_head.png",
         "name": "Villager Head",
-        "description": "Hmm?",
+        "pickup": "Hmm?",
         "color": {
             "average": [
                 108,
@@ -3321,7 +3321,7 @@
         "uprice": 0,
         "file": "bk_fez.png",
         "name": "Fez",
-        "description": "Cubit",
+        "pickup": "Cubit",
         "color": {
             "average": [
                 94,
@@ -3357,7 +3357,7 @@
         "renderer": {},
         "file": "bk_no_hat.png",
         "name": "Remove Hat",
-        "description": "Not hat - no trouble!",
+        "pickup": "Not hat - no trouble!",
         "color": {
             "average": [
                 100,
@@ -3395,7 +3395,7 @@
         "uprice": 3,
         "file": "bk_null_hat.png",
         "name": "NULL",
-        "description": "Attempt to call a null value",
+        "pickup": "Attempt to call a null value",
         "color": {
             "average": [
                 56,
@@ -3433,7 +3433,7 @@
         "uprice": 15,
         "file": "bk_xmas_hat.png",
         "name": "Santa Hat",
-        "description": "Merry Christmas!",
+        "pickup": "Merry Christmas!",
         "color": {
             "average": [
                 142,
@@ -3471,7 +3471,7 @@
         "uprice": 12,
         "file": "bk_pumpkin_hat.png",
         "name": "Carved Pumpkin",
-        "description": "^^Spooky spooky skeleton^^",
+        "pickup": "^^Spooky spooky skeleton^^",
         "color": {
             "average": [
                 106,
@@ -3524,7 +3524,7 @@
         "weapon": 0,
         "file": "bk_cage_key.png",
         "name": "Cage Key",
-        "description": "Save ^^the dude^^!",
+        "pickup": "Save ^^the dude^^!",
         "color": {
             "average": [
                 63,
@@ -3567,7 +3567,7 @@
         "uprice": 2,
         "file": "bk_frog.png",
         "name": "Tele Frog",
-        "description": "Fast travel?",
+        "pickup": "Fast travel?",
         "color": {
             "average": [
                 55,
@@ -3607,7 +3607,7 @@
         "renderer": {},
         "file": "bk_sword_orbital.png",
         "name": "Sword Orbital",
-        "description": "Justice",
+        "pickup": "Justice",
         "color": {
             "average": [
                 52,
@@ -3650,7 +3650,7 @@
         "renderer": {},
         "file": "bk_gift.png",
         "name": "Gift",
-        "description": "What's inside?",
+        "pickup": "What's inside?",
         "color": {
             "average": [
                 123,
@@ -3695,7 +3695,7 @@
         "renderer": {},
         "file": "bk_spike_ring.png",
         "name": "Spike Ring",
-        "description": "Your enemies must be ##punished##!",
+        "pickup": "Your enemies must be ##punished##!",
         "color": {
             "average": [
                 73,
@@ -3743,7 +3743,7 @@
         "uprice": 0,
         "file": "bk_fire_ring.png",
         "name": "Fire Ring",
-        "description": "Let your enemies burn",
+        "pickup": "Let your enemies burn",
         "color": {
             "average": [
                 114,
@@ -3791,7 +3791,7 @@
         "uprice": 0,
         "file": "bk_ice_ring.png",
         "name": "Ice Ring",
-        "description": "Stop your enemies",
+        "pickup": "Stop your enemies",
         "color": {
             "average": [
                 7,
@@ -3837,7 +3837,7 @@
         "renderer": {},
         "file": "bk_duck_ring.png",
         "name": "Duck Ring",
-        "description": "Teleport after getting hit",
+        "pickup": "Teleport after getting hit",
         "color": {
             "average": [
                 92,
@@ -3889,7 +3889,7 @@
         "uprice": 1,
         "file": "bk_snowflake.png",
         "name": "Snowflake",
-        "description": "Freeze everyone!",
+        "pickup": "Freeze everyone!",
         "color": {
             "average": [
                 119,
@@ -3929,7 +3929,7 @@
         "renderer": {},
         "file": "bk_dull_blade.png",
         "name": "Dull Blade",
-        "description": "Triggers hurt effect",
+        "pickup": "Triggers hurt effect",
         "color": {
             "average": [
                 78,
@@ -3970,7 +3970,7 @@
         "renderer": {},
         "file": "bk_sharp_blade.png",
         "name": "Sharp Blade",
-        "description": "Self damage",
+        "pickup": "Self damage",
         "color": {
             "average": [
                 90,
@@ -4009,7 +4009,7 @@
         "renderer": {},
         "file": "bk_obsidian_shield.png",
         "name": "Obsidian Shield",
-        "description": "Knockback = 0",
+        "pickup": "Knockback = 0",
         "color": {
             "average": [
                 64,
@@ -4055,7 +4055,7 @@
         "renderer": {},
         "file": "bk_bill.png",
         "name": "Bill",
-        "description": "99 dollars",
+        "pickup": "99 dollars",
         "color": {
             "average": [
                 25,
@@ -4095,7 +4095,7 @@
         "renderer": {},
         "file": "bk_clover.png",
         "name": "4 Leaf Clover",
-        "description": "Lucky!",
+        "pickup": "Lucky!",
         "color": {
             "average": [
                 38,
@@ -4135,7 +4135,7 @@
         "renderer": {},
         "file": "bk_d4.png",
         "name": "D4",
-        "description": "^^Reroll %%your artifacts%%!^^",
+        "pickup": "^^Reroll %%your artifacts%%!^^",
         "color": {
             "average": [
                 23,
@@ -4173,7 +4173,7 @@
         "uprice": 0,
         "file": "bk_maanex_head.png",
         "name": "Maanex Head",
-        "description": "Hmmmmm",
+        "pickup": "Hmmmmm",
         "color": {
             "average": [
                 155,
@@ -4209,7 +4209,7 @@
         "renderer": {},
         "file": "bk_maanex.png",
         "name": "Maanex",
-        "description": "Makes enemies think for a bit",
+        "pickup": "Makes enemies think for a bit",
         "color": {
             "average": [
                 146,
@@ -4250,7 +4250,7 @@
         "renderer": {},
         "file": "bk_map_greenprints.png",
         "name": "Map Greenprints",
-        "description": "Reveals the map",
+        "pickup": "Reveals the map",
         "color": {
             "average": [
                 77,
@@ -4289,7 +4289,7 @@
         "renderer": {},
         "file": "bk_map.png",
         "name": "Map",
-        "description": "Reveals the map permanently",
+        "pickup": "Reveals the map permanently",
         "color": {
             "average": [
                 168,
@@ -4334,7 +4334,7 @@
         "renderer": {},
         "file": "bk_crying_bomb.png",
         "name": "Crying Bomb",
-        "description": "Bombs now cry!",
+        "pickup": "Bombs now cry!",
         "color": {
             "average": [
                 68,
@@ -4380,7 +4380,7 @@
         "renderer": {},
         "file": "bk_matches.png",
         "name": "Matches",
-        "description": "Shorter explosion timer",
+        "pickup": "Shorter explosion timer",
         "color": {
             "average": [
                 139,
@@ -4428,7 +4428,7 @@
         "renderer": {},
         "file": "bk_bomb_pack.png",
         "name": "Bomb Pack",
-        "description": "We put bombs in your bombs!",
+        "pickup": "We put bombs in your bombs!",
         "color": {
             "average": [
                 72,
@@ -4470,7 +4470,7 @@
         "renderer": {},
         "file": "bk_tnt.png",
         "name": "TNT",
-        "description": "99 bombs",
+        "pickup": "99 bombs",
         "color": {
             "average": [
                 110,
@@ -4516,7 +4516,7 @@
         "renderer": {},
         "file": "bk_weird_mushroom.png",
         "name": "Weird Mushroom",
-        "description": "Doubles Everything",
+        "pickup": "Doubles Everything",
         "color": {
             "average": [
                 146,
@@ -4558,7 +4558,7 @@
         "renderer": {},
         "file": "bk_bomb_shower.png",
         "name": "Bomb Shower",
-        "description": "Let it rain bombs",
+        "pickup": "Let it rain bombs",
         "color": {
             "average": [
                 125,
@@ -4601,7 +4601,7 @@
         "renderer": {},
         "file": "bk_black_belt.png",
         "name": "Black Belt",
-        "description": "Explode no more",
+        "pickup": "Explode no more",
         "color": {
             "average": [
                 28,
@@ -4647,7 +4647,7 @@
         "renderer": {},
         "file": "bk_ninjia_bomb.png",
         "name": "Ninja Bomb",
-        "description": "Getting hurt spawns bombs",
+        "pickup": "Getting hurt spawns bombs",
         "color": {
             "average": [
                 73,
@@ -4686,7 +4686,7 @@
         "renderer": {},
         "file": "bk_laser_pointer.png",
         "name": "Laser Pointer",
-        "description": "Aim is clear!",
+        "pickup": "Aim is clear!",
         "color": {
             "average": [
                 159,
@@ -4729,7 +4729,7 @@
         "renderer": {},
         "file": "bk_voodoo_doll.png",
         "name": "Voodoo Doll",
-        "description": "Kills all enemies in the room",
+        "pickup": "Kills all enemies in the room",
         "color": {
             "average": [
                 117,
@@ -4793,7 +4793,7 @@
         "renderer": {},
         "file": "bk_amurs_arrow.png",
         "name": "Amur's Arrow",
-        "description": "Charming Projectiles",
+        "pickup": "Charming Projectiles",
         "color": {
             "average": [
                 106,
@@ -4886,7 +4886,7 @@
         "weapon": 1,
         "file": "bk_amurs_bow.png",
         "name": "Amur's Bow",
-        "description": "I see love",
+        "pickup": "I see love",
         "color": {
             "average": [
                 108,
@@ -4946,7 +4946,7 @@
         "renderer": {},
         "file": "bk_poison_flask.png",
         "name": "Poison Flask",
-        "description": "Poisoned Projectiles",
+        "pickup": "Poisoned Projectiles",
         "color": {
             "average": [
                 58,
@@ -5006,7 +5006,7 @@
         "renderer": {},
         "file": "bk_snowball.png",
         "name": "Snowball",
-        "description": "Ice Cold Projectiles",
+        "pickup": "Ice Cold Projectiles",
         "color": {
             "average": [
                 157,
@@ -5066,7 +5066,7 @@
         "renderer": {},
         "file": "bk_peper.png",
         "name": "Hot Pepper",
-        "description": "Hot Projectiles",
+        "pickup": "Hot Projectiles",
         "color": {
             "average": [
                 99,
@@ -5109,7 +5109,7 @@
         "renderer": {},
         "file": "bk_sale_coupon.png",
         "name": "Sale Coupon",
-        "description": "-50%!",
+        "pickup": "-50%!",
         "color": {
             "average": [
                 169,
@@ -5151,7 +5151,7 @@
         "renderer": {},
         "file": "bk_pet_box.png",
         "name": "Pet in a Box",
-        "description": "Who's inside?",
+        "pickup": "Who's inside?",
         "color": {
             "average": [
                 128,
@@ -5192,7 +5192,7 @@
         "renderer": {},
         "file": "bk_crate.png",
         "name": "Orbital Crate",
-        "description": "Who's inside?",
+        "pickup": "Who's inside?",
         "color": {
             "average": [
                 118,
@@ -5233,7 +5233,7 @@
         "renderer": {},
         "file": "bk_strawberry.png",
         "name": "Strawberry",
-        "description": "Sweet Memories",
+        "pickup": "Sweet Memories",
         "color": {
             "average": [
                 108,
@@ -5283,7 +5283,7 @@
         "renderer": {},
         "file": "bk_wings.png",
         "name": "Wings",
-        "description": "I belive I can fly",
+        "pickup": "I belive I can fly",
         "color": {
             "average": [
                 106,
@@ -5324,7 +5324,7 @@
         "renderer": {},
         "file": "bk_coin_pouch.png",
         "name": "Coin Pouch",
-        "description": "Gives Coins",
+        "pickup": "Gives Coins",
         "color": {
             "average": [
                 82,
@@ -5365,7 +5365,7 @@
         "renderer": {},
         "file": "bk_key_pouch.png",
         "name": "Key Pouch",
-        "description": "Gives Keys",
+        "pickup": "Gives Keys",
         "color": {
             "average": [
                 71,
@@ -5406,7 +5406,7 @@
         "renderer": {},
         "file": "bk_bomb_pouch.png",
         "name": "Bomb Pouch",
-        "description": "Gives Bombs",
+        "pickup": "Gives Bombs",
         "color": {
             "average": [
                 84,
@@ -5448,7 +5448,7 @@
         "renderer": {},
         "file": "bk_pouch_pouch.png",
         "name": "Pouch Pouch",
-        "description": "Gives Pouches",
+        "pickup": "Gives Pouches",
         "color": {
             "average": [
                 115,
@@ -5557,7 +5557,7 @@
         "weapon": 0,
         "file": "bk_pickaxe.png",
         "name": "Pickaxe",
-        "description": "Dig, peasant!",
+        "pickup": "Dig, peasant!",
         "color": {
             "average": [
                 60,
@@ -5642,7 +5642,7 @@
         "weapon": 0,
         "file": "bk_shovel.png",
         "name": "Blue Shovel",
-        "description": "But why is it blue???",
+        "pickup": "But why is it blue???",
         "color": {
             "average": [
                 29,
@@ -5723,7 +5723,7 @@
         "weapon": 0,
         "file": "bk_lightsaber.png",
         "name": "Svetsaber",
-        "description": "You were the chosen one!",
+        "pickup": "You were the chosen one!",
         "color": {
             "average": [
                 69,
@@ -5774,7 +5774,7 @@
         "uprice": 1,
         "file": "bk_snail.png",
         "name": "Snail",
-        "description": "Mass Slower",
+        "pickup": "Mass Slower",
         "color": {
             "average": [
                 91,
@@ -5823,7 +5823,7 @@
         "renderer": {},
         "file": "bk_mushroom.png",
         "name": "Mushroom",
-        "description": "Speed up",
+        "pickup": "Speed up",
         "color": {
             "average": [
                 105,
@@ -5878,7 +5878,7 @@
         "uprice": 8,
         "file": "bk_candy.png",
         "name": "Candy",
-        "description": "^^Sugar rush^^, fire rate up",
+        "pickup": "^^Sugar rush^^, fire rate up",
         "color": {
             "average": [
                 146,
@@ -5927,7 +5927,7 @@
         "renderer": {},
         "file": "bk_glasses.png",
         "name": "Glasses",
-        "description": "Better Accuracy",
+        "pickup": "Better Accuracy",
         "color": {
             "average": [
                 115,
@@ -5976,7 +5976,7 @@
         "renderer": {},
         "file": "bk_ruler.png",
         "name": "Ruler",
-        "description": "Longer Range",
+        "pickup": "Longer Range",
         "color": {
             "average": [
                 145,
@@ -6021,7 +6021,7 @@
         "renderer": {},
         "file": "bk_glass_bullet.png",
         "name": "Glass Bullet",
-        "description": "Shoot over stones",
+        "pickup": "Shoot over stones",
         "color": {
             "average": [
                 25,
@@ -6075,7 +6075,7 @@
         "renderer": {},
         "file": "bk_stopwatch.png",
         "name": "Stopwatch",
-        "description": "Getting Hurt Controls the Time",
+        "pickup": "Getting Hurt Controls the Time",
         "color": {
             "average": [
                 108,
@@ -6116,7 +6116,7 @@
         "renderer": {},
         "file": "bk_meat_guy.png",
         "name": "Meat Guy",
-        "description": "Nuts!",
+        "pickup": "Nuts!",
         "color": {
             "average": [
                 130,
@@ -6157,7 +6157,7 @@
         "renderer": {},
         "file": "bk_bullet_stone.png",
         "name": "Bullet Stone",
-        "description": "He attac, he protec, but most importantly, he cute as hecc",
+        "pickup": "He attac, he protec, but most importantly, he cute as hecc",
         "color": {
             "average": [
                 114,
@@ -6198,7 +6198,7 @@
         "renderer": {},
         "file": "bk_batman.png",
         "name": "Batman",
-        "description": "Doesn't help, but gives batteries",
+        "pickup": "Doesn't help, but gives batteries",
         "color": {
             "average": [
                 103,
@@ -6243,7 +6243,7 @@
         "renderer": {},
         "file": "bk_sharp_arrow.png",
         "name": "Sharp Arrow",
-        "description": "Projectile Penetration",
+        "pickup": "Projectile Penetration",
         "color": {
             "average": [
                 81,
@@ -6287,7 +6287,7 @@
         "renderer": {},
         "file": "bk_boomerang.png",
         "name": "Boomerang",
-        "description": "Boomerang Projectiles",
+        "pickup": "Boomerang Projectiles",
         "color": {
             "average": [
                 94,
@@ -6328,7 +6328,7 @@
         "renderer": {},
         "file": "bk_backpack.png",
         "name": "Backpack",
-        "description": "Ma Bear Friend",
+        "pickup": "Ma Bear Friend",
         "color": {
             "average": [
                 122,
@@ -6371,7 +6371,7 @@
         "renderer": {},
         "file": "bk_crystal.png",
         "name": "Crystal",
-        "description": "The Power of the Rainbow",
+        "pickup": "The Power of the Rainbow",
         "color": {
             "average": [
                 134,
@@ -6414,7 +6414,7 @@
         "renderer": {},
         "file": "bk_prism.png",
         "name": "Prism",
-        "description": "Projectiles -> Rainbow",
+        "pickup": "Projectiles -> Rainbow",
         "color": {
             "average": [
                 134,
@@ -6456,7 +6456,7 @@
         "renderer": {},
         "file": "bk_scourge_of_egg.png",
         "name": "Scourge of Egg",
-        "description": "Shuffeled Item Names",
+        "pickup": "Shuffeled Item Names",
         "color": {
             "average": [
                 62,
@@ -6498,7 +6498,7 @@
         "renderer": {},
         "file": "bk_scourge_of_unknown.png",
         "name": "Scourge of Unknown",
-        "description": "Hidden Items",
+        "pickup": "Hidden Items",
         "color": {
             "average": [
                 73,
@@ -6540,7 +6540,7 @@
         "renderer": {},
         "file": "bk_scourge_of_blood.png",
         "name": "Scourge of Blood",
-        "description": "Double Trouble (and Enemies)",
+        "pickup": "Double Trouble (and Enemies)",
         "color": {
             "average": [
                 84,
@@ -6582,7 +6582,7 @@
         "renderer": {},
         "file": "bk_scourge_of_risk.png",
         "name": "Scourge of Risk",
-        "description": "Hidden Health",
+        "pickup": "Hidden Health",
         "color": {
             "average": [
                 83,
@@ -6624,7 +6624,7 @@
         "renderer": {},
         "file": "bk_scourge_of_keys.png",
         "name": "Scourge of Keys",
-        "description": "Hidden Consumables",
+        "pickup": "Hidden Consumables",
         "color": {
             "average": [
                 67,
@@ -6666,7 +6666,7 @@
         "renderer": {},
         "file": "bk_scourge_of_lost.png",
         "name": "Scourge of Lost",
-        "description": "Amnesia",
+        "pickup": "Amnesia",
         "color": {
             "average": [
                 72,
@@ -6708,7 +6708,7 @@
         "renderer": {},
         "file": "bk_scourge_of_scourged.png",
         "name": "Scourge of Scourged",
-        "description": "Scourge Everywhere",
+        "pickup": "Scourge Everywhere",
         "color": {
             "average": [
                 73,
@@ -6750,7 +6750,7 @@
         "renderer": {},
         "file": "bk_scourge_of_illness.png",
         "name": "Scourge of Illness",
-        "description": "Healing is Nerfed",
+        "pickup": "Healing is Nerfed",
         "color": {
             "average": [
                 83,
@@ -6797,7 +6797,7 @@
         "renderer": {},
         "file": "bk_scourge_of_death.png",
         "name": "Scourge of Death",
-        "description": "Hardmode",
+        "pickup": "Hardmode",
         "color": {
             "average": [
                 96,
@@ -6869,7 +6869,7 @@
         "weapon": 1,
         "file": "bk_ancient_revolver.png",
         "name": "Ancient Revolver",
-        "description": "Looks Cool",
+        "pickup": "Looks Cool",
         "color": {
             "average": [
                 91,
@@ -6941,7 +6941,7 @@
         "weapon": 1,
         "file": "bk_assault_rifle.png",
         "name": "Assault Rifle",
-        "description": "Bursts",
+        "pickup": "Bursts",
         "color": {
             "average": [
                 41,
@@ -7024,7 +7024,7 @@
         "renderer": {},
         "file": "bk_shield_pouch.png",
         "name": "Shield Pouch",
-        "description": "Gives Shields",
+        "pickup": "Gives Shields",
         "color": {
             "average": [
                 68,
@@ -7065,7 +7065,7 @@
         "renderer": {},
         "file": "bk_shield_buddy.png",
         "name": "Shield Buddy",
-        "description": "He protec",
+        "pickup": "He protec",
         "color": {
             "average": [
                 92,
@@ -7107,7 +7107,7 @@
         "renderer": {},
         "file": "bk_skeleton_key.png",
         "name": "Skeleton Key",
-        "description": "99 keys",
+        "pickup": "99 keys",
         "color": {
             "average": [
                 98,
@@ -7152,7 +7152,7 @@
         "renderer": {},
         "file": "bk_jar.png",
         "name": "Health Jar",
-        "description": "Jar Jar Clinks",
+        "pickup": "Jar Jar Clinks",
         "color": {
             "average": [
                 116,
@@ -7210,7 +7210,7 @@
         "uprice": 0,
         "file": "bk_star.png",
         "name": "Star",
-        "description": "It protec",
+        "pickup": "It protec",
         "color": {
             "average": [
                 143,
@@ -7255,7 +7255,7 @@
         "renderer": {},
         "file": "bk_car_bomb.png",
         "name": "Car Bomb",
-        "description": "Bomb Delivery Service",
+        "pickup": "Bomb Delivery Service",
         "color": {
             "average": [
                 72,
@@ -7299,7 +7299,7 @@
         "renderer": {},
         "file": "bk_grenade.png",
         "name": "Grenade",
-        "description": "Detonates Bomb on Touch",
+        "pickup": "Detonates Bomb on Touch",
         "color": {
             "average": [
                 48,
@@ -7343,7 +7343,7 @@
         "renderer": {},
         "file": "bk_vampire_bat.png",
         "name": "Vampire Bat",
-        "description": "Regen",
+        "pickup": "Regen",
         "color": {
             "average": [
                 61,
@@ -7386,7 +7386,7 @@
         "renderer": {},
         "file": "bk_mustache.png",
         "name": "Mustache",
-        "description": "VIP",
+        "pickup": "VIP",
         "color": {
             "average": [
                 56,
@@ -7429,7 +7429,7 @@
         "renderer": {},
         "file": "bk_bloody_chest.png",
         "name": "Bloody Chest",
-        "description": "Chests Heal",
+        "pickup": "Chests Heal",
         "color": {
             "average": [
                 97,
@@ -7474,7 +7474,7 @@
         "renderer": {},
         "file": "bk_bloody_shield.png",
         "name": "Bloody Shield",
-        "description": "Shields Forever",
+        "pickup": "Shields Forever",
         "color": {
             "average": [
                 63,
@@ -7529,7 +7529,7 @@
         "renderer": {},
         "file": "bk_cutsaw.png",
         "name": "Cutsaw",
-        "description": "Enemies Will Pay",
+        "pickup": "Enemies Will Pay",
         "color": {
             "average": [
                 110,
@@ -7575,7 +7575,7 @@
         "uprice": 3,
         "file": "bk_shadow_cloak.png",
         "name": "Shadow Cloak",
-        "description": "No U",
+        "pickup": "No U",
         "color": {
             "average": [
                 29,
@@ -7614,7 +7614,7 @@
         "renderer": {},
         "file": "bk_dynamite_stick.png",
         "name": "Dynamite Stick",
-        "description": "Do you want to explode?",
+        "pickup": "Do you want to explode?",
         "color": {
             "average": [
                 118,
@@ -7664,7 +7664,7 @@
         "renderer": {},
         "file": "bk_chalice_of_blood.png",
         "name": "Chalice of Blood",
-        "description": "Pain invokes rage, rage invokes damage",
+        "pickup": "Pain invokes rage, rage invokes damage",
         "color": {
             "average": [
                 95,
@@ -7705,7 +7705,7 @@
         "uprice": 1,
         "file": "bk_detonator.png",
         "name": "Detonator",
-        "description": "Detonates Explosives",
+        "pickup": "Detonates Explosives",
         "color": {
             "average": [
                 100,
@@ -7744,7 +7744,7 @@
         "renderer": {},
         "file": "bk_talisman_of_foresight.png",
         "name": "Talisman of Foresight",
-        "description": "Open your eyes and see the rooms nearby!",
+        "pickup": "Open your eyes and see the rooms nearby!",
         "color": {
             "average": [
                 67,
@@ -7783,7 +7783,7 @@
         "renderer": {},
         "file": "bk_scourge_ring.png",
         "name": "Scourge Ring",
-        "description": "Scourge No More",
+        "pickup": "Scourge No More",
         "color": {
             "average": [
                 94,
@@ -7825,7 +7825,7 @@
         "renderer": {},
         "file": "bk_snek.png",
         "name": "Snek",
-        "description": "Snack?",
+        "pickup": "Snack?",
         "color": {
             "average": [
                 87,
@@ -7866,7 +7866,7 @@
         "renderer": {},
         "file": "bk_blank.png",
         "name": "Blank",
-        "description": "_Blank Text_",
+        "pickup": "_Blank Text_",
         "color": {
             "average": [
                 7,
@@ -7910,7 +7910,7 @@
         "renderer": {},
         "file": "bk_blank_bombs.png",
         "name": "Blank Bombs",
-        "description": "Bullet Shield",
+        "pickup": "Bullet Shield",
         "color": {
             "average": [
                 52,
@@ -7965,7 +7965,7 @@
         "renderer": {},
         "file": "bk_blank_bullets.png",
         "name": "Blank Bullets",
-        "description": "Blank",
+        "pickup": "Blank",
         "color": {
             "average": [
                 79,
@@ -8025,7 +8025,7 @@
         "renderer": {},
         "file": "bk_explosive_bullets.png",
         "name": "Explosive Bullets",
-        "description": "Explosive",
+        "pickup": "Explosive",
         "color": {
             "average": [
                 99,
@@ -8084,7 +8084,7 @@
         "renderer": {},
         "file": "bk_random_bullets.png",
         "name": "Random Bullets",
-        "description": "RNG",
+        "pickup": "RNG",
         "color": {
             "average": [
                 95,
@@ -8128,7 +8128,7 @@
         "renderer": {},
         "file": "bk_cup.png",
         "name": "Cup",
-        "description": "Granny can't resist showing up",
+        "pickup": "Granny can't resist showing up",
         "color": {
             "average": [
                 121,
@@ -8172,7 +8172,7 @@
         "renderer": {},
         "file": "bk_cartridge.png",
         "name": "Cartridge",
-        "description": "Dark Mage can't resist showing up",
+        "pickup": "Dark Mage can't resist showing up",
         "color": {
             "average": [
                 113,
@@ -8217,7 +8217,7 @@
         "renderer": {},
         "file": "bk_marriage_ring.png",
         "name": "Marriage Ring",
-        "description": "DM & Granny Forever!",
+        "pickup": "DM & Granny Forever!",
         "color": {
             "average": [
                 123,
@@ -8259,7 +8259,7 @@
         "renderer": {},
         "file": "bk_scourge_of_greed.png",
         "name": "Scourge of Greed",
-        "description": "High Prices",
+        "pickup": "High Prices",
         "color": {
             "average": [
                 79,
@@ -8297,7 +8297,7 @@
         "renderer": {},
         "file": "bk_lego.png",
         "name": "Constructor",
-        "description": "It hurts so much stepping on these...",
+        "pickup": "It hurts so much stepping on these...",
         "color": {
             "average": [
                 153,
@@ -8345,7 +8345,7 @@
         "renderer": {},
         "file": "bk_iron_armor.png",
         "name": "Iron Armor",
-        "description": "Gives Shields",
+        "pickup": "Gives Shields",
         "color": {
             "average": [
                 99,
@@ -8403,7 +8403,7 @@
         "renderer": {},
         "file": "bk_round_shield.png",
         "name": "Round Shield",
-        "description": "Prevents Contact Damage",
+        "pickup": "Prevents Contact Damage",
         "color": {
             "average": [
                 82,
@@ -8480,7 +8480,7 @@
         "weapon": 0,
         "file": "bk_arkhalis.png",
         "name": "Arkhalis",
-        "description": "The Legend Himself",
+        "pickup": "The Legend Himself",
         "color": {
             "average": [
                 73,
@@ -8559,7 +8559,7 @@
         "weapon": 0,
         "file": "bk_inverted_arkhalis.png",
         "name": "Inverted Arkhalis",
-        "description": "Help will come when low on health",
+        "pickup": "Help will come when low on health",
         "color": {
             "average": [
                 34,
@@ -8631,7 +8631,7 @@
         "weapon": 0,
         "file": "bk_gun_sword.png",
         "name": "Gun Sword",
-        "description": "Prepare for trouble and make it double!",
+        "pickup": "Prepare for trouble and make it double!",
         "color": {
             "average": [
                 57,
@@ -8747,7 +8747,7 @@
         "weapon": 1,
         "file": "bk_axe.png",
         "name": "Axe",
-        "description": "He promised to return",
+        "pickup": "He promised to return",
         "color": {
             "average": [
                 81,
@@ -8808,7 +8808,7 @@
         "weapon": 0,
         "file": "bk_guitar.png",
         "name": "Guitar",
-        "description": "It's detuned",
+        "pickup": "It's detuned",
         "color": {
             "average": [
                 79,
@@ -8876,7 +8876,7 @@
         "weapon": 0,
         "file": "bk_glass_sword.png",
         "name": "Glass Sword",
-        "description": "The weapon of masters",
+        "pickup": "The weapon of masters",
         "color": {
             "average": [
                 16,
@@ -8945,7 +8945,7 @@
         "weapon": 0,
         "file": "bk_chicken.png",
         "name": "Chicken Wing",
-        "description": "It's Hot",
+        "pickup": "It's Hot",
         "color": {
             "average": [
                 106,
@@ -9102,7 +9102,7 @@
         "weapon": 2,
         "file": "bk_lava_wand.png",
         "name": "Lava Wand",
-        "description": "Hot Matter",
+        "pickup": "Hot Matter",
         "color": {
             "average": [
                 73,
@@ -9168,7 +9168,7 @@
         "weapon": 2,
         "file": "bk_web_wand.png",
         "name": "Spider Wand",
-        "description": "World-wide web provider",
+        "pickup": "World-wide web provider",
         "color": {
             "average": [
                 76,
@@ -9227,7 +9227,7 @@
         "weapon": 0,
         "file": "bk_slap_stick.png",
         "name": "Slap Stick",
-        "description": "Slap",
+        "pickup": "Slap",
         "color": {
             "average": [
                 120,
@@ -9269,7 +9269,7 @@
         "renderer": {},
         "file": "bk_ice_skates.png",
         "name": "Ice Skates",
-        "description": "Ice Immunity",
+        "pickup": "Ice Immunity",
         "color": {
             "average": [
                 119,
@@ -9311,7 +9311,7 @@
         "renderer": {},
         "file": "bk_campfire_in_bottle.png",
         "name": "Campfire in a Bottle",
-        "description": "Frost Immunity",
+        "pickup": "Frost Immunity",
         "color": {
             "average": [
                 76,
@@ -9350,7 +9350,7 @@
         "renderer": {},
         "file": "bk_blindfold.png",
         "name": "Blindfold",
-        "description": "RIP my weapons",
+        "pickup": "RIP my weapons",
         "color": {
             "average": [
                 119,
@@ -9388,7 +9388,7 @@
         "uprice": 10,
         "file": "bk_cup_head.png",
         "name": "Cup Head",
-        "description": "Have a cup of tea",
+        "pickup": "Have a cup of tea",
         "color": {
             "average": [
                 110,
@@ -9426,7 +9426,7 @@
         "uprice": 8,
         "file": "bk_mustache_hat.png",
         "name": "Mustache",
-        "description": "AFK",
+        "pickup": "AFK",
         "color": {
             "average": [
                 56,
@@ -9464,7 +9464,7 @@
         "uprice": 5,
         "file": "bk_propeller_hat.png",
         "name": "Propeller Hat",
-        "description": "It spins",
+        "pickup": "It spins",
         "color": {
             "average": [
                 102,
@@ -9502,7 +9502,7 @@
         "uprice": 6,
         "file": "bk_sunglasses.png",
         "name": "Sunglasses",
-        "description": "Work with moon too!",
+        "pickup": "Work with moon too!",
         "color": {
             "average": [
                 71,
@@ -9540,7 +9540,7 @@
         "uprice": 7,
         "file": "bk_cap.png",
         "name": "Cap",
-        "description": "Cool @-@",
+        "pickup": "Cool @-@",
         "color": {
             "average": [
                 249,
@@ -9578,7 +9578,7 @@
         "uprice": 8,
         "file": "bk_eyes.png",
         "name": "Eyes",
-        "description": "@ @",
+        "pickup": "@ @",
         "color": {
             "average": [
                 95,
@@ -9614,7 +9614,7 @@
         "uprice": 9,
         "file": "bk_eye.png",
         "name": "Eye",
-        "description": "@",
+        "pickup": "@",
         "color": {
             "average": [
                 88,
@@ -9651,7 +9651,7 @@
         "uprice": 13,
         "file": "bk_hair.png",
         "name": "Hair",
-        "description": "Fancy",
+        "pickup": "Fancy",
         "color": {
             "average": [
                 50,
@@ -9705,7 +9705,7 @@
         "uprice": 6,
         "file": "bk_weird_potion.png",
         "name": "Weird Potion",
-        "description": "Weird Projectiles",
+        "pickup": "Weird Projectiles",
         "color": {
             "average": [
                 133,
@@ -9759,7 +9759,7 @@
         "uprice": 7,
         "file": "bk_megaphone.png",
         "name": "Megaphone",
-        "description": "Expanding Projectiles",
+        "pickup": "Expanding Projectiles",
         "color": {
             "average": [
                 121,
@@ -9861,7 +9861,7 @@
         "uprice": 0,
         "file": "bk_explosive_lamp.png",
         "name": "Explosive Lamp",
-        "description": "When boom means more",
+        "pickup": "When boom means more",
         "color": {
             "average": [
                 111,
@@ -9928,7 +9928,7 @@
         "uprice": 0,
         "file": "bk_shielded_lamp.png",
         "name": "Shielded Lamp",
-        "description": "Shields Up!",
+        "pickup": "Shields Up!",
         "color": {
             "average": [
                 94,
@@ -9970,7 +9970,7 @@
         "uprice": 10,
         "file": "bk_brain.png",
         "name": "Mega Brain",
-        "description": "What if we use 0% of our brain",
+        "pickup": "What if we use 0% of our brain",
         "color": {
             "average": [
                 146,
@@ -10017,7 +10017,7 @@
         "uprice": 3,
         "file": "bk_heart_amulet.png",
         "name": "Heart Amulet",
-        "description": "+1 to Heart Size",
+        "pickup": "+1 to Heart Size",
         "color": {
             "average": [
                 167,
@@ -10060,7 +10060,7 @@
         "uprice": 5,
         "file": "bk_star_amulet.png",
         "name": "Star Amulet",
-        "description": "Mana Up",
+        "pickup": "Mana Up",
         "color": {
             "average": [
                 70,
@@ -10107,7 +10107,7 @@
         "uprice": 26,
         "file": "bk_coin_amulet.png",
         "name": "Coin Amulet",
-        "description": "Coins Are Worth More",
+        "pickup": "Coins Are Worth More",
         "color": {
             "average": [
                 166,
@@ -10153,7 +10153,7 @@
         "uprice": 32,
         "file": "bk_key_amulet.png",
         "name": "Key Amulet",
-        "description": "Keys Are Worth More",
+        "pickup": "Keys Are Worth More",
         "color": {
             "average": [
                 156,
@@ -10197,7 +10197,7 @@
         "renderer": {},
         "file": "bk_bomb_amulet.png",
         "name": "Bomb Amulet",
-        "description": "Bombs Are Worth More",
+        "pickup": "Bombs Are Worth More",
         "color": {
             "average": [
                 110,
@@ -10251,7 +10251,7 @@
         "uprice": 12,
         "file": "bk_eye_amulet.png",
         "name": "Eye Amulet",
-        "description": "It Hurts To Be Inaccurate",
+        "pickup": "It Hurts To Be Inaccurate",
         "color": {
             "average": [
                 159,
@@ -10302,7 +10302,7 @@
         "uprice": 6,
         "file": "bk_eye_patch.png",
         "name": "Eye Patch",
-        "description": "Are You Ready, Kids?",
+        "pickup": "Are You Ready, Kids?",
         "color": {
             "average": [
                 45,
@@ -10345,7 +10345,7 @@
         "uprice": 5,
         "file": "bk_toilet_paper.png",
         "name": "Toilet Paper",
-        "description": "Its Always Ending",
+        "pickup": "Its Always Ending",
         "color": {
             "average": [
                 241,
@@ -10388,7 +10388,7 @@
         "uprice": 6,
         "file": "bk_decoy.png",
         "name": "Decoy",
-        "description": "It Explodes",
+        "pickup": "It Explodes",
         "color": {
             "average": [
                 131,
@@ -10432,7 +10432,7 @@
         "uprice": 6,
         "file": "bk_wallet.png",
         "name": "Wallet Buddy",
-        "description": "Stores Your Coins",
+        "pickup": "Stores Your Coins",
         "color": {
             "average": [
                 121,
@@ -10476,7 +10476,7 @@
         "uprice": 6,
         "file": "bk_skele_buddy.png",
         "name": "Skele Buddy",
-        "description": "Spooky",
+        "pickup": "Spooky",
         "color": {
             "average": [
                 64,
@@ -10523,7 +10523,7 @@
         "uprice": 16,
         "file": "bk_mega_bomb.png",
         "name": "Mega Bomb",
-        "description": "Bomb Size: Mega",
+        "pickup": "Bomb Size: Mega",
         "color": {
             "average": [
                 112,
@@ -10589,7 +10589,7 @@
         "uprice": 12,
         "file": "bk_condensed_milk.png",
         "name": "Condensed Milk",
-        "description": "Fast Pixels - Slow Enemies",
+        "pickup": "Fast Pixels - Slow Enemies",
         "color": {
             "average": [
                 99,
@@ -10632,7 +10632,7 @@
         "uprice": 4,
         "file": "bk_marshmallow.png",
         "name": "Marshmallow X_X",
-        "description": "Sticky",
+        "pickup": "Sticky",
         "color": {
             "average": [
                 162,
@@ -10684,7 +10684,7 @@
         "uprice": 13,
         "file": "bk_orbital_multiplier.png",
         "name": "Orbital Multiplier",
-        "description": "More Orbitals!",
+        "pickup": "More Orbitals!",
         "color": {
             "average": [
                 111,
@@ -10736,7 +10736,7 @@
         "uprice": 30,
         "file": "bk_pet_multiplier.png",
         "name": "Pet Multiplier",
-        "description": "More Pets!",
+        "pickup": "More Pets!",
         "color": {
             "average": [
                 127,
@@ -10783,7 +10783,7 @@
         "uprice": 3,
         "file": "bk_ghost_bullets.png",
         "name": "Ghost Bullets",
-        "description": "Walls Wont Stop",
+        "pickup": "Walls Wont Stop",
         "color": {
             "average": [
                 126,
@@ -10830,7 +10830,7 @@
         "uprice": 3,
         "file": "bk_weight.png",
         "name": "Heavy Weight",
-        "description": "Gravity Booster",
+        "pickup": "Gravity Booster",
         "color": {
             "average": [
                 71,
@@ -10877,7 +10877,7 @@
         "uprice": 1,
         "file": "bk_d2.png",
         "name": "D2",
-        "description": "Take it or leave it",
+        "pickup": "Take it or leave it",
         "color": {
             "average": [
                 149,
@@ -10922,7 +10922,7 @@
         "renderer": {},
         "file": "bk_ethernal_d6.png",
         "name": "Ethernal D6",
-        "description": "Rerolls And/Or Destroys",
+        "pickup": "Rerolls And/Or Destroys",
         "color": {
             "average": [
                 15,
@@ -10967,7 +10967,7 @@
         "uprice": 3,
         "file": "bk_billiard.png",
         "name": "Billiard",
-        "description": "Bullets Bounce",
+        "pickup": "Bullets Bounce",
         "color": {
             "average": [
                 95,
@@ -11012,7 +11012,7 @@
         "uprice": 2,
         "file": "bk_enraged_bullets.png",
         "name": "Enraged Bullets",
-        "description": "Bullets Break Bullets",
+        "pickup": "Bullets Break Bullets",
         "color": {
             "average": [
                 116,
@@ -11052,7 +11052,7 @@
         "renderer": {},
         "file": "bk_rewind_button.png",
         "name": "Rewind Button",
-        "description": "Hold Up",
+        "pickup": "Hold Up",
         "color": {
             "average": [
                 142,
@@ -11092,7 +11092,7 @@
         "renderer": {},
         "file": "bk_piggy_bank.png",
         "name": "Piggy Bank",
-        "description": "My Life Savings",
+        "pickup": "My Life Savings",
         "color": {
             "average": [
                 245,
@@ -11162,7 +11162,7 @@
         "weapon": 0,
         "file": "bk_death_star.png",
         "name": "Death Star",
-        "description": "RIP Alderan",
+        "pickup": "RIP Alderan",
         "color": {
             "average": [
                 59,
@@ -11233,7 +11233,7 @@
         "uprice": 2,
         "file": "bk_soldering_iron.png",
         "name": "Soldering Iron",
-        "description": "It's Hot",
+        "pickup": "It's Hot",
         "color": {
             "average": [
                 52,
@@ -11276,7 +11276,7 @@
         "uprice": 4,
         "file": "bk_can.png",
         "name": "Can",
-        "description": "Double Projectiles",
+        "pickup": "Double Projectiles",
         "color": {
             "average": [
                 146,
@@ -11335,7 +11335,7 @@
         "uprice": 6,
         "file": "bk_alien_glasses.png",
         "name": "Alien Glasses",
-        "description": "I see more",
+        "pickup": "I see more",
         "color": {
             "average": [
                 65,
@@ -11378,7 +11378,7 @@
         "uprice": 8,
         "file": "bk_swimming_mask.png",
         "name": "Swimming Mask",
-        "description": "It's a Secret Weapon",
+        "pickup": "It's a Secret Weapon",
         "color": {
             "average": [
                 63,
@@ -11435,7 +11435,7 @@
         "uprice": 6,
         "file": "bk_bullet_chair.png",
         "name": "Bullet Chair",
-        "description": "4 Legs 4 Guns",
+        "pickup": "4 Legs 4 Guns",
         "color": {
             "average": [
                 67,
@@ -11481,7 +11481,7 @@
         "uprice": 1,
         "file": "bk_cell.png",
         "name": "Cell",
-        "description": "Projectiles Multiply",
+        "pickup": "Projectiles Multiply",
         "color": {
             "average": [
                 73,
@@ -11521,7 +11521,7 @@
         "renderer": {},
         "file": "bk_brick.png",
         "name": "iBrick",
-        "description": "Bigger Levels",
+        "pickup": "Bigger Levels",
         "color": {
             "average": [
                 129,
@@ -11586,7 +11586,7 @@
         "renderer": {},
         "file": "bk_ring_of_pain.png",
         "name": "Ring Of Pain",
-        "description": "Getting Hurt Hurts Everyone",
+        "pickup": "Getting Hurt Hurts Everyone",
         "color": {
             "average": [
                 67,
@@ -11642,7 +11642,7 @@
         "renderer": {},
         "file": "bk_schrodingers_cat.png",
         "name": "Schr\u00c3\u00b6dingers Cat",
-        "description": "To Be Or Not To Be (50% chance)",
+        "pickup": "To Be Or Not To Be (50% chance)",
         "color": {
             "average": [
                 167,
@@ -11692,7 +11692,7 @@
         "renderer": {},
         "file": "bk_smoke_bomb.png",
         "name": "Smoke Bomb",
-        "description": "Ninjia-inspired Escape",
+        "pickup": "Ninjia-inspired Escape",
         "color": {
             "average": [
                 48,
@@ -11734,7 +11734,7 @@
         "renderer": {},
         "file": "bk_chest_ring.png",
         "name": "Chest Ring",
-        "description": "More Chests!",
+        "pickup": "More Chests!",
         "color": {
             "average": [
                 93,
@@ -11776,7 +11776,7 @@
         "renderer": {},
         "file": "bk_empty_shell.png",
         "name": "Empty Shell",
-        "description": "A Chance To Destroy Enemy Bullets",
+        "pickup": "A Chance To Destroy Enemy Bullets",
         "color": {
             "average": [
                 135,
@@ -11818,7 +11818,7 @@
         "renderer": {},
         "file": "bk_parachute.png",
         "name": "Parachute",
-        "description": "Pit Immunity",
+        "pickup": "Pit Immunity",
         "color": {
             "average": [
                 173,
@@ -11860,7 +11860,7 @@
         "renderer": {},
         "file": "bk_spiked_cookie.png",
         "name": "Spiked Cookie",
-        "description": "Spiky Boi",
+        "pickup": "Spiky Boi",
         "color": {
             "average": [
                 105,
@@ -11902,7 +11902,7 @@
         "renderer": {},
         "file": "bk_shooty.png",
         "name": "Shooty",
-        "description": "He Be Shooting",
+        "pickup": "He Be Shooting",
         "color": {
             "average": [
                 86,
@@ -11941,7 +11941,7 @@
         "renderer": {},
         "file": "bk_rabbit_bullets.png",
         "name": "Rabbit Bullets",
-        "description": "They Multiply",
+        "pickup": "They Multiply",
         "color": {
             "average": [
                 122,
@@ -11981,7 +11981,7 @@
         "renderer": {},
         "file": "bk_pandoras_box.png",
         "name": "Pandora's Box",
-        "description": "You had to fight evel!",
+        "pickup": "You had to fight evel!",
         "color": {
             "average": [
                 94,
@@ -12022,7 +12022,7 @@
         "renderer": {},
         "file": "bk_bubbles.png",
         "name": "Bubbles",
-        "description": "Bubble Frend",
+        "pickup": "Bubble Frend",
         "color": {
             "average": [
                 183,
@@ -12074,7 +12074,7 @@
         "renderer": {},
         "file": "bk_match.png",
         "name": "Match",
-        "description": "Fire For Everyone",
+        "pickup": "Fire For Everyone",
         "color": {
             "average": [
                 134,
@@ -12127,7 +12127,7 @@
         "renderer": {},
         "file": "bk_hammer.png",
         "name": "Hammer",
-        "description": "Armor Breaker",
+        "pickup": "Armor Breaker",
         "color": {
             "average": [
                 206,
@@ -12175,7 +12175,7 @@
         "renderer": {},
         "file": "bk_helmet.png",
         "name": "Iron Helmet",
-        "description": "A Chance To Ignore Damage",
+        "pickup": "A Chance To Ignore Damage",
         "color": {
             "average": [
                 56,
@@ -12222,7 +12222,7 @@
         "renderer": {},
         "file": "bk_beer.png",
         "name": "Beer",
-        "description": "Damage Enrages",
+        "pickup": "Damage Enrages",
         "color": {
             "average": [
                 143,
@@ -12264,7 +12264,7 @@
         "renderer": {},
         "file": "bk_the_eye.png",
         "name": "The Eye",
-        "description": "He Be Watching",
+        "pickup": "He Be Watching",
         "color": {
             "average": [
                 179,
@@ -12307,7 +12307,7 @@
         "renderer": {},
         "file": "bk_mimics_tooth.png",
         "name": "Mimic's Tooth",
-        "description": "Attracks Mimics",
+        "pickup": "Attracks Mimics",
         "color": {
             "average": [
                 125,
@@ -12352,7 +12352,7 @@
         "uprice": 0,
         "file": "bk_mimic_totem.png",
         "name": "Mimic Totem",
-        "description": "##NO MORE MIMICS##",
+        "pickup": "##NO MORE MIMICS##",
         "color": {
             "average": [
                 91,
@@ -12414,7 +12414,7 @@
         "renderer": {},
         "file": "bk_paper_airplane.png",
         "name": "Paper Airplane",
-        "description": "Homing Projectiles",
+        "pickup": "Homing Projectiles",
         "color": {
             "average": [
                 152,
@@ -12459,7 +12459,7 @@
         "uprice": 0,
         "file": "bk_led.png",
         "name": "LED",
-        "description": "Accurate Lamp",
+        "pickup": "Accurate Lamp",
         "color": {
             "average": [
                 67,
@@ -12523,7 +12523,7 @@
         "uprice": 0,
         "file": "bk_fragile_lamp.png",
         "name": "Fragile Lamp",
-        "description": "1 hit K.O.",
+        "pickup": "1 hit K.O.",
         "color": {
             "average": [
                 181,
@@ -12592,7 +12592,7 @@
         "weapon": 1,
         "file": "bk_headshot_gun.png",
         "name": "Bent Gun",
-        "description": "Headshot",
+        "pickup": "Headshot",
         "color": {
             "average": [
                 80,
@@ -12643,7 +12643,7 @@
         "weapon": 1,
         "file": "bk_laser_cannon.png",
         "name": "Laser Cannon",
-        "description": "Haha, laser go pew pew",
+        "pickup": "Haha, laser go pew pew",
         "color": {
             "average": [
                 52,
@@ -12703,7 +12703,7 @@
         "weapon": 0,
         "file": "bk_treasure_key.png",
         "name": "Red Key",
-        "description": "Opens loopholes",
+        "pickup": "Opens loopholes",
         "color": {
             "average": [
                 100,
@@ -12747,7 +12747,7 @@
         "renderer": {},
         "file": "bk_pass.png",
         "name": "Pass",
-        "description": "Identify yourself!",
+        "pickup": "Identify yourself!",
         "color": {
             "average": [
                 148,
@@ -12790,7 +12790,7 @@
         "renderer": {},
         "file": "bk_bucket.png",
         "name": "Bucket",
-        "description": "Useless without the contents",
+        "pickup": "Useless without the contents",
         "color": {
             "average": [
                 77,
@@ -12832,7 +12832,7 @@
         "renderer": {},
         "file": "bk_water_bucket.png",
         "name": "Water Bucket",
-        "description": "Calms [cl red]the Fire[cl]",
+        "pickup": "Calms [cl red]the Fire[cl]",
         "color": {
             "average": [
                 61,
@@ -12874,7 +12874,7 @@
         "renderer": {},
         "file": "bk_snow_bucket.png",
         "name": "Snow Bucket",
-        "description": "Prehaps, it could melt",
+        "pickup": "Prehaps, it could melt",
         "color": {
             "average": [
                 112,
@@ -12911,7 +12911,7 @@
         "uprice": 13,
         "file": "bk_broken_bucket.png",
         "name": "Broken Bucket",
-        "description": "Protecc",
+        "pickup": "Protecc",
         "color": {
             "average": [
                 82,
@@ -12951,7 +12951,7 @@
         "renderer": {},
         "file": "bk_ankh.png",
         "name": "Ankh",
-        "description": "Eternal Life",
+        "pickup": "Eternal Life",
         "color": {
             "average": [
                 130,
@@ -12993,7 +12993,7 @@
         "renderer": {},
         "file": "bk_broken_ankh.png",
         "name": "Broken Ankh",
-        "description": "Eternal Life?",
+        "pickup": "Eternal Life?",
         "color": {
             "average": [
                 123,
@@ -13061,7 +13061,7 @@
         "weapon": 1,
         "file": "bk_what.png",
         "name": "What",
-        "description": "Seriusly, WHAT?",
+        "pickup": "Seriusly, WHAT?",
         "color": {
             "average": [
                 66,
@@ -13134,7 +13134,7 @@
         "weapon": 1,
         "file": "bk_gold_minigun.png",
         "name": "Golden Minigun",
-        "description": "Haha budget go brrr",
+        "pickup": "Haha budget go brrr",
         "color": {
             "average": [
                 106,
@@ -13194,7 +13194,7 @@
         "weapon": 0,
         "file": "bk_gold_dagger.png",
         "name": "Golden Dagger",
-        "description": "Old but gold",
+        "pickup": "Old but gold",
         "color": {
             "average": [
                 120,
@@ -13267,7 +13267,7 @@
         "weapon": 1,
         "file": "bk_gold_revolver.png",
         "name": "Golden Revolver",
-        "description": "Cover me in gold",
+        "pickup": "Cover me in gold",
         "color": {
             "average": [
                 88,
@@ -13341,7 +13341,7 @@
         "weapon": 0,
         "file": "bk_gold_axe.png",
         "name": "Golden Axe",
-        "description": "Just an axe",
+        "pickup": "Just an axe",
         "color": {
             "average": [
                 107,
@@ -13415,7 +13415,7 @@
         "weapon": 0,
         "file": "bk_katana.png",
         "name": "Katana",
-        "description": "Who's [cl orange]the owner[cl]?",
+        "pickup": "Who's [cl orange]the owner[cl]?",
         "color": {
             "average": [
                 205,
@@ -13491,7 +13491,7 @@
         "weapon": 1,
         "file": "bk_smart_gun.png",
         "name": "Smart Gun",
-        "description": "He knows",
+        "pickup": "He knows",
         "color": {
             "average": [
                 62,
@@ -13568,7 +13568,7 @@
         "weapon": 1,
         "file": "bk_pop_gun.png",
         "name": "Pop Gun",
-        "description": "Really popular",
+        "pickup": "Really popular",
         "color": {
             "average": [
                 58,
@@ -13611,7 +13611,7 @@
         "renderer": {},
         "file": "bk_the_button.png",
         "name": "The Button",
-        "description": "8-dir attack",
+        "pickup": "8-dir attack",
         "color": {
             "average": [
                 122,
@@ -13672,7 +13672,7 @@
         "weapon": 0,
         "file": "bk_gold_sword.png",
         "name": "Golden Sword",
-        "description": "When you don't have anything to spend money on",
+        "pickup": "When you don't have anything to spend money on",
         "color": {
             "average": [
                 127,
@@ -13721,7 +13721,7 @@
         "renderer": {},
         "file": "bk_donut.png",
         "name": "Donut",
-        "description": "Do not hesitate",
+        "pickup": "Do not hesitate",
         "color": {
             "average": [
                 193,
@@ -13765,7 +13765,7 @@
         "renderer": {},
         "file": "bk_sudoku.png",
         "name": "Sudoku",
-        "description": "Half of the room just gone, reduced to atoms",
+        "pickup": "Half of the room just gone, reduced to atoms",
         "color": {
             "average": [
                 165,
@@ -13814,7 +13814,7 @@
         "renderer": {},
         "file": "bk_gps_ring.png",
         "name": "GPS Ring",
-        "description": "A chance to reveal the map",
+        "pickup": "A chance to reveal the map",
         "color": {
             "average": [
                 26,
@@ -13859,7 +13859,7 @@
         "renderer": {},
         "file": "bk_shield_potion.png",
         "name": "Shield Potion",
-        "description": "Shield juice big sip",
+        "pickup": "Shield juice big sip",
         "color": {
             "average": [
                 127,
@@ -13900,7 +13900,7 @@
         "renderer": {},
         "file": "bk_trash_generator.png",
         "name": "Trash Generator",
-        "description": "Yes.",
+        "pickup": "Yes.",
         "color": {
             "average": [
                 115,
@@ -13964,7 +13964,7 @@
         "renderer": {},
         "file": "bk_crabs_claw.png",
         "name": "Crab's Claw",
-        "description": "Breaks any armor",
+        "pickup": "Breaks any armor",
         "color": {
             "average": [
                 214,
@@ -14002,7 +14002,7 @@
         "renderer": {},
         "file": "bk_reverse_card.png",
         "name": "Reverse Card",
-        "description": "Rolling through projectiles reflects them",
+        "pickup": "Rolling through projectiles reflects them",
         "color": {
             "average": [
                 214,
@@ -14041,7 +14041,7 @@
         "renderer": {},
         "file": "bk_magnet.png",
         "name": "Magnet",
-        "description": "Attraction & Affection",
+        "pickup": "Attraction & Affection",
         "color": {
             "average": [
                 136,
@@ -14078,7 +14078,7 @@
         "uprice": 39,
         "file": "bk_glowing_mushroom.png",
         "name": "Glowing Mushroom",
-        "description": "He be vibing",
+        "pickup": "He be vibing",
         "color": {
             "average": [
                 7,
@@ -14115,7 +14115,7 @@
         "uprice": 69,
         "file": "bk_tinfoil_hat.png",
         "name": "Tinfoil Hat",
-        "description": "Feels safe",
+        "pickup": "Feels safe",
         "color": {
             "average": [
                 89,
@@ -14159,7 +14159,7 @@
         "renderer": {},
         "file": "bk_rear_window.png",
         "name": "Rear Window",
-        "description": "Watches your back",
+        "pickup": "Watches your back",
         "color": {
             "average": [
                 92,
@@ -14203,7 +14203,7 @@
         "renderer": {},
         "file": "bk_refractor.png",
         "name": "Refractor",
-        "description": "A chance to attack in all directions",
+        "pickup": "A chance to attack in all directions",
         "color": {
             "average": [
                 168,
@@ -14256,7 +14256,7 @@
         "renderer": {},
         "file": "bk_fork.png",
         "name": "Fork",
-        "description": "It hurts",
+        "pickup": "It hurts",
         "color": {
             "average": [
                 82,
@@ -14306,7 +14306,7 @@
         "renderer": {},
         "file": "bk_rock.png",
         "name": "Rock",
-        "description": "Damage at a cost",
+        "pickup": "Damage at a cost",
         "color": {
             "average": [
                 88,
@@ -14377,7 +14377,7 @@
         "renderer": {},
         "file": "bk_coffee_grinder.png",
         "name": "Coffee Grinder",
-        "description": "Small & fast projectiles",
+        "pickup": "Small & fast projectiles",
         "color": {
             "average": [
                 122,
@@ -14417,7 +14417,7 @@
         "renderer": {},
         "file": "bk_shawarma.png",
         "name": "Shawarma",
-        "description": "Sometimes projectiles are bigger",
+        "pickup": "Sometimes projectiles are bigger",
         "color": {
             "average": [
                 213,
@@ -14462,7 +14462,7 @@
         "renderer": {},
         "file": "bk_cats_ear.png",
         "name": "Cat's Ear",
-        "description": "Sick dodge",
+        "pickup": "Sick dodge",
         "color": {
             "average": [
                 205,
@@ -14518,7 +14518,7 @@
         "uprice": 0,
         "file": "bk_gamepad.png",
         "name": "Gamepad",
-        "description": "Stable FPS",
+        "pickup": "Stable FPS",
         "color": {
             "average": [
                 81,
@@ -14566,7 +14566,7 @@
         "renderer": {},
         "file": "bk_hotdog.png",
         "name": "Hotdog",
-        "description": "Luck & Health Up",
+        "pickup": "Luck & Health Up",
         "color": {
             "average": [
                 164,
@@ -14608,7 +14608,7 @@
         "renderer": {},
         "file": "bk_bomb_shell.png",
         "name": "Bomb Shell",
-        "description": "Weird Health",
+        "pickup": "Weird Health",
         "color": {
             "average": [
                 35,
@@ -14657,7 +14657,7 @@
         "uprice": 0,
         "file": "bk_gold_lamp.png",
         "name": "Gold Lamp",
-        "description": "Money money money",
+        "pickup": "Money money money",
         "color": {
             "average": [
                 218,
@@ -14714,7 +14714,7 @@
         "uprice": 0,
         "file": "bk_sharp_lamp.png",
         "name": "Sharp Lamp",
-        "description": "For melee lowers",
+        "pickup": "For melee lowers",
         "color": {
             "average": [
                 78,
@@ -14772,7 +14772,7 @@
         "weapon": 0,
         "file": "bk_ancient_sword.png",
         "name": "Ancient Sword",
-        "description": "Really old stick",
+        "pickup": "Really old stick",
         "color": {
             "average": [
                 109,
@@ -14856,7 +14856,7 @@
         "weapon": 1,
         "file": "bk_emerald_gun.png",
         "name": "Emerald Gun",
-        "description": "Most expensive gun on the market",
+        "pickup": "Most expensive gun on the market",
         "color": {
             "average": [
                 61,
@@ -14894,7 +14894,7 @@
         "uprice": 69,
         "file": "bk_party_hat.png",
         "name": "Party Hat",
-        "description": "Why do I feel so sad",
+        "pickup": "Why do I feel so sad",
         "color": {
             "average": [
                 72,
@@ -14932,7 +14932,7 @@
         "uprice": 59,
         "file": "bk_police_hat.png",
         "name": "Police Hat",
-        "description": "Better stay away from portals",
+        "pickup": "Better stay away from portals",
         "color": {
             "average": [
                 40,
@@ -14970,7 +14970,7 @@
         "uprice": 39,
         "file": "bk_spike_hat.png",
         "name": "Spike Hat",
-        "description": "Poke",
+        "pickup": "Poke",
         "color": {
             "average": [
                 64,
@@ -15008,7 +15008,7 @@
         "uprice": 29,
         "file": "bk_hood.png",
         "name": "Hood",
-        "description": "Find the ring",
+        "pickup": "Find the ring",
         "color": {
             "average": [
                 28,
@@ -15046,7 +15046,7 @@
         "uprice": 19,
         "file": "bk_bullet_hat.png",
         "name": "Bullet Hat",
-        "description": "Bang",
+        "pickup": "Bang",
         "color": {
             "average": [
                 115,
@@ -15129,7 +15129,7 @@
         "weapon": 1,
         "file": "bk_spook.png",
         "name": "Spook",
-        "description": "Boo",
+        "pickup": "Boo",
         "color": {
             "average": [
                 91,
@@ -15167,7 +15167,7 @@
         "uprice": 9,
         "file": "bk_mask.png",
         "name": "Mask",
-        "description": "Stay at 127.0.0.1",
+        "pickup": "Stay at 127.0.0.1",
         "color": {
             "average": [
                 86,
@@ -15215,7 +15215,7 @@
         "uprice": 48,
         "file": "bk_sword_polish.png",
         "name": "Sword Polish",
-        "description": "Bigger Melee Attacks",
+        "pickup": "Bigger Melee Attacks",
         "color": {
             "average": [
                 95,
@@ -15266,7 +15266,7 @@
         "renderer": {},
         "file": "bk_pumpkin_juice.png",
         "name": "Pumpkin Juice",
-        "description": "Exciting",
+        "pickup": "Exciting",
         "color": {
             "average": [
                 113,
@@ -15324,7 +15324,7 @@
         "renderer": {},
         "file": "bk_bouncy_glove.png",
         "name": "Bouncy Glove",
-        "description": "Bonk",
+        "pickup": "Bonk",
         "color": {
             "average": [
                 143,

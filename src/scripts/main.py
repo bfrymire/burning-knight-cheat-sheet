@@ -107,14 +107,14 @@ def format_items_data():
         items = json.load(file)
     with open(f'../data/en.json', 'r') as file:
         english = json.load(file)
-    # Get name and description from english file
+    # Get name and pick up text from english file
     for _id in items:
         item = items[_id]
         item['file'] = f'{_id.replace(":", "_")}.png'
         if _id in english:
             item['name'] = english[_id]
         if f'{_id}_desc' in english:
-            item['description'] = english[f'{_id}_desc']
+            item['pickup'] = english[f'{_id}_desc']
         # Get image colors
         img = Image.open(f'../../public/assets/images/items/{item["file"]}')
         average_color = calculate_average_color(img)
