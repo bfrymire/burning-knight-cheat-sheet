@@ -4,7 +4,7 @@ export default function Item({ item, handleOnMouseOver }) {
 
     return (
         <div
-            className="h-12 p-1 flex items-center"
+            className="h-12 p-0 flex items-center"
             onMouseEnter={() => handleOnMouseOver({ imageSource: imageSource, ...item })}
             onMouseLeave={() => handleOnMouseOver({})}
         >
