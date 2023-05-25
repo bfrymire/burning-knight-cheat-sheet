@@ -2,15 +2,13 @@ import os
 import json
 import colorsys
 from collections import Counter
+from dotenv import load_dotenv
 
 import requests
 from PIL import Image
 
-from credentials import credentials
 
-
-ONE_MINUTE = 60
-ONE_HOUR = ONE_MINUTE * 60
+load_dotenv()
 
 data_dir = '../data/'
 git_api_url = 'https://api.github.com/'
@@ -25,12 +23,14 @@ bk_items_file = 'items.json'
 debugging = True
 
 
-def create_credentials_file():
-    with open('./credentials.py', 'w') as file:
-        file.write('credentials = {\n')
-        file.write('    "github_pat": ""\n')
-        file.write('}')
-    print('Created credentials.py file. Please add your GitHub PAT to it.')
+def create_dotenv():
+    if os.path.exists('../../.env'):
+        print('The .env file already exists.')
+        return
+    with open('../../.env', 'w') as file:
+        file.write('# Add your GitHub Personal Access Token\n')
+        file.write('GITHUB_PAT=""\n')
+    print('Created .env file. Add your GitHub Personal Access Token to it.')
 
 def call_api(url) -> bytes:
     """
@@ -75,7 +75,6 @@ def download_item_images():
     print(api_url)
     r = call_api(api_url).json()
     images = [x for x in r if x['type'] == 'file' and x['name'].startswith('bk') and x['name'].endswith('.png')]
-    i = 0
     for image in images:
         download_file(image['download_url'], f'../../public/assets/images/items/items.json')
 
@@ -118,13 +117,15 @@ def format_items_data():
             item['description'] = english[f'{_id}_desc']
         # Get image colors
         img = Image.open(f'../../public/assets/images/items/{item["file"]}')
-        # print(calculate_average_color(f'../../public/assets/images/items/{item["file"]}'))
         average_color = calculate_average_color(img)
+        common_color = find_most_common_color(img)
         item['color'] = {
+            'average': average_color,
+            'common': common_color,
             'rgb': average_color,
             'hex': rgb_to_hex(average_color),
             'hsv': rgb_to_hsv(average_color),
-            'scalar': rgb_to_scalar(find_most_common_color(img))
+            'scalar': rgb_to_scalar(average_color)
         }
     with open(f'{data_dir}{bk_items_file}', 'w') as file:
         json.dump(items, file, indent=4)
@@ -229,10 +230,10 @@ def rgb_to_scalar(color) -> float:
     return scalar
 
 def main():
-    download_item_images()
+    # download_item_images()
     # resize_item_images()
 
-    download_items_data()
+    # download_items_data()
     format_items_data()
 
 

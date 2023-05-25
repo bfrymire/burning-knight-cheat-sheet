@@ -33,6 +33,16 @@
         "name": "Wooden Sword",
         "description": "Not just a stick",
         "color": {
+            "average": [
+                95,
+                58,
+                52
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 95,
                 58,
@@ -44,7 +54,7 @@
                 45.26315789473684,
                 37.254901960784316
             ],
-            "scalar": 0.725
+            "scalar": 0.023255813953488372
         }
     },
     "bk:heart": {
@@ -65,6 +75,16 @@
         "file": "bk_heart.png",
         "name": "Heart",
         "color": {
+            "average": [
+                0,
+                0,
+                0
+            ],
+            "common": [
+                255,
+                0,
+                64
+            ],
             "rgb": [
                 0,
                 0,
@@ -76,7 +96,7 @@
                 0.0,
                 0.0
             ],
-            "scalar": 0.9581699346405229
+            "scalar": 0.0
         }
     },
     "bk:halo": {
@@ -106,6 +126,16 @@
         "name": "Halo",
         "description": "Health up",
         "color": {
+            "average": [
+                139,
+                104,
+                41
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 139,
                 104,
@@ -117,7 +147,7 @@
                 70.50359712230217,
                 54.509803921568626
             ],
-            "scalar": 0.725
+            "scalar": 0.10714285714285715
         }
     },
     "bk:gold_coin": {
@@ -139,6 +169,16 @@
         "file": "bk_gold_coin.png",
         "name": "Gold Coin",
         "color": {
+            "average": [
+                0,
+                0,
+                0
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 0,
                 0,
@@ -150,7 +190,7 @@
                 0.0,
                 0.0
             ],
-            "scalar": 0.725
+            "scalar": 0.0
         }
     },
     "bk:iron_coin": {
@@ -172,6 +212,16 @@
         "file": "bk_iron_coin.png",
         "name": "Iron Coin",
         "color": {
+            "average": [
+                0,
+                0,
+                0
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 0,
                 0,
@@ -183,7 +233,7 @@
                 0.0,
                 0.0
             ],
-            "scalar": 0.725
+            "scalar": 0.0
         }
     },
     "bk:copper_coin": {
@@ -204,6 +254,16 @@
         "file": "bk_copper_coin.png",
         "name": "Copper Coin",
         "color": {
+            "average": [
+                0,
+                0,
+                0
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 0,
                 0,
@@ -215,7 +275,7 @@
                 0.0,
                 0.0
             ],
-            "scalar": 0.725
+            "scalar": 0.0
         }
     },
     "bk:platinum_coin": {
@@ -237,6 +297,16 @@
         "file": "bk_platinum_coin.png",
         "name": "Platinum Coin",
         "color": {
+            "average": [
+                0,
+                0,
+                0
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 0,
                 0,
@@ -248,7 +318,7 @@
                 0.0,
                 0.0
             ],
-            "scalar": 0.725
+            "scalar": 0.0
         }
     },
     "bk:key": {
@@ -269,6 +339,16 @@
         "file": "bk_key.png",
         "name": "Golden Key",
         "color": {
+            "average": [
+                102,
+                73,
+                33
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 102,
                 73,
@@ -280,7 +360,7 @@
                 67.64705882352942,
                 40.0
             ],
-            "scalar": 0.725
+            "scalar": 0.09661835748792268
         }
     },
     "bk:bomb": {
@@ -300,6 +380,16 @@
         "file": "bk_bomb.png",
         "name": "Bomb",
         "color": {
+            "average": [
+                96,
+                88,
+                93
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 96,
                 88,
@@ -311,7 +401,7 @@
                 8.333333333333332,
                 37.64705882352941
             ],
-            "scalar": 0.725
+            "scalar": 0.8958333333333334
         }
     },
     "bk:infinite_bomb": {
@@ -332,6 +422,16 @@
         "name": "Infinite Bomb",
         "description": "Reusable bomb",
         "color": {
+            "average": [
+                55,
+                51,
+                72
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 55,
                 51,
@@ -343,7 +443,7 @@
                 29.166666666666664,
                 28.235294117647058
             ],
-            "scalar": 0.725
+            "scalar": 0.6984126984126985
         }
     },
     "bk:revolver": {
@@ -392,6 +492,16 @@
         "name": "Revolver",
         "description": "Hands up, @everyone!",
         "color": {
+            "average": [
+                49,
+                43,
+                62
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 49,
                 43,
@@ -403,7 +513,7 @@
                 30.645161290322577,
                 24.313725490196077
             ],
-            "scalar": 0.725
+            "scalar": 0.7192982456140351
         }
     },
     "bk:shotgun": {
@@ -455,6 +565,16 @@
         "name": "Shotgun",
         "description": "Salt into the face!",
         "color": {
+            "average": [
+                67,
+                58,
+                74
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 67,
                 58,
@@ -466,7 +586,7 @@
                 21.621621621621628,
                 29.01960784313726
             ],
-            "scalar": 0.725
+            "scalar": 0.7604166666666666
         }
     },
     "bk:idol": {
@@ -495,6 +615,16 @@
         "name": "Idol",
         "description": "A hidden trap activates!",
         "color": {
+            "average": [
+                136,
+                97,
+                42
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 136,
                 97,
@@ -506,7 +636,7 @@
                 69.11764705882354,
                 53.333333333333336
             ],
-            "scalar": 0.725
+            "scalar": 0.09751773049645389
         }
     },
     "bk:the_sword": {
@@ -538,6 +668,16 @@
         "weapon": 0,
         "file": "bk_the_sword.png",
         "color": {
+            "average": [
+                104,
+                63,
+                55
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 104,
                 63,
@@ -549,7 +689,7 @@
                 47.11538461538461,
                 40.78431372549019
             ],
-            "scalar": 0.725
+            "scalar": 0.0272108843537415
         }
     },
     "bk:potatoo": {
@@ -569,6 +709,16 @@
         "name": "Potatoo",
         "description": "Splits projectiles",
         "color": {
+            "average": [
+                113,
+                64,
+                53
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 113,
                 64,
@@ -580,7 +730,7 @@
                 53.09734513274336,
                 44.31372549019608
             ],
-            "scalar": 0.725
+            "scalar": 0.030555555555555548
         }
     },
     "bk:spectacles": {
@@ -600,6 +750,16 @@
         "name": "Spectacles",
         "description": "Reveals secrets",
         "color": {
+            "average": [
+                126,
+                100,
+                62
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 126,
                 100,
@@ -611,7 +771,7 @@
                 50.79365079365079,
                 49.411764705882355
             ],
-            "scalar": 0.725
+            "scalar": 0.09895833333333333
         }
     },
     "bk:cross": {
@@ -629,6 +789,16 @@
         "name": "Cross",
         "description": "Increases invincibility time",
         "color": {
+            "average": [
+                123,
+                86,
+                39
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 123,
                 86,
@@ -640,7 +810,7 @@
                 68.29268292682926,
                 48.23529411764706
             ],
-            "scalar": 0.725
+            "scalar": 0.09325396825396826
         }
     },
     "bk:slime": {
@@ -658,6 +828,16 @@
         "name": "Slime",
         "description": "Bouncy shots",
         "color": {
+            "average": [
+                49,
+                110,
+                64
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 49,
                 110,
@@ -669,7 +849,7 @@
                 55.45454545454545,
                 43.13725490196079
             ],
-            "scalar": 0.725
+            "scalar": 0.3743169398907104
         }
     },
     "bk:missile": {
@@ -710,6 +890,16 @@
         "name": "Missile",
         "description": "Homing shots",
         "color": {
+            "average": [
+                87,
+                76,
+                78
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 87,
                 76,
@@ -721,7 +911,7 @@
                 12.643678160919544,
                 34.11764705882353
             ],
-            "scalar": 0.725
+            "scalar": 0.9696969696969696
         }
     },
     "bk:rod_of_discord": {
@@ -769,6 +959,16 @@
         "name": "Rod of Discord",
         "description": "Teleporter for @everyone",
         "color": {
+            "average": [
+                75,
+                66,
+                80
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 75,
                 66,
@@ -780,7 +980,7 @@
                 17.49999999999999,
                 31.372549019607842
             ],
-            "scalar": 0.725
+            "scalar": 0.7738095238095238
         }
     },
     "bk:goo": {
@@ -799,6 +999,16 @@
         "name": "Goo",
         "description": "Orbiting friend",
         "color": {
+            "average": [
+                61,
+                62,
+                85
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 61,
                 62,
@@ -810,7 +1020,7 @@
                 28.235294117647054,
                 33.33333333333333
             ],
-            "scalar": 0.725
+            "scalar": 0.6597222222222222
         }
     },
     "bk:jelly": {
@@ -829,6 +1039,16 @@
         "name": "Jelly!",
         "description": "^^Bouncy^^",
         "color": {
+            "average": [
+                112,
+                33,
+                47
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 112,
                 33,
@@ -840,7 +1060,7 @@
                 70.53571428571429,
                 43.92156862745098
             ],
-            "scalar": 0.725
+            "scalar": 0.9704641350210971
         }
     },
     "bk:broken_stone": {
@@ -861,6 +1081,16 @@
         "name": "Broken Stone",
         "description": "Well-built orbital",
         "color": {
+            "average": [
+                51,
+                51,
+                51
+            ],
+            "common": [
+                61,
+                61,
+                61
+            ],
             "rgb": [
                 51,
                 51,
@@ -892,6 +1122,16 @@
         "name": "Nano Orb",
         "description": "Micro friend",
         "color": {
+            "average": [
+                39,
+                35,
+                45
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 39,
                 35,
@@ -903,7 +1143,7 @@
                 22.22222222222222,
                 17.647058823529413
             ],
-            "scalar": 0.725
+            "scalar": 0.7333333333333334
         }
     },
     "bk:saturn": {
@@ -922,6 +1162,16 @@
         "name": "Planet",
         "description": "Of course we still love it",
         "color": {
+            "average": [
+                143,
+                96,
+                77
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 143,
                 96,
@@ -933,7 +1183,7 @@
                 46.15384615384615,
                 56.07843137254902
             ],
-            "scalar": 0.725
+            "scalar": 0.04797979797979798
         }
     },
     "bk:soap": {
@@ -958,6 +1208,16 @@
         "name": "Soap",
         "description": "Slows down your projectiles",
         "color": {
+            "average": [
+                170,
+                68,
+                81
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 170,
                 68,
@@ -969,7 +1229,7 @@
                 60.0,
                 66.66666666666666
             ],
-            "scalar": 0.725
+            "scalar": 0.9787581699346406
         }
     },
     "bk:d6": {
@@ -999,6 +1259,16 @@
         "name": "D6",
         "description": "^^Reroll^^ items!",
         "color": {
+            "average": [
+                104,
+                23,
+                38
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 104,
                 23,
@@ -1010,7 +1280,7 @@
                 77.88461538461539,
                 40.78431372549019
             ],
-            "scalar": 0.725
+            "scalar": 0.9691358024691358
         }
     },
     "bk:my_heart": {
@@ -1032,6 +1302,16 @@
         "name": "My Heart",
         "description": "Health up",
         "color": {
+            "average": [
+                137,
+                29,
+                43
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 137,
                 29,
@@ -1043,7 +1323,7 @@
                 78.83211678832117,
                 53.72549019607843
             ],
-            "scalar": 0.725
+            "scalar": 0.9783950617283951
         }
     },
     "bk:broken_heart": {
@@ -1064,6 +1344,16 @@
         "name": "Broken Heart",
         "description": "Health up",
         "color": {
+            "average": [
+                114,
+                25,
+                40
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 114,
                 25,
@@ -1075,7 +1365,7 @@
                 78.07017543859651,
                 44.70588235294118
             ],
-            "scalar": 0.725
+            "scalar": 0.9719101123595505
         }
     },
     "bk:parcel": {
@@ -1096,6 +1386,16 @@
         "name": "Parcel",
         "description": "Reusable healer",
         "color": {
+            "average": [
+                170,
+                117,
+                91
+            ],
+            "common": [
+                230,
+                156,
+                105
+            ],
             "rgb": [
                 170,
                 117,
@@ -1107,7 +1407,7 @@
                 46.470588235294116,
                 66.66666666666666
             ],
-            "scalar": 0.06800000000000002
+            "scalar": 0.05485232067510548
         }
     },
     "bk:glass": {
@@ -1127,6 +1427,16 @@
         "name": "Glass",
         "description": "##Fragile## projectiles",
         "color": {
+            "average": [
+                59,
+                54,
+                70
+            ],
+            "common": [
+                146,
+                161,
+                185
+            ],
             "rgb": [
                 59,
                 54,
@@ -1138,7 +1448,7 @@
                 22.857142857142865,
                 27.450980392156865
             ],
-            "scalar": 0.6025641025641025
+            "scalar": 0.71875
         }
     },
     "bk:broken_guitar": {
@@ -1164,6 +1474,16 @@
         "name": "Broken Guitar",
         "description": "Roll'n'rock!",
         "color": {
+            "average": [
+                82,
+                44,
+                43
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 82,
                 44,
@@ -1175,7 +1495,7 @@
                 47.5609756097561,
                 32.15686274509804
             ],
-            "scalar": 0.725
+            "scalar": 0.0042735042735042575
         }
     },
     "bk:machine_gun": {
@@ -1223,6 +1543,16 @@
         "name": "Machine Gun",
         "description": "Automatic",
         "color": {
+            "average": [
+                49,
+                42,
+                59
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 49,
                 42,
@@ -1234,7 +1564,7 @@
                 28.813559322033903,
                 23.137254901960784
             ],
-            "scalar": 0.725
+            "scalar": 0.7352941176470589
         }
     },
     "bk:grenade_launcher": {
@@ -1270,6 +1600,16 @@
         "name": "Grenade Launcher",
         "description": "Kaboom!",
         "color": {
+            "average": [
+                60,
+                56,
+                76
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 60,
                 56,
@@ -1281,7 +1621,7 @@
                 26.31578947368421,
                 29.80392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.7000000000000001
         }
     },
     "bk:missile_launcher": {
@@ -1335,6 +1675,16 @@
         "name": "Missile Launcher",
         "description": "Target detected!",
         "color": {
+            "average": [
+                68,
+                65,
+                84
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 68,
                 65,
@@ -1346,7 +1696,7 @@
                 22.61904761904762,
                 32.94117647058823
             ],
-            "scalar": 0.725
+            "scalar": 0.6929824561403509
         }
     },
     "bk:burst_gun": {
@@ -1395,6 +1745,16 @@
         "name": "Burst Gun",
         "description": "Speed of light",
         "color": {
+            "average": [
+                57,
+                53,
+                73
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 57,
                 53,
@@ -1406,7 +1766,7 @@
                 27.397260273972595,
                 28.627450980392155
             ],
-            "scalar": 0.725
+            "scalar": 0.7000000000000001
         }
     },
     "bk:flak_cannon": {
@@ -1458,6 +1818,16 @@
         "name": "Flak Cannon",
         "description": "It's party time!",
         "color": {
+            "average": [
+                64,
+                61,
+                82
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 64,
                 61,
@@ -1469,7 +1839,7 @@
                 25.609756097560975,
                 32.15686274509804
             ],
-            "scalar": 0.725
+            "scalar": 0.6904761904761904
         }
     },
     "bk:disk_gun": {
@@ -1520,6 +1890,16 @@
         "name": "Disk Gun",
         "description": "Sharp matter",
         "color": {
+            "average": [
+                56,
+                54,
+                76
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 56,
                 54,
@@ -1531,7 +1911,7 @@
                 28.947368421052634,
                 29.80392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.6818181818181818
         }
     },
     "bk:duck_gun": {
@@ -1586,6 +1966,16 @@
         "name": "Duck Gun",
         "description": "Quakers!",
         "color": {
+            "average": [
+                106,
+                69,
+                29
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 106,
                 69,
@@ -1597,7 +1987,7 @@
                 72.64150943396227,
                 41.568627450980394
             ],
-            "scalar": 0.725
+            "scalar": 0.08658008658008658
         }
     },
     "bk:follower": {
@@ -1649,6 +2039,16 @@
         "name": "Follower",
         "description": "Follow me!",
         "color": {
+            "average": [
+                46,
+                43,
+                65
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 46,
                 43,
@@ -1660,7 +2060,7 @@
                 33.84615384615384,
                 25.49019607843137
             ],
-            "scalar": 0.725
+            "scalar": 0.6893939393939394
         }
     },
     "bk:portal_gun": {
@@ -1713,6 +2113,16 @@
         "name": "Portal Gun",
         "description": "Cake is a lie",
         "color": {
+            "average": [
+                62,
+                73,
+                73
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 62,
                 73,
@@ -1724,7 +2134,7 @@
                 15.068493150684928,
                 28.627450980392155
             ],
-            "scalar": 0.725
+            "scalar": 0.5
         }
     },
     "bk:restock": {
@@ -1743,6 +2153,16 @@
         "name": "Restock",
         "description": "Infinite shop supply",
         "color": {
+            "average": [
+                59,
+                107,
+                56
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 59,
                 107,
@@ -1754,7 +2174,7 @@
                 47.66355140186916,
                 41.96078431372549
             ],
-            "scalar": 0.725
+            "scalar": 0.3235294117647059
         }
     },
     "bk:charisma_ring": {
@@ -1772,6 +2192,16 @@
         "name": "Charisma Ring",
         "description": "Royal Sales",
         "color": {
+            "average": [
+                130,
+                66,
+                31
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 130,
                 66,
@@ -1783,7 +2213,7 @@
                 76.15384615384615,
                 50.98039215686274
             ],
-            "scalar": 0.725
+            "scalar": 0.05892255892255893
         }
     },
     "bk:battery": {
@@ -1804,6 +2234,16 @@
         "file": "bk_battery.png",
         "name": "Battery",
         "color": {
+            "average": [
+                94,
+                74,
+                60
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 94,
                 74,
@@ -1815,7 +2255,7 @@
                 36.17021276595745,
                 36.86274509803922
             ],
-            "scalar": 0.725
+            "scalar": 0.06862745098039218
         }
     },
     "bk:homemade_dice": {
@@ -1844,6 +2284,16 @@
         "name": "Homemade Dice",
         "description": "^^Reroll^^ items! (DIY)",
         "color": {
+            "average": [
+                104,
+                27,
+                40
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 104,
                 27,
@@ -1855,7 +2305,7 @@
                 74.03846153846153,
                 40.78431372549019
             ],
-            "scalar": 0.725
+            "scalar": 0.9718614718614719
         }
     },
     "bk:iron_boots": {
@@ -1876,6 +2326,16 @@
         "name": "Iron Boots",
         "description": "Spikes hurt no more",
         "color": {
+            "average": [
+                76,
+                48,
+                54
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 76,
                 48,
@@ -1887,7 +2347,7 @@
                 36.84210526315789,
                 29.80392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.9642857142857143
         }
     },
     "bk:glass_gun": {
@@ -1948,6 +2408,16 @@
         "name": "Glass Gun",
         "description": "##Fragile##",
         "color": {
+            "average": [
+                23,
+                12,
+                29
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 23,
                 12,
@@ -1959,7 +2429,7 @@
                 58.620689655172406,
                 11.372549019607844
             ],
-            "scalar": 0.725
+            "scalar": 0.7745098039215687
         }
     },
     "bk:glass_shard": {
@@ -1993,6 +2463,16 @@
         "name": "Glass Shard",
         "description": "Just a piece of the whole",
         "color": {
+            "average": [
+                36,
+                30,
+                48
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 36,
                 30,
@@ -2004,7 +2484,7 @@
                 37.5,
                 18.823529411764707
             ],
-            "scalar": 0.725
+            "scalar": 0.7222222222222222
         }
     },
     "bk:dagger": {
@@ -2039,6 +2519,16 @@
         "name": "Dagger",
         "description": "Nostalgia...",
         "color": {
+            "average": [
+                88,
+                53,
+                50
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 88,
                 53,
@@ -2050,7 +2540,7 @@
                 43.18181818181818,
                 34.509803921568626
             ],
-            "scalar": 0.725
+            "scalar": 0.01315789473684212
         }
     },
     "bk:spear": {
@@ -2084,6 +2574,16 @@
         "name": "Spear",
         "description": "Longer arms?",
         "color": {
+            "average": [
+                40,
+                35,
+                49
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 40,
                 35,
@@ -2095,7 +2595,7 @@
                 28.57142857142857,
                 19.215686274509807
             ],
-            "scalar": 0.725
+            "scalar": 0.7261904761904762
         }
     },
     "bk:emerald": {
@@ -2114,6 +2614,16 @@
         "file": "bk_emerald.png",
         "name": "Emerald",
         "color": {
+            "average": [
+                62,
+                142,
+                101
+            ],
+            "common": [
+                1,
+                178,
+                75
+            ],
             "rgb": [
                 62,
                 142,
@@ -2125,7 +2635,7 @@
                 56.33802816901409,
                 55.68627450980392
             ],
-            "scalar": 0.4030131826741996
+            "scalar": 0.4145833333333333
         }
     },
     "bk:magnifier": {
@@ -2152,6 +2662,16 @@
         "name": "Magnifier",
         "description": "Bigger Projectiles",
         "color": {
+            "average": [
+                35,
+                36,
+                61
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 35,
                 36,
@@ -2163,7 +2683,7 @@
                 42.62295081967213,
                 23.92156862745098
             ],
-            "scalar": 0.725
+            "scalar": 0.6602564102564102
         }
     },
     "bk:spike": {
@@ -2195,6 +2715,16 @@
         "name": "Spike",
         "description": "Damage Up",
         "color": {
+            "average": [
+                80,
+                86,
+                111
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 80,
                 86,
@@ -2206,7 +2736,7 @@
                 27.927927927927932,
                 43.529411764705884
             ],
-            "scalar": 0.725
+            "scalar": 0.6344086021505376
         }
     },
     "bk:mushroom_hat": {
@@ -2223,6 +2753,16 @@
         "name": "Mushroom Hat",
         "description": "Tasty?",
         "color": {
+            "average": [
+                151,
+                51,
+                62
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 151,
                 51,
@@ -2234,7 +2774,7 @@
                 66.2251655629139,
                 59.21568627450981
             ],
-            "scalar": 0.725
+            "scalar": 0.9816666666666666
         }
     },
     "bk:stone_hat": {
@@ -2251,6 +2791,16 @@
         "name": "Stone Hat",
         "description": "Heavy",
         "color": {
+            "average": [
+                75,
+                80,
+                106
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 75,
                 80,
@@ -2262,7 +2812,7 @@
                 29.245283018867923,
                 41.568627450980394
             ],
-            "scalar": 0.725
+            "scalar": 0.6397849462365591
         }
     },
     "bk:knight_hat": {
@@ -2279,6 +2829,16 @@
         "name": "Knight Hat",
         "description": "Good old enemies...",
         "color": {
+            "average": [
+                114,
+                86,
+                101
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 114,
                 86,
@@ -2290,7 +2850,7 @@
                 24.561403508771928,
                 44.70588235294118
             ],
-            "scalar": 0.725
+            "scalar": 0.9107142857142857
         }
     },
     "bk:cowboy_hat": {
@@ -2307,6 +2867,16 @@
         "name": "Cowboy Hat",
         "description": "Wild west!",
         "color": {
+            "average": [
+                72,
+                37,
+                39
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 72,
                 37,
@@ -2318,7 +2888,7 @@
                 48.61111111111111,
                 28.235294117647058
             ],
-            "scalar": 0.725
+            "scalar": 0.9904761904761905
         }
     },
     "bk:soup_hat": {
@@ -2335,6 +2905,16 @@
         "name": "Soup Hat",
         "description": "^^Yummy^^",
         "color": {
+            "average": [
+                104,
+                58,
+                49
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 104,
                 58,
@@ -2346,7 +2926,7 @@
                 52.88461538461539,
                 40.78431372549019
             ],
-            "scalar": 0.725
+            "scalar": 0.027272727272727264
         }
     },
     "bk:gold_hat": {
@@ -2363,6 +2943,16 @@
         "name": "Gold Hat",
         "description": "[cl yellow]Rich!",
         "color": {
+            "average": [
+                135,
+                104,
+                67
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 135,
                 104,
@@ -2374,7 +2964,7 @@
                 50.37037037037037,
                 52.94117647058824
             ],
-            "scalar": 0.725
+            "scalar": 0.09068627450980392
         }
     },
     "bk:viking_hat": {
@@ -2391,6 +2981,16 @@
         "name": "Viking Hat",
         "description": "America!",
         "color": {
+            "average": [
+                102,
+                72,
+                68
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 102,
                 72,
@@ -2402,7 +3002,7 @@
                 33.333333333333336,
                 40.0
             ],
-            "scalar": 0.725
+            "scalar": 0.019607843137254898
         }
     },
     "bk:dunce_hat": {
@@ -2419,6 +3019,16 @@
         "name": "Dunce Hat",
         "description": "@-@",
         "color": {
+            "average": [
+                140,
+                120,
+                112
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 140,
                 120,
@@ -2430,7 +3040,7 @@
                 20.00000000000001,
                 54.90196078431373
             ],
-            "scalar": 0.725
+            "scalar": 0.047619047619047596
         }
     },
     "bk:top_hat": {
@@ -2447,6 +3057,16 @@
         "name": "Top Hat",
         "description": "Fashion!",
         "color": {
+            "average": [
+                124,
+                63,
+                68
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 124,
                 63,
@@ -2458,7 +3078,7 @@
                 49.19354838709677,
                 48.627450980392155
             ],
-            "scalar": 0.725
+            "scalar": 0.9863387978142076
         }
     },
     "bk:ushanka": {
@@ -2475,6 +3095,16 @@
         "name": "Ushanka",
         "description": "Where is my ##balalaika?##",
         "color": {
+            "average": [
+                55,
+                54,
+                73
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 55,
                 54,
@@ -2486,7 +3116,7 @@
                 26.027397260273972,
                 28.627450980392155
             ],
-            "scalar": 0.725
+            "scalar": 0.6754385964912282
         }
     },
     "bk:valkyrie_hat": {
@@ -2503,6 +3133,16 @@
         "name": "Valkyrie Hat",
         "description": "I believe ^^I can fly!^^",
         "color": {
+            "average": [
+                78,
+                99,
+                115
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 78,
                 99,
@@ -2514,7 +3154,7 @@
                 32.17391304347826,
                 45.09803921568628
             ],
-            "scalar": 0.725
+            "scalar": 0.5720720720720721
         }
     },
     "bk:skull_hat": {
@@ -2531,6 +3171,16 @@
         "name": "Skull Hat",
         "description": "Money or life!",
         "color": {
+            "average": [
+                137,
+                109,
+                97
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 137,
                 109,
@@ -2542,7 +3192,7 @@
                 29.197080291970806,
                 53.72549019607843
             ],
-            "scalar": 0.725
+            "scalar": 0.049999999999999996
         }
     },
     "bk:grandma_head": {
@@ -2559,6 +3209,16 @@
         "name": "Grandma Head",
         "description": "Tea?",
         "color": {
+            "average": [
+                130,
+                109,
+                118
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 130,
                 109,
@@ -2570,7 +3230,7 @@
                 16.153846153846153,
                 50.98039215686274
             ],
-            "scalar": 0.725
+            "scalar": 0.9285714285714285
         }
     },
     "bk:diamond_helmet": {
@@ -2587,6 +3247,16 @@
         "name": "Diamond Helmet",
         "description": "Shut up and dig!",
         "color": {
+            "average": [
+                7,
+                81,
+                122
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 7,
                 81,
@@ -2598,7 +3268,7 @@
                 94.26229508196721,
                 47.84313725490196
             ],
-            "scalar": 0.725
+            "scalar": 0.5594202898550725
         }
     },
     "bk:villager_head": {
@@ -2615,6 +3285,16 @@
         "name": "Villager Head",
         "description": "Hmm?",
         "color": {
+            "average": [
+                108,
+                63,
+                54
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 108,
                 63,
@@ -2626,7 +3306,7 @@
                 50.0,
                 42.35294117647059
             ],
-            "scalar": 0.725
+            "scalar": 0.02777777777777779
         }
     },
     "bk:fez": {
@@ -2643,6 +3323,16 @@
         "name": "Fez",
         "description": "Cubit",
         "color": {
+            "average": [
+                94,
+                30,
+                36
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 94,
                 30,
@@ -2654,7 +3344,7 @@
                 68.08510638297872,
                 36.86274509803922
             ],
-            "scalar": 0.725
+            "scalar": 0.984375
         }
     },
     "bk:no_hat": {
@@ -2669,6 +3359,16 @@
         "name": "Remove Hat",
         "description": "Not hat - no trouble!",
         "color": {
+            "average": [
+                100,
+                23,
+                39
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 100,
                 23,
@@ -2680,7 +3380,7 @@
                 77.0,
                 39.21568627450981
             ],
-            "scalar": 0.725
+            "scalar": 0.9653679653679653
         }
     },
     "bk:null_hat": {
@@ -2697,6 +3397,16 @@
         "name": "NULL",
         "description": "Attempt to call a null value",
         "color": {
+            "average": [
+                56,
+                21,
+                62
+            ],
+            "common": [
+                98,
+                36,
+                97
+            ],
             "rgb": [
                 56,
                 21,
@@ -2708,7 +3418,7 @@
                 66.12903225806451,
                 24.313725490196077
             ],
-            "scalar": 0.8360215053763441
+            "scalar": 0.8089430894308943
         }
     },
     "bk:xmas_hat": {
@@ -2725,6 +3435,16 @@
         "name": "Santa Hat",
         "description": "Merry Christmas!",
         "color": {
+            "average": [
+                142,
+                84,
+                97
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 142,
                 84,
@@ -2736,7 +3456,7 @@
                 40.845070422535215,
                 55.68627450980392
             ],
-            "scalar": 0.725
+            "scalar": 0.9626436781609194
         }
     },
     "bk:pumpkin_hat": {
@@ -2753,6 +3473,16 @@
         "name": "Carved Pumpkin",
         "description": "^^Spooky spooky skeleton^^",
         "color": {
+            "average": [
+                106,
+                44,
+                34
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 106,
                 44,
@@ -2764,7 +3494,7 @@
                 67.9245283018868,
                 41.568627450980394
             ],
-            "scalar": 0.725
+            "scalar": 0.02314814814814815
         }
     },
     "bk:cage_key": {
@@ -2796,6 +3526,16 @@
         "name": "Cage Key",
         "description": "Save ^^the dude^^!",
         "color": {
+            "average": [
+                63,
+                64,
+                86
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 63,
                 64,
@@ -2807,7 +3547,7 @@
                 26.74418604651163,
                 33.72549019607843
             ],
-            "scalar": 0.725
+            "scalar": 0.6594202898550725
         }
     },
     "bk:frog": {
@@ -2829,6 +3569,16 @@
         "name": "Tele Frog",
         "description": "Fast travel?",
         "color": {
+            "average": [
+                55,
+                93,
+                65
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 55,
                 93,
@@ -2840,7 +3590,7 @@
                 40.86021505376343,
                 36.470588235294116
             ],
-            "scalar": 0.725
+            "scalar": 0.37719298245614036
         }
     },
     "bk:sword_orbital": {
@@ -2859,6 +3609,16 @@
         "name": "Sword Orbital",
         "description": "Justice",
         "color": {
+            "average": [
+                52,
+                40,
+                47
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 52,
                 40,
@@ -2870,7 +3630,7 @@
                 23.076923076923077,
                 20.392156862745097
             ],
-            "scalar": 0.725
+            "scalar": 0.9027777777777777
         }
     },
     "bk:gift": {
@@ -2892,6 +3652,16 @@
         "name": "Gift",
         "description": "What's inside?",
         "color": {
+            "average": [
+                123,
+                47,
+                36
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 123,
                 47,
@@ -2903,7 +3673,7 @@
                 70.73170731707317,
                 48.23529411764706
             ],
-            "scalar": 0.725
+            "scalar": 0.021072796934865908
         }
     },
     "bk:spike_ring": {
@@ -2927,6 +3697,16 @@
         "name": "Spike Ring",
         "description": "Your enemies must be ##punished##!",
         "color": {
+            "average": [
+                73,
+                77,
+                101
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 73,
                 77,
@@ -2938,7 +3718,7 @@
                 27.722772277227726,
                 39.6078431372549
             ],
-            "scalar": 0.725
+            "scalar": 0.6428571428571429
         }
     },
     "bk:fire_ring": {
@@ -2965,6 +3745,16 @@
         "name": "Fire Ring",
         "description": "Let your enemies burn",
         "color": {
+            "average": [
+                114,
+                40,
+                36
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 114,
                 40,
@@ -2976,7 +3766,7 @@
                 68.42105263157895,
                 44.70588235294118
             ],
-            "scalar": 0.725
+            "scalar": 0.008547008547008546
         }
     },
     "bk:ice_ring": {
@@ -3003,6 +3793,16 @@
         "name": "Ice Ring",
         "description": "Stop your enemies",
         "color": {
+            "average": [
+                7,
+                68,
+                106
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 7,
                 68,
@@ -3014,7 +3814,7 @@
                 93.39622641509435,
                 41.568627450980394
             ],
-            "scalar": 0.725
+            "scalar": 0.563973063973064
         }
     },
     "bk:duck_ring": {
@@ -3039,6 +3839,16 @@
         "name": "Duck Ring",
         "description": "Teleport after getting hit",
         "color": {
+            "average": [
+                92,
+                80,
+                75
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 92,
                 80,
@@ -3050,7 +3860,7 @@
                 18.478260869565215,
                 36.07843137254902
             ],
-            "scalar": 0.725
+            "scalar": 0.049019607843137226
         }
     },
     "bk:snowflake": {
@@ -3081,6 +3891,16 @@
         "name": "Snowflake",
         "description": "Freeze everyone!",
         "color": {
+            "average": [
+                119,
+                119,
+                134
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 119,
                 119,
@@ -3092,7 +3912,7 @@
                 11.19402985074627,
                 52.54901960784314
             ],
-            "scalar": 0.725
+            "scalar": 0.6666666666666666
         }
     },
     "bk:dull_blade": {
@@ -3111,6 +3931,16 @@
         "name": "Dull Blade",
         "description": "Triggers hurt effect",
         "color": {
+            "average": [
+                78,
+                84,
+                109
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 78,
                 84,
@@ -3122,7 +3952,7 @@
                 28.440366972477054,
                 42.745098039215684
             ],
-            "scalar": 0.725
+            "scalar": 0.6344086021505376
         }
     },
     "bk:sharp_blade": {
@@ -3142,6 +3972,16 @@
         "name": "Sharp Blade",
         "description": "Self damage",
         "color": {
+            "average": [
+                90,
+                96,
+                120
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 90,
                 96,
@@ -3153,7 +3993,7 @@
                 24.999999999999993,
                 47.05882352941176
             ],
-            "scalar": 0.725
+            "scalar": 0.6333333333333334
         }
     },
     "bk:obsidian_shield": {
@@ -3171,6 +4011,16 @@
         "name": "Obsidian Shield",
         "description": "Knockback = 0",
         "color": {
+            "average": [
+                64,
+                30,
+                80
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 64,
                 30,
@@ -3182,7 +4032,7 @@
                 62.5,
                 31.372549019607842
             ],
-            "scalar": 0.725
+            "scalar": 0.7799999999999999
         }
     },
     "bk:bill": {
@@ -3207,6 +4057,16 @@
         "name": "Bill",
         "description": "99 dollars",
         "color": {
+            "average": [
+                25,
+                71,
+                58
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 25,
                 71,
@@ -3218,7 +4078,7 @@
                 64.7887323943662,
                 27.84313725490196
             ],
-            "scalar": 0.725
+            "scalar": 0.4528985507246377
         }
     },
     "bk:clover": {
@@ -3237,6 +4097,16 @@
         "name": "4 Leaf Clover",
         "description": "Lucky!",
         "color": {
+            "average": [
+                38,
+                96,
+                59
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 38,
                 96,
@@ -3248,7 +4118,7 @@
                 60.416666666666664,
                 37.64705882352941
             ],
-            "scalar": 0.725
+            "scalar": 0.3936781609195403
         }
     },
     "bk:d4": {
@@ -3267,6 +4137,16 @@
         "name": "D4",
         "description": "^^Reroll %%your artifacts%%!^^",
         "color": {
+            "average": [
+                23,
+                55,
+                54
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 23,
                 55,
@@ -3278,7 +4158,7 @@
                 58.18181818181818,
                 21.568627450980394
             ],
-            "scalar": 0.725
+            "scalar": 0.4947916666666667
         }
     },
     "bk:maanex_head": {
@@ -3295,6 +4175,16 @@
         "name": "Maanex Head",
         "description": "Hmmmmm",
         "color": {
+            "average": [
+                155,
+                101,
+                26
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 155,
                 101,
@@ -3306,7 +4196,7 @@
                 83.22580645161291,
                 60.78431372549019
             ],
-            "scalar": 0.725
+            "scalar": 0.09689922480620154
         }
     },
     "bk:maanex": {
@@ -3321,6 +4211,16 @@
         "name": "Maanex",
         "description": "Makes enemies think for a bit",
         "color": {
+            "average": [
+                146,
+                92,
+                25
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 146,
                 92,
@@ -3332,7 +4232,7 @@
                 82.87671232876713,
                 57.25490196078431
             ],
-            "scalar": 0.725
+            "scalar": 0.09228650137741047
         }
     },
     "bk:map_greenprints": {
@@ -3352,6 +4252,16 @@
         "name": "Map Greenprints",
         "description": "Reveals the map",
         "color": {
+            "average": [
+                77,
+                137,
+                73
+            ],
+            "common": [
+                51,
+                152,
+                75
+            ],
             "rgb": [
                 77,
                 137,
@@ -3363,7 +4273,7 @@
                 46.715328467153284,
                 53.72549019607843
             ],
-            "scalar": 0.37293729372937295
+            "scalar": 0.3229166666666667
         }
     },
     "bk:map": {
@@ -3381,6 +4291,16 @@
         "name": "Map",
         "description": "Reveals the map permanently",
         "color": {
+            "average": [
+                168,
+                120,
+                97
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 168,
                 120,
@@ -3392,7 +4312,7 @@
                 42.26190476190476,
                 65.88235294117646
             ],
-            "scalar": 0.725
+            "scalar": 0.0539906103286385
         }
     },
     "bk:crying_bomb": {
@@ -3416,6 +4336,16 @@
         "name": "Crying Bomb",
         "description": "Bombs now cry!",
         "color": {
+            "average": [
+                68,
+                68,
+                88
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 68,
                 68,
@@ -3427,7 +4357,7 @@
                 22.727272727272727,
                 34.509803921568626
             ],
-            "scalar": 0.725
+            "scalar": 0.6666666666666666
         }
     },
     "bk:matches": {
@@ -3452,6 +4382,16 @@
         "name": "Matches",
         "description": "Shorter explosion timer",
         "color": {
+            "average": [
+                139,
+                56,
+                41
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 139,
                 56,
@@ -3463,7 +4403,7 @@
                 70.50359712230217,
                 54.509803921568626
             ],
-            "scalar": 0.725
+            "scalar": 0.02551020408163265
         }
     },
     "bk:bomb_pack": {
@@ -3490,6 +4430,16 @@
         "name": "Bomb Pack",
         "description": "We put bombs in your bombs!",
         "color": {
+            "average": [
+                72,
+                66,
+                85
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 72,
                 66,
@@ -3501,7 +4451,7 @@
                 22.352941176470576,
                 33.33333333333333
             ],
-            "scalar": 0.725
+            "scalar": 0.7192982456140351
         }
     },
     "bk:tnt": {
@@ -3522,6 +4472,16 @@
         "name": "TNT",
         "description": "99 bombs",
         "color": {
+            "average": [
+                110,
+                33,
+                44
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 110,
                 33,
@@ -3533,7 +4493,7 @@
                 70.0,
                 43.13725490196079
             ],
-            "scalar": 0.725
+            "scalar": 0.9761904761904763
         }
     },
     "bk:weird_mushroom": {
@@ -3558,6 +4518,16 @@
         "name": "Weird Mushroom",
         "description": "Doubles Everything",
         "color": {
+            "average": [
+                146,
+                80,
+                114
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 146,
                 80,
@@ -3569,7 +4539,7 @@
                 45.20547945205479,
                 57.25490196078431
             ],
-            "scalar": 0.725
+            "scalar": 0.914141414141414
         }
     },
     "bk:bomb_shower": {
@@ -3590,6 +4560,16 @@
         "name": "Bomb Shower",
         "description": "Let it rain bombs",
         "color": {
+            "average": [
+                125,
+                79,
+                69
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 125,
                 79,
@@ -3601,7 +4581,7 @@
                 44.800000000000004,
                 49.01960784313725
             ],
-            "scalar": 0.725
+            "scalar": 0.02976190476190478
         }
     },
     "bk:black_belt": {
@@ -3623,6 +4603,16 @@
         "name": "Black Belt",
         "description": "Explode no more",
         "color": {
+            "average": [
+                28,
+                25,
+                35
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 28,
                 25,
@@ -3634,7 +4624,7 @@
                 28.57142857142858,
                 13.725490196078432
             ],
-            "scalar": 0.725
+            "scalar": 0.7166666666666667
         }
     },
     "bk:ninjia_bomb": {
@@ -3659,6 +4649,16 @@
         "name": "Ninja Bomb",
         "description": "Getting hurt spawns bombs",
         "color": {
+            "average": [
+                73,
+                70,
+                89
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 73,
                 70,
@@ -3670,7 +4670,7 @@
                 21.34831460674156,
                 34.90196078431372
             ],
-            "scalar": 0.725
+            "scalar": 0.6929824561403507
         }
     },
     "bk:laser_pointer": {
@@ -3688,6 +4688,16 @@
         "name": "Laser Pointer",
         "description": "Aim is clear!",
         "color": {
+            "average": [
+                159,
+                90,
+                91
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 159,
                 90,
@@ -3699,7 +4709,7 @@
                 43.39622641509433,
                 62.35294117647059
             ],
-            "scalar": 0.725
+            "scalar": 0.9975845410628019
         }
     },
     "bk:voodoo_doll": {
@@ -3721,6 +4731,16 @@
         "name": "Voodoo Doll",
         "description": "Kills all enemies in the room",
         "color": {
+            "average": [
+                117,
+                75,
+                81
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 117,
                 75,
@@ -3732,7 +4752,7 @@
                 35.89743589743589,
                 45.88235294117647
             ],
-            "scalar": 0.725
+            "scalar": 0.9761904761904763
         }
     },
     "bk:amurs_arrow": {
@@ -3775,6 +4795,16 @@
         "name": "Amur's Arrow",
         "description": "Charming Projectiles",
         "color": {
+            "average": [
+                106,
+                50,
+                60
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 106,
                 50,
@@ -3786,7 +4816,7 @@
                 52.83018867924528,
                 41.568627450980394
             ],
-            "scalar": 0.725
+            "scalar": 0.9702380952380952
         }
     },
     "bk:amurs_bow": {
@@ -3858,6 +4888,16 @@
         "name": "Amur's Bow",
         "description": "I see love",
         "color": {
+            "average": [
+                108,
+                49,
+                61
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 108,
                 49,
@@ -3869,7 +4909,7 @@
                 54.629629629629626,
                 42.35294117647059
             ],
-            "scalar": 0.725
+            "scalar": 0.9661016949152542
         }
     },
     "bk:poison_flask": {
@@ -3908,6 +4948,16 @@
         "name": "Poison Flask",
         "description": "Poisoned Projectiles",
         "color": {
+            "average": [
+                58,
+                109,
+                63
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 58,
                 109,
@@ -3919,7 +4969,7 @@
                 46.78899082568807,
                 42.745098039215684
             ],
-            "scalar": 0.725
+            "scalar": 0.3496732026143791
         }
     },
     "bk:snowball": {
@@ -3958,6 +5008,16 @@
         "name": "Snowball",
         "description": "Ice Cold Projectiles",
         "color": {
+            "average": [
+                157,
+                158,
+                170
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 157,
                 158,
@@ -3969,7 +5029,7 @@
                 7.6470588235294015,
                 66.66666666666666
             ],
-            "scalar": 0.725
+            "scalar": 0.6538461538461539
         }
     },
     "bk:peper": {
@@ -4008,6 +5068,16 @@
         "name": "Hot Pepper",
         "description": "Hot Projectiles",
         "color": {
+            "average": [
+                99,
+                51,
+                50
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 99,
                 51,
@@ -4019,7 +5089,7 @@
                 49.494949494949495,
                 38.82352941176471
             ],
-            "scalar": 0.725
+            "scalar": 0.003401360544217699
         }
     },
     "bk:sale_coupon": {
@@ -4041,6 +5111,16 @@
         "name": "Sale Coupon",
         "description": "-50%!",
         "color": {
+            "average": [
+                169,
+                107,
+                94
+            ],
+            "common": [
+                246,
+                202,
+                159
+            ],
             "rgb": [
                 169,
                 107,
@@ -4052,7 +5132,7 @@
                 44.378698224852066,
                 66.27450980392156
             ],
-            "scalar": 0.08237547892720304
+            "scalar": 0.028888888888888884
         }
     },
     "bk:pet_box": {
@@ -4073,6 +5153,16 @@
         "name": "Pet in a Box",
         "description": "Who's inside?",
         "color": {
+            "average": [
+                128,
+                94,
+                79
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 128,
                 94,
@@ -4084,7 +5174,7 @@
                 38.28125,
                 50.19607843137255
             ],
-            "scalar": 0.725
+            "scalar": 0.05102040816326533
         }
     },
     "bk:crate": {
@@ -4104,6 +5194,16 @@
         "name": "Orbital Crate",
         "description": "Who's inside?",
         "color": {
+            "average": [
+                118,
+                73,
+                60
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 118,
                 73,
@@ -4115,7 +5215,7 @@
                 49.152542372881356,
                 46.27450980392157
             ],
-            "scalar": 0.725
+            "scalar": 0.03735632183908045
         }
     },
     "bk:strawberry": {
@@ -4135,6 +5235,16 @@
         "name": "Strawberry",
         "description": "Sweet Memories",
         "color": {
+            "average": [
+                108,
+                67,
+                58
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 108,
                 67,
@@ -4146,7 +5256,7 @@
                 46.2962962962963,
                 42.35294117647059
             ],
-            "scalar": 0.725
+            "scalar": 0.030000000000000013
         }
     },
     "bk:wings": {
@@ -4175,6 +5285,16 @@
         "name": "Wings",
         "description": "I belive I can fly",
         "color": {
+            "average": [
+                106,
+                107,
+                123
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 106,
                 107,
@@ -4186,7 +5306,7 @@
                 13.821138211382111,
                 48.23529411764706
             ],
-            "scalar": 0.725
+            "scalar": 0.6568627450980392
         }
     },
     "bk:coin_pouch": {
@@ -4206,6 +5326,16 @@
         "name": "Coin Pouch",
         "description": "Gives Coins",
         "color": {
+            "average": [
+                82,
+                65,
+                59
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 82,
                 65,
@@ -4217,7 +5347,7 @@
                 28.04878048780488,
                 32.15686274509804
             ],
-            "scalar": 0.725
+            "scalar": 0.04347826086956516
         }
     },
     "bk:key_pouch": {
@@ -4237,6 +5367,16 @@
         "name": "Key Pouch",
         "description": "Gives Keys",
         "color": {
+            "average": [
+                71,
+                59,
+                57
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 71,
                 59,
@@ -4248,7 +5388,7 @@
                 19.718309859154928,
                 27.84313725490196
             ],
-            "scalar": 0.725
+            "scalar": 0.023809523809523808
         }
     },
     "bk:bomb_pouch": {
@@ -4268,6 +5408,16 @@
         "name": "Bomb Pouch",
         "description": "Gives Bombs",
         "color": {
+            "average": [
+                84,
+                77,
+                86
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 84,
                 77,
@@ -4279,7 +5429,7 @@
                 10.465116279069779,
                 33.72549019607843
             ],
-            "scalar": 0.725
+            "scalar": 0.7962962962962962
         }
     },
     "bk:pouch_pouch": {
@@ -4300,6 +5450,16 @@
         "name": "Pouch Pouch",
         "description": "Gives Pouches",
         "color": {
+            "average": [
+                115,
+                68,
+                56
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 115,
                 68,
@@ -4311,7 +5471,7 @@
                 51.30434782608696,
                 45.09803921568628
             ],
-            "scalar": 0.725
+            "scalar": 0.03389830508474576
         }
     },
     "bk:pouch": {
@@ -4331,6 +5491,16 @@
         "file": "bk_pouch.png",
         "name": "Pouch",
         "color": {
+            "average": [
+                125,
+                79,
+                64
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 125,
                 79,
@@ -4342,7 +5512,7 @@
                 48.8,
                 49.01960784313725
             ],
-            "scalar": 0.725
+            "scalar": 0.04098360655737706
         }
     },
     "bk:pickaxe": {
@@ -4389,6 +5559,16 @@
         "name": "Pickaxe",
         "description": "Dig, peasant!",
         "color": {
+            "average": [
+                60,
+                53,
+                71
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 60,
                 53,
@@ -4400,7 +5580,7 @@
                 25.352112676056336,
                 27.84313725490196
             ],
-            "scalar": 0.725
+            "scalar": 0.7314814814814814
         }
     },
     "bk:shovel": {
@@ -4464,6 +5644,16 @@
         "name": "Blue Shovel",
         "description": "But why is it blue???",
         "color": {
+            "average": [
+                29,
+                85,
+                114
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 29,
                 85,
@@ -4475,7 +5665,7 @@
                 74.56140350877195,
                 44.70588235294118
             ],
-            "scalar": 0.725
+            "scalar": 0.5568627450980392
         }
     },
     "bk:lightsaber": {
@@ -4535,6 +5725,16 @@
         "name": "Svetsaber",
         "description": "You were the chosen one!",
         "color": {
+            "average": [
+                69,
+                143,
+                174
+            ],
+            "common": [
+                0,
+                105,
+                170
+            ],
             "rgb": [
                 69,
                 143,
@@ -4546,7 +5746,7 @@
                 60.3448275862069,
                 68.23529411764706
             ],
-            "scalar": 0.5637254901960784
+            "scalar": 0.5492063492063491
         }
     },
     "bk:snail": {
@@ -4576,6 +5776,16 @@
         "name": "Snail",
         "description": "Mass Slower",
         "color": {
+            "average": [
+                91,
+                50,
+                45
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 91,
                 50,
@@ -4587,7 +5797,7 @@
                 50.54945054945055,
                 35.68627450980392
             ],
-            "scalar": 0.725
+            "scalar": 0.018115942028985494
         }
     },
     "bk:mushroom": {
@@ -4615,6 +5825,16 @@
         "name": "Mushroom",
         "description": "Speed up",
         "color": {
+            "average": [
+                105,
+                127,
+                112
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 105,
                 127,
@@ -4626,7 +5846,7 @@
                 17.322834645669296,
                 49.80392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.3863636363636364
         }
     },
     "bk:candy": {
@@ -4660,6 +5880,16 @@
         "name": "Candy",
         "description": "^^Sugar rush^^, fire rate up",
         "color": {
+            "average": [
+                146,
+                115,
+                90
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 146,
                 115,
@@ -4671,7 +5901,7 @@
                 38.356164383561634,
                 57.25490196078431
             ],
-            "scalar": 0.725
+            "scalar": 0.0744047619047619
         }
     },
     "bk:glasses": {
@@ -4699,6 +5929,16 @@
         "name": "Glasses",
         "description": "Better Accuracy",
         "color": {
+            "average": [
+                115,
+                116,
+                133
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 115,
                 116,
@@ -4710,7 +5950,7 @@
                 13.53383458646617,
                 52.156862745098046
             ],
-            "scalar": 0.725
+            "scalar": 0.6574074074074074
         }
     },
     "bk:ruler": {
@@ -4738,6 +5978,16 @@
         "name": "Ruler",
         "description": "Longer Range",
         "color": {
+            "average": [
+                145,
+                71,
+                24
+            ],
+            "common": [
+                237,
+                118,
+                20
+            ],
             "rgb": [
                 145,
                 71,
@@ -4749,7 +5999,7 @@
                 83.44827586206897,
                 56.86274509803921
             ],
-            "scalar": 0.07526881720430108
+            "scalar": 0.06473829201101929
         }
     },
     "bk:glass_bullet": {
@@ -4773,6 +6023,16 @@
         "name": "Glass Bullet",
         "description": "Shoot over stones",
         "color": {
+            "average": [
+                25,
+                18,
+                37
+            ],
+            "common": [
+                146,
+                161,
+                185
+            ],
             "rgb": [
                 25,
                 18,
@@ -4784,7 +6044,7 @@
                 51.35135135135136,
                 14.50980392156863
             ],
-            "scalar": 0.6025641025641025
+            "scalar": 0.7280701754385964
         }
     },
     "bk:stopwatch": {
@@ -4817,6 +6077,16 @@
         "name": "Stopwatch",
         "description": "Getting Hurt Controls the Time",
         "color": {
+            "average": [
+                108,
+                98,
+                110
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 108,
                 98,
@@ -4828,7 +6098,7 @@
                 10.909090909090908,
                 43.13725490196079
             ],
-            "scalar": 0.725
+            "scalar": 0.8055555555555555
         }
     },
     "bk:meat_guy": {
@@ -4848,6 +6118,16 @@
         "name": "Meat Guy",
         "description": "Nuts!",
         "color": {
+            "average": [
+                130,
+                93,
+                90
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 130,
                 93,
@@ -4859,7 +6139,7 @@
                 30.76923076923076,
                 50.98039215686274
             ],
-            "scalar": 0.725
+            "scalar": 0.01249999999999996
         }
     },
     "bk:bullet_stone": {
@@ -4879,6 +6159,16 @@
         "name": "Bullet Stone",
         "description": "He attac, he protec, but most importantly, he cute as hecc",
         "color": {
+            "average": [
+                114,
+                86,
+                78
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 114,
                 86,
@@ -4890,7 +6180,7 @@
                 31.57894736842105,
                 44.70588235294118
             ],
-            "scalar": 0.725
+            "scalar": 0.037037037037037035
         }
     },
     "bk:batman": {
@@ -4910,6 +6200,16 @@
         "name": "Batman",
         "description": "Doesn't help, but gives batteries",
         "color": {
+            "average": [
+                103,
+                83,
+                61
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 103,
                 83,
@@ -4921,7 +6221,7 @@
                 40.77669902912621,
                 40.3921568627451
             ],
-            "scalar": 0.725
+            "scalar": 0.08730158730158731
         }
     },
     "bk:sharp_arrow": {
@@ -4945,6 +6245,16 @@
         "name": "Sharp Arrow",
         "description": "Projectile Penetration",
         "color": {
+            "average": [
+                81,
+                49,
+                63
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 81,
                 49,
@@ -4956,7 +6266,7 @@
                 39.50617283950616,
                 31.76470588235294
             ],
-            "scalar": 0.725
+            "scalar": 0.9270833333333334
         }
     },
     "bk:boomerang": {
@@ -4979,6 +6289,16 @@
         "name": "Boomerang",
         "description": "Boomerang Projectiles",
         "color": {
+            "average": [
+                94,
+                66,
+                69
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 94,
                 66,
@@ -4990,7 +6310,7 @@
                 29.78723404255319,
                 36.86274509803922
             ],
-            "scalar": 0.725
+            "scalar": 0.9821428571428572
         }
     },
     "bk:backpack": {
@@ -5010,6 +6330,16 @@
         "name": "Backpack",
         "description": "Ma Bear Friend",
         "color": {
+            "average": [
+                122,
+                82,
+                71
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 122,
                 82,
@@ -5021,7 +6351,7 @@
                 41.80327868852459,
                 47.84313725490196
             ],
-            "scalar": 0.725
+            "scalar": 0.035947712418300665
         }
     },
     "bk:crystal": {
@@ -5043,6 +6373,16 @@
         "name": "Crystal",
         "description": "The Power of the Rainbow",
         "color": {
+            "average": [
+                134,
+                55,
+                141
+            ],
+            "common": [
+                147,
+                56,
+                143
+            ],
             "rgb": [
                 134,
                 55,
@@ -5054,7 +6394,7 @@
                 60.99290780141844,
                 55.294117647058826
             ],
-            "scalar": 0.8406593406593407
+            "scalar": 0.8197674418604651
         }
     },
     "bk:prism": {
@@ -5076,6 +6416,16 @@
         "name": "Prism",
         "description": "Projectiles -> Rainbow",
         "color": {
+            "average": [
+                134,
+                136,
+                152
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 134,
                 136,
@@ -5087,7 +6437,7 @@
                 11.84210526315789,
                 59.6078431372549
             ],
-            "scalar": 0.725
+            "scalar": 0.6481481481481483
         }
     },
     "bk:scourge_of_egg": {
@@ -5108,6 +6458,16 @@
         "name": "Scourge of Egg",
         "description": "Shuffeled Item Names",
         "color": {
+            "average": [
+                62,
+                48,
+                66
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 62,
                 48,
@@ -5119,7 +6479,7 @@
                 27.27272727272728,
                 25.882352941176475
             ],
-            "scalar": 0.725
+            "scalar": 0.7962962962962963
         }
     },
     "bk:scourge_of_unknown": {
@@ -5140,6 +6500,16 @@
         "name": "Scourge of Unknown",
         "description": "Hidden Items",
         "color": {
+            "average": [
+                73,
+                54,
+                78
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 73,
                 54,
@@ -5151,7 +6521,7 @@
                 30.769230769230777,
                 30.58823529411765
             ],
-            "scalar": 0.725
+            "scalar": 0.798611111111111
         }
     },
     "bk:scourge_of_blood": {
@@ -5172,6 +6542,16 @@
         "name": "Scourge of Blood",
         "description": "Double Trouble (and Enemies)",
         "color": {
+            "average": [
+                84,
+                57,
+                89
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 84,
                 57,
@@ -5183,7 +6563,7 @@
                 35.955056179775276,
                 34.90196078431372
             ],
-            "scalar": 0.725
+            "scalar": 0.8072916666666666
         }
     },
     "bk:scourge_of_risk": {
@@ -5204,6 +6584,16 @@
         "name": "Scourge of Risk",
         "description": "Hidden Health",
         "color": {
+            "average": [
+                83,
+                50,
+                90
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 83,
                 50,
@@ -5215,7 +6605,7 @@
                 44.44444444444445,
                 35.294117647058826
             ],
-            "scalar": 0.725
+            "scalar": 0.8041666666666667
         }
     },
     "bk:scourge_of_keys": {
@@ -5236,6 +6626,16 @@
         "name": "Scourge of Keys",
         "description": "Hidden Consumables",
         "color": {
+            "average": [
+                67,
+                51,
+                71
+            ],
+            "common": [
+                61,
+                61,
+                61
+            ],
             "rgb": [
                 67,
                 51,
@@ -5247,7 +6647,7 @@
                 28.169014084507044,
                 27.84313725490196
             ],
-            "scalar": 0.0
+            "scalar": 0.7999999999999999
         }
     },
     "bk:scourge_of_lost": {
@@ -5268,6 +6668,16 @@
         "name": "Scourge of Lost",
         "description": "Amnesia",
         "color": {
+            "average": [
+                72,
+                52,
+                77
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 72,
                 52,
@@ -5279,7 +6689,7 @@
                 32.467532467532465,
                 30.19607843137255
             ],
-            "scalar": 0.725
+            "scalar": 0.7999999999999999
         }
     },
     "bk:scourge_of_scourged": {
@@ -5300,6 +6710,16 @@
         "name": "Scourge of Scourged",
         "description": "Scourge Everywhere",
         "color": {
+            "average": [
+                73,
+                54,
+                77
+            ],
+            "common": [
+                61,
+                61,
+                61
+            ],
             "rgb": [
                 73,
                 54,
@@ -5311,7 +6731,7 @@
                 29.87012987012987,
                 30.19607843137255
             ],
-            "scalar": 0.0
+            "scalar": 0.8043478260869565
         }
     },
     "bk:scourge_of_illness": {
@@ -5332,6 +6752,16 @@
         "name": "Scourge of Illness",
         "description": "Healing is Nerfed",
         "color": {
+            "average": [
+                83,
+                60,
+                87
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 83,
                 60,
@@ -5343,7 +6773,7 @@
                 31.03448275862069,
                 34.11764705882353
             ],
-            "scalar": 0.725
+            "scalar": 0.808641975308642
         }
     },
     "bk:scourge_of_death": {
@@ -5369,6 +6799,16 @@
         "name": "Scourge of Death",
         "description": "Hardmode",
         "color": {
+            "average": [
+                96,
+                60,
+                102
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 96,
                 60,
@@ -5380,7 +6820,7 @@
                 41.1764705882353,
                 40.0
             ],
-            "scalar": 0.725
+            "scalar": 0.8095238095238094
         }
     },
     "bk:ancient_revolver": {
@@ -5431,6 +6871,16 @@
         "name": "Ancient Revolver",
         "description": "Looks Cool",
         "color": {
+            "average": [
+                91,
+                41,
+                100
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 91,
                 41,
@@ -5442,7 +6892,7 @@
                 59.0,
                 39.21568627450981
             ],
-            "scalar": 0.725
+            "scalar": 0.8079096045197741
         }
     },
     "bk:assault_rifle": {
@@ -5493,6 +6943,16 @@
         "name": "Assault Rifle",
         "description": "Bursts",
         "color": {
+            "average": [
+                41,
+                41,
+                41
+            ],
+            "common": [
+                39,
+                39,
+                39
+            ],
             "rgb": [
                 41,
                 41,
@@ -5525,6 +6985,16 @@
         "file": "bk_shield.png",
         "name": "Shield",
         "color": {
+            "average": [
+                85,
+                68,
+                78
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 85,
                 68,
@@ -5536,7 +7006,7 @@
                 19.999999999999996,
                 33.33333333333333
             ],
-            "scalar": 0.725
+            "scalar": 0.9019607843137254
         }
     },
     "bk:shield_pouch": {
@@ -5556,6 +7026,16 @@
         "name": "Shield Pouch",
         "description": "Gives Shields",
         "color": {
+            "average": [
+                68,
+                57,
+                73
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 68,
                 57,
@@ -5567,7 +7047,7 @@
                 21.917808219178074,
                 28.627450980392155
             ],
-            "scalar": 0.725
+            "scalar": 0.78125
         }
     },
     "bk:shield_buddy": {
@@ -5587,6 +7067,16 @@
         "name": "Shield Buddy",
         "description": "He protec",
         "color": {
+            "average": [
+                92,
+                70,
+                78
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 92,
                 70,
@@ -5598,7 +7088,7 @@
                 23.91304347826086,
                 36.07843137254902
             ],
-            "scalar": 0.725
+            "scalar": 0.9393939393939394
         }
     },
     "bk:skeleton_key": {
@@ -5619,6 +7109,16 @@
         "name": "Skeleton Key",
         "description": "99 keys",
         "color": {
+            "average": [
+                98,
+                99,
+                118
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 98,
                 99,
@@ -5630,7 +7130,7 @@
                 16.94915254237288,
                 46.27450980392157
             ],
-            "scalar": 0.725
+            "scalar": 0.6583333333333333
         }
     },
     "bk:jar": {
@@ -5654,6 +7154,16 @@
         "name": "Health Jar",
         "description": "Jar Jar Clinks",
         "color": {
+            "average": [
+                116,
+                78,
+                89
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 116,
                 78,
@@ -5665,7 +7175,7 @@
                 32.75862068965517,
                 45.490196078431374
             ],
-            "scalar": 0.725
+            "scalar": 0.9517543859649124
         }
     },
     "bk:star": {
@@ -5702,6 +7212,16 @@
         "name": "Star",
         "description": "It protec",
         "color": {
+            "average": [
+                143,
+                99,
+                34
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 143,
                 99,
@@ -5713,7 +7233,7 @@
                 76.22377622377623,
                 56.07843137254902
             ],
-            "scalar": 0.725
+            "scalar": 0.09938837920489295
         }
     },
     "bk:car_bomb": {
@@ -5737,6 +7257,16 @@
         "name": "Car Bomb",
         "description": "Bomb Delivery Service",
         "color": {
+            "average": [
+                72,
+                69,
+                85
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 72,
                 69,
@@ -5748,7 +7278,7 @@
                 18.823529411764707,
                 33.33333333333333
             ],
-            "scalar": 0.725
+            "scalar": 0.6979166666666666
         }
     },
     "bk:grenade": {
@@ -5771,6 +7301,16 @@
         "name": "Grenade",
         "description": "Detonates Bomb on Touch",
         "color": {
+            "average": [
+                48,
+                86,
+                73
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 48,
                 86,
@@ -5782,7 +7322,7 @@
                 44.186046511627914,
                 33.72549019607843
             ],
-            "scalar": 0.725
+            "scalar": 0.44298245614035087
         }
     },
     "bk:vampire_bat": {
@@ -5805,6 +7345,16 @@
         "name": "Vampire Bat",
         "description": "Regen",
         "color": {
+            "average": [
+                61,
+                61,
+                86
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 61,
                 61,
@@ -5816,7 +7366,7 @@
                 29.069767441860467,
                 33.72549019607843
             ],
-            "scalar": 0.725
+            "scalar": 0.6666666666666666
         }
     },
     "bk:mustache": {
@@ -5838,6 +7388,16 @@
         "name": "Mustache",
         "description": "VIP",
         "color": {
+            "average": [
+                56,
+                29,
+                33
+            ],
+            "common": [
+                28,
+                18,
+                28
+            ],
             "rgb": [
                 56,
                 29,
@@ -5849,7 +7409,7 @@
                 48.214285714285715,
                 21.96078431372549
             ],
-            "scalar": 0.8333333333333334
+            "scalar": 0.9753086419753086
         }
     },
     "bk:bloody_chest": {
@@ -5871,6 +7431,16 @@
         "name": "Bloody Chest",
         "description": "Chests Heal",
         "color": {
+            "average": [
+                97,
+                61,
+                69
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 97,
                 61,
@@ -5882,7 +7452,7 @@
                 37.113402061855666,
                 38.03921568627451
             ],
-            "scalar": 0.725
+            "scalar": 0.9629629629629629
         }
     },
     "bk:bloody_shield": {
@@ -5906,6 +7476,16 @@
         "name": "Bloody Shield",
         "description": "Shields Forever",
         "color": {
+            "average": [
+                63,
+                53,
+                76
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 63,
                 53,
@@ -5917,7 +7497,7 @@
                 30.263157894736835,
                 29.80392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.7391304347826088
         }
     },
     "bk:cutsaw": {
@@ -5951,6 +7531,16 @@
         "name": "Cutsaw",
         "description": "Enemies Will Pay",
         "color": {
+            "average": [
+                110,
+                81,
+                93
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 110,
                 81,
@@ -5962,7 +7552,7 @@
                 26.363636363636374,
                 43.13725490196079
             ],
-            "scalar": 0.725
+            "scalar": 0.9310344827586207
         }
     },
     "bk:shadow_cloak": {
@@ -5987,6 +7577,16 @@
         "name": "Shadow Cloak",
         "description": "No U",
         "color": {
+            "average": [
+                29,
+                29,
+                29
+            ],
+            "common": [
+                27,
+                27,
+                27
+            ],
             "rgb": [
                 29,
                 29,
@@ -6016,6 +7616,16 @@
         "name": "Dynamite Stick",
         "description": "Do you want to explode?",
         "color": {
+            "average": [
+                118,
+                48,
+                55
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 118,
                 48,
@@ -6027,7 +7637,7 @@
                 59.32203389830508,
                 46.27450980392157
             ],
-            "scalar": 0.725
+            "scalar": 0.9833333333333334
         }
     },
     "bk:chalice_of_blood": {
@@ -6056,6 +7666,16 @@
         "name": "Chalice of Blood",
         "description": "Pain invokes rage, rage invokes damage",
         "color": {
+            "average": [
+                95,
+                63,
+                87
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 95,
                 63,
@@ -6067,7 +7687,7 @@
                 33.68421052631579,
                 37.254901960784316
             ],
-            "scalar": 0.725
+            "scalar": 0.875
         }
     },
     "bk:detonator": {
@@ -6087,6 +7707,16 @@
         "name": "Detonator",
         "description": "Detonates Explosives",
         "color": {
+            "average": [
+                100,
+                43,
+                60
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 100,
                 43,
@@ -6098,7 +7728,7 @@
                 56.99999999999999,
                 39.21568627450981
             ],
-            "scalar": 0.725
+            "scalar": 0.9502923976608187
         }
     },
     "bk:talisman_of_foresight": {
@@ -6116,6 +7746,16 @@
         "name": "Talisman of Foresight",
         "description": "Open your eyes and see the rooms nearby!",
         "color": {
+            "average": [
+                67,
+                47,
+                69
+            ],
+            "common": [
+                19,
+                19,
+                19
+            ],
             "rgb": [
                 67,
                 47,
@@ -6127,7 +7767,7 @@
                 31.884057971014485,
                 27.058823529411764
             ],
-            "scalar": 0.0
+            "scalar": 0.8181818181818182
         }
     },
     "bk:scourge_ring": {
@@ -6145,6 +7785,16 @@
         "name": "Scourge Ring",
         "description": "Scourge No More",
         "color": {
+            "average": [
+                94,
+                57,
+                100
+            ],
+            "common": [
+                61,
+                61,
+                61
+            ],
             "rgb": [
                 94,
                 57,
@@ -6156,7 +7806,7 @@
                 42.99999999999999,
                 39.21568627450981
             ],
-            "scalar": 0.0
+            "scalar": 0.810077519379845
         }
     },
     "bk:snek": {
@@ -6177,6 +7827,16 @@
         "name": "Snek",
         "description": "Snack?",
         "color": {
+            "average": [
+                87,
+                46,
+                47
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 87,
                 46,
@@ -6188,7 +7848,7 @@
                 47.1264367816092,
                 34.11764705882353
             ],
-            "scalar": 0.725
+            "scalar": 0.9959349593495935
         }
     },
     "bk:blank": {
@@ -6208,6 +7868,16 @@
         "name": "Blank",
         "description": "_Blank Text_",
         "color": {
+            "average": [
+                7,
+                70,
+                111
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 7,
                 70,
@@ -6219,7 +7889,7 @@
                 93.69369369369369,
                 43.529411764705884
             ],
-            "scalar": 0.725
+            "scalar": 0.5657051282051282
         }
     },
     "bk:blank_bombs": {
@@ -6242,6 +7912,16 @@
         "name": "Blank Bombs",
         "description": "Bullet Shield",
         "color": {
+            "average": [
+                52,
+                44,
+                61
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 52,
                 44,
@@ -6253,7 +7933,7 @@
                 27.868852459016395,
                 23.92156862745098
             ],
-            "scalar": 0.725
+            "scalar": 0.7450980392156863
         }
     },
     "bk:blank_bullets": {
@@ -6287,6 +7967,16 @@
         "name": "Blank Bullets",
         "description": "Blank",
         "color": {
+            "average": [
+                79,
+                60,
+                60
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 79,
                 60,
@@ -6298,7 +7988,7 @@
                 24.05063291139241,
                 30.980392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.0
         }
     },
     "bk:explosive_bullets": {
@@ -6337,6 +8027,16 @@
         "name": "Explosive Bullets",
         "description": "Explosive",
         "color": {
+            "average": [
+                99,
+                65,
+                74
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 99,
                 65,
@@ -6348,7 +8048,7 @@
                 34.343434343434346,
                 38.82352941176471
             ],
-            "scalar": 0.725
+            "scalar": 0.9558823529411765
         }
     },
     "bk:random_bullets": {
@@ -6386,6 +8086,16 @@
         "name": "Random Bullets",
         "description": "RNG",
         "color": {
+            "average": [
+                95,
+                43,
+                44
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 95,
                 43,
@@ -6397,7 +8107,7 @@
                 54.73684210526315,
                 37.254901960784316
             ],
-            "scalar": 0.725
+            "scalar": 0.9967948717948718
         }
     },
     "bk:cup": {
@@ -6420,6 +8130,16 @@
         "name": "Cup",
         "description": "Granny can't resist showing up",
         "color": {
+            "average": [
+                121,
+                29,
+                43
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 121,
                 29,
@@ -6431,7 +8151,7 @@
                 76.03305785123968,
                 47.45098039215686
             ],
-            "scalar": 0.725
+            "scalar": 0.9746376811594203
         }
     },
     "bk:cartridge": {
@@ -6454,6 +8174,16 @@
         "name": "Cartridge",
         "description": "Dark Mage can't resist showing up",
         "color": {
+            "average": [
+                113,
+                108,
+                117
+            ],
+            "common": [
+                146,
+                161,
+                185
+            ],
             "rgb": [
                 113,
                 108,
@@ -6465,7 +8195,7 @@
                 7.69230769230769,
                 45.88235294117647
             ],
-            "scalar": 0.6025641025641025
+            "scalar": 0.7592592592592592
         }
     },
     "bk:marriage_ring": {
@@ -6489,6 +8219,16 @@
         "name": "Marriage Ring",
         "description": "DM & Granny Forever!",
         "color": {
+            "average": [
+                123,
+                73,
+                29
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 123,
                 73,
@@ -6500,7 +8240,7 @@
                 76.42276422764228,
                 48.23529411764706
             ],
-            "scalar": 0.725
+            "scalar": 0.07801418439716311
         }
     },
     "bk:scourge_of_greed": {
@@ -6521,6 +8261,16 @@
         "name": "Scourge of Greed",
         "description": "High Prices",
         "color": {
+            "average": [
+                79,
+                52,
+                85
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 79,
                 52,
@@ -6532,7 +8282,7 @@
                 38.8235294117647,
                 33.33333333333333
             ],
-            "scalar": 0.725
+            "scalar": 0.8030303030303031
         }
     },
     "bk:lego": {
@@ -6549,6 +8299,16 @@
         "name": "Constructor",
         "description": "It hurts so much stepping on these...",
         "color": {
+            "average": [
+                153,
+                39,
+                52
+            ],
+            "common": [
+                234,
+                50,
+                60
+            ],
             "rgb": [
                 153,
                 39,
@@ -6560,7 +8320,7 @@
                 74.50980392156863,
                 60.0
             ],
-            "scalar": 0.9909420289855073
+            "scalar": 0.9809941520467836
         }
     },
     "bk:iron_armor": {
@@ -6587,6 +8347,16 @@
         "name": "Iron Armor",
         "description": "Gives Shields",
         "color": {
+            "average": [
+                99,
+                109,
+                128
+            ],
+            "common": [
+                19,
+                19,
+                19
+            ],
             "rgb": [
                 99,
                 109,
@@ -6598,7 +8368,7 @@
                 22.656249999999996,
                 50.19607843137255
             ],
-            "scalar": 0.0
+            "scalar": 0.6091954022988506
         }
     },
     "bk:round_shield": {
@@ -6635,6 +8405,16 @@
         "name": "Round Shield",
         "description": "Prevents Contact Damage",
         "color": {
+            "average": [
+                82,
+                64,
+                75
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 82,
                 64,
@@ -6646,7 +8426,7 @@
                 21.951219512195127,
                 32.15686274509804
             ],
-            "scalar": 0.725
+            "scalar": 0.8981481481481483
         }
     },
     "bk:arkhalis": {
@@ -6702,6 +8482,16 @@
         "name": "Arkhalis",
         "description": "The Legend Himself",
         "color": {
+            "average": [
+                73,
+                82,
+                104
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 73,
                 82,
@@ -6713,7 +8503,7 @@
                 29.807692307692314,
                 40.78431372549019
             ],
-            "scalar": 0.725
+            "scalar": 0.6182795698924731
         }
     },
     "bk:inverted_arkhalis": {
@@ -6771,6 +8561,16 @@
         "name": "Inverted Arkhalis",
         "description": "Help will come when low on health",
         "color": {
+            "average": [
+                34,
+                53,
+                81
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 34,
                 53,
@@ -6782,7 +8582,7 @@
                 58.0246913580247,
                 31.76470588235294
             ],
-            "scalar": 0.725
+            "scalar": 0.599290780141844
         }
     },
     "bk:gun_sword": {
@@ -6833,6 +8633,16 @@
         "name": "Gun Sword",
         "description": "Prepare for trouble and make it double!",
         "color": {
+            "average": [
+                57,
+                50,
+                69
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 57,
                 50,
@@ -6844,7 +8654,7 @@
                 27.536231884057965,
                 27.058823529411764
             ],
-            "scalar": 0.725
+            "scalar": 0.7280701754385964
         }
     },
     "bk:half_heart": {
@@ -6868,6 +8678,16 @@
         "file": "bk_half_heart.png",
         "name": "Half Heart",
         "color": {
+            "average": [
+                0,
+                0,
+                0
+            ],
+            "common": [
+                255,
+                0,
+                64
+            ],
             "rgb": [
                 0,
                 0,
@@ -6879,7 +8699,7 @@
                 0.0,
                 0.0
             ],
-            "scalar": 0.9581699346405229
+            "scalar": 0.0
         }
     },
     "bk:axe": {
@@ -6929,6 +8749,16 @@
         "name": "Axe",
         "description": "He promised to return",
         "color": {
+            "average": [
+                81,
+                50,
+                49
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 81,
                 50,
@@ -6940,7 +8770,7 @@
                 39.50617283950616,
                 31.76470588235294
             ],
-            "scalar": 0.725
+            "scalar": 0.005208333333333316
         }
     },
     "bk:guitar": {
@@ -6980,6 +8810,16 @@
         "name": "Guitar",
         "description": "It's detuned",
         "color": {
+            "average": [
+                79,
+                45,
+                47
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 79,
                 45,
@@ -6991,7 +8831,7 @@
                 43.0379746835443,
                 30.980392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.9901960784313726
         }
     },
     "bk:glass_sword": {
@@ -7038,6 +8878,16 @@
         "name": "Glass Sword",
         "description": "The weapon of masters",
         "color": {
+            "average": [
+                16,
+                10,
+                31
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 16,
                 10,
@@ -7049,7 +8899,7 @@
                 67.74193548387096,
                 12.156862745098039
             ],
-            "scalar": 0.725
+            "scalar": 0.7142857142857143
         }
     },
     "bk:chicken": {
@@ -7097,6 +8947,16 @@
         "name": "Chicken Wing",
         "description": "It's Hot",
         "color": {
+            "average": [
+                106,
+                59,
+                58
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 106,
                 59,
@@ -7108,7 +8968,7 @@
                 45.28301886792453,
                 41.568627450980394
             ],
-            "scalar": 0.725
+            "scalar": 0.003472222222222234
         }
     },
     "bk:mana": {
@@ -7132,6 +8992,16 @@
         "file": "bk_mana.png",
         "name": "Mana",
         "color": {
+            "average": [
+                0,
+                0,
+                0
+            ],
+            "common": [
+                255,
+                0,
+                64
+            ],
             "rgb": [
                 0,
                 0,
@@ -7143,7 +9013,7 @@
                 0.0,
                 0.0
             ],
-            "scalar": 0.9581699346405229
+            "scalar": 0.0
         }
     },
     "bk:half_mana": {
@@ -7167,6 +9037,16 @@
         "file": "bk_half_mana.png",
         "name": "Half Mana",
         "color": {
+            "average": [
+                0,
+                0,
+                0
+            ],
+            "common": [
+                255,
+                0,
+                64
+            ],
             "rgb": [
                 0,
                 0,
@@ -7178,7 +9058,7 @@
                 0.0,
                 0.0
             ],
-            "scalar": 0.9581699346405229
+            "scalar": 0.0
         }
     },
     "bk:lava_wand": {
@@ -7224,6 +9104,16 @@
         "name": "Lava Wand",
         "description": "Hot Matter",
         "color": {
+            "average": [
+                73,
+                27,
+                35
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 73,
                 27,
@@ -7235,7 +9125,7 @@
                 63.013698630136986,
                 28.627450980392155
             ],
-            "scalar": 0.725
+            "scalar": 0.9710144927536232
         }
     },
     "bk:web_wand": {
@@ -7280,6 +9170,16 @@
         "name": "Spider Wand",
         "description": "World-wide web provider",
         "color": {
+            "average": [
+                76,
+                59,
+                66
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 76,
                 59,
@@ -7291,7 +9191,7 @@
                 22.368421052631575,
                 29.80392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.9313725490196078
         }
     },
     "bk:slap_stick": {
@@ -7329,6 +9229,16 @@
         "name": "Slap Stick",
         "description": "Slap",
         "color": {
+            "average": [
+                120,
+                113,
+                124
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 120,
                 113,
@@ -7340,7 +9250,7 @@
                 8.870967741935488,
                 48.627450980392155
             ],
-            "scalar": 0.725
+            "scalar": 0.7727272727272728
         }
     },
     "bk:ice_skates": {
@@ -7361,6 +9271,16 @@
         "name": "Ice Skates",
         "description": "Ice Immunity",
         "color": {
+            "average": [
+                119,
+                121,
+                138
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 119,
                 121,
@@ -7372,7 +9292,7 @@
                 13.768115942028977,
                 54.11764705882353
             ],
-            "scalar": 0.725
+            "scalar": 0.6491228070175439
         }
     },
     "bk:campfire_in_bottle": {
@@ -7393,6 +9313,16 @@
         "name": "Campfire in a Bottle",
         "description": "Frost Immunity",
         "color": {
+            "average": [
+                76,
+                94,
+                113
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 76,
                 94,
@@ -7404,7 +9334,7 @@
                 32.743362831858406,
                 44.31372549019608
             ],
-            "scalar": 0.725
+            "scalar": 0.5855855855855855
         }
     },
     "bk:blindfold": {
@@ -7422,6 +9352,16 @@
         "name": "Blindfold",
         "description": "RIP my weapons",
         "color": {
+            "average": [
+                119,
+                121,
+                137
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 119,
                 121,
@@ -7433,7 +9373,7 @@
                 13.138686131386857,
                 53.72549019607843
             ],
-            "scalar": 0.725
+            "scalar": 0.6481481481481483
         }
     },
     "bk:cup_head": {
@@ -7450,6 +9390,16 @@
         "name": "Cup Head",
         "description": "Have a cup of tea",
         "color": {
+            "average": [
+                110,
+                24,
+                40
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 110,
                 24,
@@ -7461,7 +9411,7 @@
                 78.18181818181819,
                 43.13725490196079
             ],
-            "scalar": 0.725
+            "scalar": 0.9689922480620154
         }
     },
     "bk:mustache_hat": {
@@ -7478,6 +9428,16 @@
         "name": "Mustache",
         "description": "AFK",
         "color": {
+            "average": [
+                56,
+                29,
+                33
+            ],
+            "common": [
+                28,
+                18,
+                28
+            ],
             "rgb": [
                 56,
                 29,
@@ -7489,7 +9449,7 @@
                 48.214285714285715,
                 21.96078431372549
             ],
-            "scalar": 0.8333333333333334
+            "scalar": 0.9753086419753086
         }
     },
     "bk:propeller_hat": {
@@ -7506,6 +9466,16 @@
         "name": "Propeller Hat",
         "description": "It spins",
         "color": {
+            "average": [
+                102,
+                77,
+                68
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 102,
                 77,
@@ -7517,7 +9487,7 @@
                 33.333333333333336,
                 40.0
             ],
-            "scalar": 0.725
+            "scalar": 0.044117647058823505
         }
     },
     "bk:sunglasses": {
@@ -7534,6 +9504,16 @@
         "name": "Sunglasses",
         "description": "Work with moon too!",
         "color": {
+            "average": [
+                71,
+                39,
+                41
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 71,
                 39,
@@ -7545,7 +9525,7 @@
                 45.070422535211264,
                 27.84313725490196
             ],
-            "scalar": 0.725
+            "scalar": 0.9895833333333334
         }
     },
     "bk:cap": {
@@ -7562,6 +9542,16 @@
         "name": "Cap",
         "description": "Cool @-@",
         "color": {
+            "average": [
+                249,
+                230,
+                207
+            ],
+            "common": [
+                249,
+                230,
+                207
+            ],
             "rgb": [
                 249,
                 230,
@@ -7590,6 +9580,16 @@
         "name": "Eyes",
         "description": "@ @",
         "color": {
+            "average": [
+                95,
+                85,
+                97
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 95,
                 85,
@@ -7601,7 +9601,7 @@
                 12.371134020618557,
                 38.03921568627451
             ],
-            "scalar": 0.725
+            "scalar": 0.8055555555555557
         }
     },
     "bk:eye": {
@@ -7616,6 +9616,16 @@
         "name": "Eye",
         "description": "@",
         "color": {
+            "average": [
+                88,
+                81,
+                91
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 88,
                 81,
@@ -7627,7 +9637,7 @@
                 10.989010989010996,
                 35.68627450980392
             ],
-            "scalar": 0.725
+            "scalar": 0.7833333333333333
         }
     },
     "bk:hair": {
@@ -7643,6 +9653,16 @@
         "name": "Hair",
         "description": "Fancy",
         "color": {
+            "average": [
+                50,
+                56,
+                41
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 50,
                 56,
@@ -7654,7 +9674,7 @@
                 26.785714285714278,
                 21.96078431372549
             ],
-            "scalar": 0.725
+            "scalar": 0.23333333333333336
         }
     },
     "bk:weird_potion": {
@@ -7687,6 +9707,16 @@
         "name": "Weird Potion",
         "description": "Weird Projectiles",
         "color": {
+            "average": [
+                133,
+                100,
+                92
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 133,
                 100,
@@ -7698,7 +9728,7 @@
                 30.827067669172937,
                 52.156862745098046
             ],
-            "scalar": 0.725
+            "scalar": 0.03252032520325202
         }
     },
     "bk:megaphone": {
@@ -7731,6 +9761,16 @@
         "name": "Megaphone",
         "description": "Expanding Projectiles",
         "color": {
+            "average": [
+                121,
+                28,
+                43
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 121,
                 28,
@@ -7742,7 +9782,7 @@
                 76.85950413223141,
                 47.45098039215686
             ],
-            "scalar": 0.725
+            "scalar": 0.9731182795698925
         }
     },
     "bk:no_lamp": {
@@ -7755,6 +9795,16 @@
         "file": "bk_no_lamp.png",
         "name": "No Lamp",
         "color": {
+            "average": [
+                100,
+                23,
+                39
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 100,
                 23,
@@ -7766,7 +9816,7 @@
                 77.0,
                 39.21568627450981
             ],
-            "scalar": 0.725
+            "scalar": 0.9653679653679653
         }
     },
     "bk:explosive_lamp": {
@@ -7813,6 +9863,16 @@
         "name": "Explosive Lamp",
         "description": "When boom means more",
         "color": {
+            "average": [
+                111,
+                113,
+                130
+            ],
+            "common": [
+                146,
+                161,
+                185
+            ],
             "rgb": [
                 111,
                 113,
@@ -7824,7 +9884,7 @@
                 14.615384615384608,
                 50.98039215686274
             ],
-            "scalar": 0.6025641025641025
+            "scalar": 0.6491228070175439
         }
     },
     "bk:shielded_lamp": {
@@ -7870,6 +9930,16 @@
         "name": "Shielded Lamp",
         "description": "Shields Up!",
         "color": {
+            "average": [
+                94,
+                105,
+                134
+            ],
+            "common": [
+                66,
+                76,
+                110
+            ],
             "rgb": [
                 94,
                 105,
@@ -7881,7 +9951,7 @@
                 29.850746268656714,
                 52.54901960784314
             ],
-            "scalar": 0.6287878787878788
+            "scalar": 0.6208333333333333
         }
     },
     "bk:brain": {
@@ -7902,6 +9972,16 @@
         "name": "Mega Brain",
         "description": "What if we use 0% of our brain",
         "color": {
+            "average": [
+                146,
+                66,
+                104
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 146,
                 66,
@@ -7913,7 +9993,7 @@
                 54.794520547945204,
                 57.25490196078431
             ],
-            "scalar": 0.725
+            "scalar": 0.9208333333333334
         }
     },
     "bk:heart_amulet": {
@@ -7939,6 +10019,16 @@
         "name": "Heart Amulet",
         "description": "+1 to Heart Size",
         "color": {
+            "average": [
+                167,
+                73,
+                74
+            ],
+            "common": [
+                137,
+                30,
+                43
+            ],
             "rgb": [
                 167,
                 73,
@@ -7950,7 +10040,7 @@
                 56.287425149700596,
                 65.49019607843137
             ],
-            "scalar": 0.9797507788161993
+            "scalar": 0.99822695035461
         }
     },
     "bk:star_amulet": {
@@ -7972,6 +10062,16 @@
         "name": "Star Amulet",
         "description": "Mana Up",
         "color": {
+            "average": [
+                70,
+                131,
+                149
+            ],
+            "common": [
+                0,
+                205,
+                249
+            ],
             "rgb": [
                 70,
                 131,
@@ -7983,7 +10083,7 @@
                 53.02013422818792,
                 58.43137254901961
             ],
-            "scalar": 0.5294511378848729
+            "scalar": 0.5379746835443039
         }
     },
     "bk:coin_amulet": {
@@ -8009,6 +10109,16 @@
         "name": "Coin Amulet",
         "description": "Coins Are Worth More",
         "color": {
+            "average": [
+                166,
+                137,
+                90
+            ],
+            "common": [
+                255,
+                200,
+                37
+            ],
             "rgb": [
                 166,
                 137,
@@ -8020,7 +10130,7 @@
                 45.78313253012048,
                 65.09803921568627
             ],
-            "scalar": 0.1246177370030581
+            "scalar": 0.10307017543859646
         }
     },
     "bk:key_amulet": {
@@ -8045,6 +10155,16 @@
         "name": "Key Amulet",
         "description": "Keys Are Worth More",
         "color": {
+            "average": [
+                156,
+                132,
+                87
+            ],
+            "common": [
+                255,
+                200,
+                37
+            ],
             "rgb": [
                 156,
                 132,
@@ -8056,7 +10176,7 @@
                 44.23076923076923,
                 61.1764705882353
             ],
-            "scalar": 0.1246177370030581
+            "scalar": 0.10869565217391304
         }
     },
     "bk:bomb_amulet": {
@@ -8079,6 +10199,16 @@
         "name": "Bomb Amulet",
         "description": "Bombs Are Worth More",
         "color": {
+            "average": [
+                110,
+                117,
+                140
+            ],
+            "common": [
+                101,
+                115,
+                146
+            ],
             "rgb": [
                 110,
                 117,
@@ -8090,7 +10220,7 @@
                 21.42857142857143,
                 54.90196078431373
             ],
-            "scalar": 0.6148148148148148
+            "scalar": 0.6277777777777779
         }
     },
     "bk:eye_amulet": {
@@ -8123,6 +10253,16 @@
         "name": "Eye Amulet",
         "description": "It Hurts To Be Inaccurate",
         "color": {
+            "average": [
+                159,
+                98,
+                101
+            ],
+            "common": [
+                246,
+                129,
+                135
+            ],
             "rgb": [
                 159,
                 98,
@@ -8134,7 +10274,7 @@
                 38.36477987421383,
                 62.35294117647059
             ],
-            "scalar": 0.9914529914529915
+            "scalar": 0.9918032786885247
         }
     },
     "bk:eye_patch": {
@@ -8164,6 +10304,16 @@
         "name": "Eye Patch",
         "description": "Are You Ready, Kids?",
         "color": {
+            "average": [
+                45,
+                45,
+                45
+            ],
+            "common": [
+                39,
+                39,
+                39
+            ],
             "rgb": [
                 45,
                 45,
@@ -8197,6 +10347,16 @@
         "name": "Toilet Paper",
         "description": "Its Always Ending",
         "color": {
+            "average": [
+                241,
+                203,
+                173
+            ],
+            "common": [
+                246,
+                202,
+                159
+            ],
             "rgb": [
                 241,
                 203,
@@ -8208,7 +10368,7 @@
                 28.215767634854767,
                 94.50980392156862
             ],
-            "scalar": 0.08237547892720304
+            "scalar": 0.07352941176470584
         }
     },
     "bk:decoy": {
@@ -8230,6 +10390,16 @@
         "name": "Decoy",
         "description": "It Explodes",
         "color": {
+            "average": [
+                131,
+                79,
+                53
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 131,
                 79,
@@ -8241,7 +10411,7 @@
                 59.54198473282442,
                 51.37254901960784
             ],
-            "scalar": 0.725
+            "scalar": 0.05555555555555557
         }
     },
     "bk:wallet": {
@@ -8264,6 +10434,16 @@
         "name": "Wallet Buddy",
         "description": "Stores Your Coins",
         "color": {
+            "average": [
+                121,
+                72,
+                44
+            ],
+            "common": [
+                93,
+                44,
+                40
+            ],
             "rgb": [
                 121,
                 72,
@@ -8275,7 +10455,7 @@
                 63.63636363636363,
                 47.45098039215686
             ],
-            "scalar": 0.01257861635220126
+            "scalar": 0.06060606060606061
         }
     },
     "bk:skele_buddy": {
@@ -8298,6 +10478,16 @@
         "name": "Skele Buddy",
         "description": "Spooky",
         "color": {
+            "average": [
+                64,
+                41,
+                72
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 64,
                 41,
@@ -8309,7 +10499,7 @@
                 43.05555555555555,
                 28.235294117647058
             ],
-            "scalar": 0.725
+            "scalar": 0.7903225806451614
         }
     },
     "bk:mega_bomb": {
@@ -8335,6 +10525,16 @@
         "name": "Mega Bomb",
         "description": "Bomb Size: Mega",
         "color": {
+            "average": [
+                112,
+                107,
+                122
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 112,
                 107,
@@ -8346,7 +10546,7 @@
                 12.295081967213118,
                 47.84313725490196
             ],
-            "scalar": 0.725
+            "scalar": 0.7222222222222222
         }
     },
     "bk:condensed_milk": {
@@ -8391,6 +10591,16 @@
         "name": "Condensed Milk",
         "description": "Fast Pixels - Slow Enemies",
         "color": {
+            "average": [
+                99,
+                155,
+                175
+            ],
+            "common": [
+                180,
+                180,
+                180
+            ],
             "rgb": [
                 99,
                 155,
@@ -8402,7 +10612,7 @@
                 43.42857142857143,
                 68.62745098039215
             ],
-            "scalar": 0.0
+            "scalar": 0.543859649122807
         }
     },
     "bk:marshmallow": {
@@ -8424,6 +10634,16 @@
         "name": "Marshmallow X_X",
         "description": "Sticky",
         "color": {
+            "average": [
+                162,
+                133,
+                121
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 162,
                 133,
@@ -8435,7 +10655,7 @@
                 25.308641975308642,
                 63.52941176470588
             ],
-            "scalar": 0.725
+            "scalar": 0.04878048780487811
         }
     },
     "bk:orbital_multiplier": {
@@ -8466,6 +10686,16 @@
         "name": "Orbital Multiplier",
         "description": "More Orbitals!",
         "color": {
+            "average": [
+                111,
+                86,
+                76
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 111,
                 86,
@@ -8477,7 +10707,7 @@
                 31.53153153153153,
                 43.529411764705884
             ],
-            "scalar": 0.725
+            "scalar": 0.047619047619047644
         }
     },
     "bk:pet_multiplier": {
@@ -8508,6 +10738,16 @@
         "name": "Pet Multiplier",
         "description": "More Pets!",
         "color": {
+            "average": [
+                127,
+                88,
+                76
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 127,
                 88,
@@ -8519,7 +10759,7 @@
                 40.15748031496063,
                 49.80392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.0392156862745098
         }
     },
     "bk:ghost_bullets": {
@@ -8545,6 +10785,16 @@
         "name": "Ghost Bullets",
         "description": "Walls Wont Stop",
         "color": {
+            "average": [
+                126,
+                116,
+                110
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 126,
                 116,
@@ -8556,7 +10806,7 @@
                 12.698412698412698,
                 49.411764705882355
             ],
-            "scalar": 0.725
+            "scalar": 0.062499999999999924
         }
     },
     "bk:weight": {
@@ -8582,6 +10832,16 @@
         "name": "Heavy Weight",
         "description": "Gravity Booster",
         "color": {
+            "average": [
+                71,
+                71,
+                71
+            ],
+            "common": [
+                19,
+                19,
+                19
+            ],
             "rgb": [
                 71,
                 71,
@@ -8619,6 +10879,16 @@
         "name": "D2",
         "description": "Take it or leave it",
         "color": {
+            "average": [
+                149,
+                102,
+                31
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 149,
                 102,
@@ -8630,7 +10900,7 @@
                 79.19463087248322,
                 58.43137254901961
             ],
-            "scalar": 0.725
+            "scalar": 0.1002824858757062
         }
     },
     "bk:ethernal_d6": {
@@ -8654,6 +10924,16 @@
         "name": "Ethernal D6",
         "description": "Rerolls And/Or Destroys",
         "color": {
+            "average": [
+                15,
+                8,
+                29
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 15,
                 8,
@@ -8665,7 +10945,7 @@
                 72.41379310344827,
                 11.372549019607844
             ],
-            "scalar": 0.725
+            "scalar": 0.7222222222222222
         }
     },
     "bk:billiard": {
@@ -8689,6 +10969,16 @@
         "name": "Billiard",
         "description": "Bullets Bounce",
         "color": {
+            "average": [
+                95,
+                101,
+                126
+            ],
+            "common": [
+                42,
+                47,
+                78
+            ],
             "rgb": [
                 95,
                 101,
@@ -8700,7 +10990,7 @@
                 24.603174603174605,
                 49.411764705882355
             ],
-            "scalar": 0.6435185185185185
+            "scalar": 0.6344086021505376
         }
     },
     "bk:enraged_bullets": {
@@ -8724,6 +11014,16 @@
         "name": "Enraged Bullets",
         "description": "Bullets Break Bullets",
         "color": {
+            "average": [
+                116,
+                61,
+                47
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 116,
                 61,
@@ -8735,7 +11035,7 @@
                 59.48275862068966,
                 45.490196078431374
             ],
-            "scalar": 0.725
+            "scalar": 0.03381642512077295
         }
     },
     "bk:rewind_button": {
@@ -8754,6 +11054,16 @@
         "name": "Rewind Button",
         "description": "Hold Up",
         "color": {
+            "average": [
+                142,
+                63,
+                76
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 142,
                 63,
@@ -8765,7 +11075,7 @@
                 55.633802816901415,
                 55.68627450980392
             ],
-            "scalar": 0.725
+            "scalar": 0.9725738396624473
         }
     },
     "bk:piggy_bank": {
@@ -8784,6 +11094,16 @@
         "name": "Piggy Bank",
         "description": "My Life Savings",
         "color": {
+            "average": [
+                245,
+                114,
+                120
+            ],
+            "common": [
+                246,
+                129,
+                135
+            ],
             "rgb": [
                 245,
                 114,
@@ -8795,7 +11115,7 @@
                 53.46938775510204,
                 96.07843137254902
             ],
-            "scalar": 0.9914529914529915
+            "scalar": 0.9923664122137404
         }
     },
     "bk:death_star": {
@@ -8844,6 +11164,16 @@
         "name": "Death Star",
         "description": "RIP Alderan",
         "color": {
+            "average": [
+                59,
+                31,
+                36
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 59,
                 31,
@@ -8855,7 +11185,7 @@
                 47.45762711864407,
                 23.137254901960784
             ],
-            "scalar": 0.725
+            "scalar": 0.9702380952380952
         }
     },
     "bk:soldering_iron": {
@@ -8905,6 +11235,16 @@
         "name": "Soldering Iron",
         "description": "It's Hot",
         "color": {
+            "average": [
+                52,
+                54,
+                58
+            ],
+            "common": [
+                27,
+                27,
+                27
+            ],
             "rgb": [
                 52,
                 54,
@@ -8916,7 +11256,7 @@
                 10.344827586206897,
                 22.745098039215687
             ],
-            "scalar": 0.0
+            "scalar": 0.611111111111111
         }
     },
     "bk:can": {
@@ -8938,6 +11278,16 @@
         "name": "Can",
         "description": "Double Projectiles",
         "color": {
+            "average": [
+                146,
+                98,
+                62
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 146,
                 98,
@@ -8949,7 +11299,7 @@
                 57.534246575342465,
                 57.25490196078431
             ],
-            "scalar": 0.725
+            "scalar": 0.07142857142857145
         }
     },
     "bk:alien_glasses": {
@@ -8987,6 +11337,16 @@
         "name": "Alien Glasses",
         "description": "I see more",
         "color": {
+            "average": [
+                65,
+                68,
+                76
+            ],
+            "common": [
+                27,
+                27,
+                27
+            ],
             "rgb": [
                 65,
                 68,
@@ -8998,7 +11358,7 @@
                 14.473684210526319,
                 29.80392156862745
             ],
-            "scalar": 0.0
+            "scalar": 0.6212121212121212
         }
     },
     "bk:swimming_mask": {
@@ -9020,6 +11380,16 @@
         "name": "Swimming Mask",
         "description": "It's a Secret Weapon",
         "color": {
+            "average": [
+                63,
+                62,
+                67
+            ],
+            "common": [
+                61,
+                61,
+                61
+            ],
             "rgb": [
                 63,
                 62,
@@ -9031,7 +11401,7 @@
                 7.462686567164184,
                 26.27450980392157
             ],
-            "scalar": 0.0
+            "scalar": 0.7000000000000001
         }
     },
     "bk:bullet_chair": {
@@ -9067,6 +11437,16 @@
         "name": "Bullet Chair",
         "description": "4 Legs 4 Guns",
         "color": {
+            "average": [
+                67,
+                43,
+                51
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 67,
                 43,
@@ -9078,7 +11458,7 @@
                 35.82089552238806,
                 26.27450980392157
             ],
-            "scalar": 0.725
+            "scalar": 0.9444444444444445
         }
     },
     "bk:cell": {
@@ -9103,6 +11483,16 @@
         "name": "Cell",
         "description": "Projectiles Multiply",
         "color": {
+            "average": [
+                73,
+                117,
+                68
+            ],
+            "common": [
+                19,
+                76,
+                76
+            ],
             "rgb": [
                 73,
                 117,
@@ -9114,7 +11504,7 @@
                 41.880341880341874,
                 45.88235294117647
             ],
-            "scalar": 0.5
+            "scalar": 0.3163265306122449
         }
     },
     "bk:brick": {
@@ -9133,6 +11523,16 @@
         "name": "iBrick",
         "description": "Bigger Levels",
         "color": {
+            "average": [
+                129,
+                44,
+                32
+            ],
+            "common": [
+                142,
+                37,
+                29
+            ],
             "rgb": [
                 129,
                 44,
@@ -9144,7 +11544,7 @@
                 75.1937984496124,
                 50.588235294117645
             ],
-            "scalar": 0.01179941002949853
+            "scalar": 0.020618556701030927
         }
     },
     "bk:ring_of_pain": {
@@ -9188,6 +11588,16 @@
         "name": "Ring Of Pain",
         "description": "Getting Hurt Hurts Everyone",
         "color": {
+            "average": [
+                67,
+                28,
+                74
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 67,
                 28,
@@ -9199,7 +11609,7 @@
                 62.16216216216217,
                 29.01960784313726
             ],
-            "scalar": 0.725
+            "scalar": 0.8079710144927535
         }
     },
     "bk:schrodingers_cat": {
@@ -9234,6 +11644,16 @@
         "name": "Schr\u00c3\u00b6dingers Cat",
         "description": "To Be Or Not To Be (50% chance)",
         "color": {
+            "average": [
+                167,
+                93,
+                65
+            ],
+            "common": [
+                93,
+                44,
+                40
+            ],
             "rgb": [
                 167,
                 93,
@@ -9245,7 +11665,7 @@
                 61.07784431137725,
                 65.49019607843137
             ],
-            "scalar": 0.01257861635220126
+            "scalar": 0.0457516339869281
         }
     },
     "bk:smoke_bomb": {
@@ -9274,6 +11694,16 @@
         "name": "Smoke Bomb",
         "description": "Ninjia-inspired Escape",
         "color": {
+            "average": [
+                48,
+                113,
+                65
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 48,
                 113,
@@ -9285,7 +11715,7 @@
                 57.52212389380531,
                 44.31372549019608
             ],
-            "scalar": 0.725
+            "scalar": 0.3769230769230769
         }
     },
     "bk:chest_ring": {
@@ -9306,6 +11736,16 @@
         "name": "Chest Ring",
         "description": "More Chests!",
         "color": {
+            "average": [
+                93,
+                64,
+                65
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 93,
                 64,
@@ -9317,7 +11757,7 @@
                 31.182795698924732,
                 36.470588235294116
             ],
-            "scalar": 0.725
+            "scalar": 0.9942528735632185
         }
     },
     "bk:empty_shell": {
@@ -9338,6 +11778,16 @@
         "name": "Empty Shell",
         "description": "A Chance To Destroy Enemy Bullets",
         "color": {
+            "average": [
+                135,
+                75,
+                46
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 135,
                 75,
@@ -9349,7 +11799,7 @@
                 65.92592592592592,
                 52.94117647058824
             ],
-            "scalar": 0.725
+            "scalar": 0.05430711610486893
         }
     },
     "bk:parachute": {
@@ -9370,6 +11820,16 @@
         "name": "Parachute",
         "description": "Pit Immunity",
         "color": {
+            "average": [
+                173,
+                87,
+                95
+            ],
+            "common": [
+                196,
+                36,
+                48
+            ],
             "rgb": [
                 173,
                 87,
@@ -9381,7 +11841,7 @@
                 49.71098265895954,
                 67.84313725490196
             ],
-            "scalar": 0.9874999999999999
+            "scalar": 0.9844961240310077
         }
     },
     "bk:spiked_cookie": {
@@ -9402,6 +11862,16 @@
         "name": "Spiked Cookie",
         "description": "Spiky Boi",
         "color": {
+            "average": [
+                105,
+                73,
+                75
+            ],
+            "common": [
+                93,
+                44,
+                40
+            ],
             "rgb": [
                 105,
                 73,
@@ -9413,7 +11883,7 @@
                 30.476190476190478,
                 41.17647058823529
             ],
-            "scalar": 0.01257861635220126
+            "scalar": 0.9895833333333334
         }
     },
     "bk:shooty": {
@@ -9434,6 +11904,16 @@
         "name": "Shooty",
         "description": "He Be Shooting",
         "color": {
+            "average": [
+                86,
+                61,
+                66
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 86,
                 61,
@@ -9445,7 +11925,7 @@
                 29.069767441860467,
                 33.72549019607843
             ],
-            "scalar": 0.725
+            "scalar": 0.9666666666666667
         }
     },
     "bk:rabbit_bullets": {
@@ -9463,6 +11943,16 @@
         "name": "Rabbit Bullets",
         "description": "They Multiply",
         "color": {
+            "average": [
+                122,
+                95,
+                90
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 122,
                 95,
@@ -9474,7 +11964,7 @@
                 26.22950819672131,
                 47.84313725490196
             ],
-            "scalar": 0.725
+            "scalar": 0.026041666666666647
         }
     },
     "bk:pandoras_box": {
@@ -9493,6 +11983,16 @@
         "name": "Pandora's Box",
         "description": "You had to fight evel!",
         "color": {
+            "average": [
+                94,
+                51,
+                47
+            ],
+            "common": [
+                93,
+                44,
+                40
+            ],
             "rgb": [
                 94,
                 51,
@@ -9504,7 +12004,7 @@
                 50.0,
                 36.86274509803922
             ],
-            "scalar": 0.01257861635220126
+            "scalar": 0.014184397163120567
         }
     },
     "bk:bubbles": {
@@ -9524,6 +12024,16 @@
         "name": "Bubbles",
         "description": "Bubble Frend",
         "color": {
+            "average": [
+                183,
+                75,
+                41
+            ],
+            "common": [
+                198,
+                69,
+                36
+            ],
             "rgb": [
                 183,
                 75,
@@ -9535,7 +12045,7 @@
                 77.59562841530054,
                 71.76470588235294
             ],
-            "scalar": 0.033950617283950615
+            "scalar": 0.03990610328638498
         }
     },
     "bk:match": {
@@ -9566,6 +12076,16 @@
         "name": "Match",
         "description": "Fire For Everyone",
         "color": {
+            "average": [
+                134,
+                44,
+                46
+            ],
+            "common": [
+                137,
+                30,
+                43
+            ],
             "rgb": [
                 134,
                 44,
@@ -9577,7 +12097,7 @@
                 67.16417910447761,
                 52.54901960784314
             ],
-            "scalar": 0.9797507788161993
+            "scalar": 0.9962962962962963
         }
     },
     "bk:hammer": {
@@ -9609,6 +12129,16 @@
         "name": "Hammer",
         "description": "Armor Breaker",
         "color": {
+            "average": [
+                206,
+                135,
+                29
+            ],
+            "common": [
+                255,
+                162,
+                20
+            ],
             "rgb": [
                 206,
                 135,
@@ -9620,7 +12150,7 @@
                 85.92233009708737,
                 80.7843137254902
             ],
-            "scalar": 0.10070921985815602
+            "scalar": 0.09981167608286252
         }
     },
     "bk:helmet": {
@@ -9647,6 +12177,16 @@
         "name": "Iron Helmet",
         "description": "A Chance To Ignore Damage",
         "color": {
+            "average": [
+                56,
+                61,
+                90
+            ],
+            "common": [
+                66,
+                76,
+                110
+            ],
             "rgb": [
                 56,
                 61,
@@ -9658,7 +12198,7 @@
                 37.777777777777786,
                 35.294117647058826
             ],
-            "scalar": 0.6287878787878788
+            "scalar": 0.6421568627450981
         }
     },
     "bk:beer": {
@@ -9684,6 +12224,16 @@
         "name": "Beer",
         "description": "Damage Enrages",
         "color": {
+            "average": [
+                143,
+                126,
+                107
+            ],
+            "common": [
+                101,
+                115,
+                146
+            ],
             "rgb": [
                 143,
                 126,
@@ -9695,7 +12245,7 @@
                 25.174825174825173,
                 56.07843137254902
             ],
-            "scalar": 0.6148148148148148
+            "scalar": 0.08796296296296298
         }
     },
     "bk:the_eye": {
@@ -9716,6 +12266,16 @@
         "name": "The Eye",
         "description": "He Be Watching",
         "color": {
+            "average": [
+                179,
+                144,
+                144
+            ],
+            "common": [
+                246,
+                129,
+                135
+            ],
             "rgb": [
                 179,
                 144,
@@ -9727,7 +12287,7 @@
                 19.55307262569832,
                 70.19607843137254
             ],
-            "scalar": 0.9914529914529915
+            "scalar": 0.0
         }
     },
     "bk:mimics_tooth": {
@@ -9749,6 +12309,16 @@
         "name": "Mimic's Tooth",
         "description": "Attracks Mimics",
         "color": {
+            "average": [
+                125,
+                105,
+                119
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 125,
                 105,
@@ -9760,7 +12330,7 @@
                 16.0,
                 49.01960784313725
             ],
-            "scalar": 0.725
+            "scalar": 0.8833333333333333
         }
     },
     "bk:mimic_totem": {
@@ -9784,6 +12354,16 @@
         "name": "Mimic Totem",
         "description": "##NO MORE MIMICS##",
         "color": {
+            "average": [
+                91,
+                66,
+                71
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 91,
                 66,
@@ -9795,7 +12375,7 @@
                 27.47252747252747,
                 35.68627450980392
             ],
-            "scalar": 0.725
+            "scalar": 0.9666666666666667
         }
     },
     "bk:paper_airplane": {
@@ -9836,6 +12416,16 @@
         "name": "Paper Airplane",
         "description": "Homing Projectiles",
         "color": {
+            "average": [
+                152,
+                154,
+                166
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 152,
                 154,
@@ -9847,7 +12437,7 @@
                 8.43373493975904,
                 65.09803921568627
             ],
-            "scalar": 0.725
+            "scalar": 0.6428571428571429
         }
     },
     "bk:led": {
@@ -9871,6 +12461,16 @@
         "name": "LED",
         "description": "Accurate Lamp",
         "color": {
+            "average": [
+                67,
+                137,
+                80
+            ],
+            "common": [
+                51,
+                152,
+                75
+            ],
             "rgb": [
                 67,
                 137,
@@ -9882,7 +12482,7 @@
                 51.0948905109489,
                 53.72549019607843
             ],
-            "scalar": 0.37293729372937295
+            "scalar": 0.36428571428571427
         }
     },
     "bk:fragile_lamp": {
@@ -9925,6 +12525,16 @@
         "name": "Fragile Lamp",
         "description": "1 hit K.O.",
         "color": {
+            "average": [
+                181,
+                136,
+                73
+            ],
+            "common": [
+                255,
+                162,
+                20
+            ],
             "rgb": [
                 181,
                 136,
@@ -9936,7 +12546,7 @@
                 59.66850828729282,
                 70.98039215686275
             ],
-            "scalar": 0.10070921985815602
+            "scalar": 0.09722222222222221
         }
     },
     "bk:headshot_gun": {
@@ -9984,6 +12594,16 @@
         "name": "Bent Gun",
         "description": "Headshot",
         "color": {
+            "average": [
+                80,
+                76,
+                95
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 80,
                 76,
@@ -9995,7 +12615,7 @@
                 20.000000000000004,
                 37.254901960784316
             ],
-            "scalar": 0.725
+            "scalar": 0.7017543859649122
         }
     },
     "bk:laser_cannon": {
@@ -10025,6 +12645,16 @@
         "name": "Laser Cannon",
         "description": "Haha, laser go pew pew",
         "color": {
+            "average": [
+                52,
+                51,
+                74
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 52,
                 51,
@@ -10036,7 +12666,7 @@
                 31.081081081081084,
                 29.01960784313726
             ],
-            "scalar": 0.725
+            "scalar": 0.6739130434782609
         }
     },
     "bk:treasure_key": {
@@ -10075,6 +12705,16 @@
         "name": "Red Key",
         "description": "Opens loopholes",
         "color": {
+            "average": [
+                100,
+                27,
+                43
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 100,
                 27,
@@ -10086,7 +12726,7 @@
                 73.0,
                 39.21568627450981
             ],
-            "scalar": 0.725
+            "scalar": 0.9634703196347032
         }
     },
     "bk:pass": {
@@ -10109,6 +12749,16 @@
         "name": "Pass",
         "description": "Identify yourself!",
         "color": {
+            "average": [
+                148,
+                157,
+                171
+            ],
+            "common": [
+                146,
+                161,
+                185
+            ],
             "rgb": [
                 148,
                 157,
@@ -10120,7 +12770,7 @@
                 13.450292397660805,
                 67.05882352941175
             ],
-            "scalar": 0.6025641025641025
+            "scalar": 0.6014492753623187
         }
     },
     "bk:bucket": {
@@ -10142,6 +12792,16 @@
         "name": "Bucket",
         "description": "Useless without the contents",
         "color": {
+            "average": [
+                77,
+                84,
+                110
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 77,
                 84,
@@ -10153,7 +12813,7 @@
                 30.00000000000001,
                 43.13725490196079
             ],
-            "scalar": 0.725
+            "scalar": 0.6313131313131314
         }
     },
     "bk:water_bucket": {
@@ -10174,6 +12834,16 @@
         "name": "Water Bucket",
         "description": "Calms [cl red]the Fire[cl]",
         "color": {
+            "average": [
+                61,
+                87,
+                118
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 61,
                 87,
@@ -10185,7 +12855,7 @@
                 48.30508474576271,
                 46.27450980392157
             ],
-            "scalar": 0.725
+            "scalar": 0.5906432748538012
         }
     },
     "bk:snow_bucket": {
@@ -10206,6 +12876,16 @@
         "name": "Snow Bucket",
         "description": "Prehaps, it could melt",
         "color": {
+            "average": [
+                112,
+                112,
+                128
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 112,
                 112,
@@ -10217,7 +12897,7 @@
                 12.5,
                 50.19607843137255
             ],
-            "scalar": 0.725
+            "scalar": 0.6666666666666666
         }
     },
     "bk:broken_bucket": {
@@ -10233,6 +12913,16 @@
         "name": "Broken Bucket",
         "description": "Protecc",
         "color": {
+            "average": [
+                82,
+                88,
+                114
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 82,
                 88,
@@ -10244,7 +12934,7 @@
                 28.07017543859649,
                 44.70588235294118
             ],
-            "scalar": 0.725
+            "scalar": 0.6354166666666666
         }
     },
     "bk:ankh": {
@@ -10263,6 +12953,16 @@
         "name": "Ankh",
         "description": "Eternal Life",
         "color": {
+            "average": [
+                130,
+                94,
+                31
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 130,
                 94,
@@ -10274,7 +12974,7 @@
                 76.15384615384615,
                 50.98039215686274
             ],
-            "scalar": 0.725
+            "scalar": 0.10606060606060608
         }
     },
     "bk:broken_ankh": {
@@ -10295,6 +12995,16 @@
         "name": "Broken Ankh",
         "description": "Eternal Life?",
         "color": {
+            "average": [
+                123,
+                76,
+                31
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 123,
                 76,
@@ -10306,7 +13016,7 @@
                 74.79674796747967,
                 48.23529411764706
             ],
-            "scalar": 0.725
+            "scalar": 0.08152173913043477
         }
     },
     "bk:what": {
@@ -10353,6 +13063,16 @@
         "name": "What",
         "description": "Seriusly, WHAT?",
         "color": {
+            "average": [
+                66,
+                65,
+                86
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 66,
                 65,
@@ -10364,7 +13084,7 @@
                 24.418604651162802,
                 33.72549019607843
             ],
-            "scalar": 0.725
+            "scalar": 0.6746031746031748
         }
     },
     "bk:gold_minigun": {
@@ -10416,6 +13136,16 @@
         "name": "Golden Minigun",
         "description": "Haha budget go brrr",
         "color": {
+            "average": [
+                106,
+                76,
+                40
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 106,
                 76,
@@ -10427,7 +13157,7 @@
                 62.264150943396224,
                 41.568627450980394
             ],
-            "scalar": 0.725
+            "scalar": 0.0909090909090909
         }
     },
     "bk:gold_dagger": {
@@ -10466,6 +13196,16 @@
         "name": "Golden Dagger",
         "description": "Old but gold",
         "color": {
+            "average": [
+                120,
+                88,
+                37
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 120,
                 88,
@@ -10477,7 +13217,7 @@
                 69.16666666666666,
                 47.05882352941176
             ],
-            "scalar": 0.725
+            "scalar": 0.10240963855421688
         }
     },
     "bk:gold_revolver": {
@@ -10529,6 +13269,16 @@
         "name": "Golden Revolver",
         "description": "Cover me in gold",
         "color": {
+            "average": [
+                88,
+                65,
+                39
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 88,
                 65,
@@ -10540,7 +13290,7 @@
                 55.68181818181818,
                 34.509803921568626
             ],
-            "scalar": 0.725
+            "scalar": 0.08843537414965985
         }
     },
     "bk:gold_axe": {
@@ -10593,6 +13343,16 @@
         "name": "Golden Axe",
         "description": "Just an axe",
         "color": {
+            "average": [
+                107,
+                67,
+                31
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 107,
                 67,
@@ -10604,7 +13364,7 @@
                 71.02803738317756,
                 41.96078431372549
             ],
-            "scalar": 0.725
+            "scalar": 0.07894736842105263
         }
     },
     "bk:katana": {
@@ -10657,6 +13417,16 @@
         "name": "Katana",
         "description": "Who's [cl orange]the owner[cl]?",
         "color": {
+            "average": [
+                205,
+                166,
+                133
+            ],
+            "common": [
+                255,
+                255,
+                255
+            ],
             "rgb": [
                 205,
                 166,
@@ -10668,7 +13438,7 @@
                 35.12195121951219,
                 80.3921568627451
             ],
-            "scalar": 0.0
+            "scalar": 0.07638888888888888
         }
     },
     "bk:smart_gun": {
@@ -10723,6 +13493,16 @@
         "name": "Smart Gun",
         "description": "He knows",
         "color": {
+            "average": [
+                62,
+                60,
+                81
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 62,
                 60,
@@ -10734,7 +13514,7 @@
                 25.925925925925924,
                 31.76470588235294
             ],
-            "scalar": 0.725
+            "scalar": 0.6825396825396824
         }
     },
     "bk:pop_gun": {
@@ -10790,6 +13570,16 @@
         "name": "Pop Gun",
         "description": "Really popular",
         "color": {
+            "average": [
+                58,
+                45,
+                61
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 58,
                 45,
@@ -10801,7 +13591,7 @@
                 26.22950819672131,
                 23.92156862745098
             ],
-            "scalar": 0.725
+            "scalar": 0.8020833333333334
         }
     },
     "bk:the_button": {
@@ -10823,6 +13613,16 @@
         "name": "The Button",
         "description": "8-dir attack",
         "color": {
+            "average": [
+                122,
+                78,
+                99
+            ],
+            "common": [
+                87,
+                28,
+                39
+            ],
             "rgb": [
                 122,
                 78,
@@ -10834,7 +13634,7 @@
                 36.065573770491795,
                 47.84313725490196
             ],
-            "scalar": 0.9689265536723163
+            "scalar": 0.9204545454545454
         }
     },
     "bk:gold_sword": {
@@ -10874,6 +13674,16 @@
         "name": "Golden Sword",
         "description": "When you don't have anything to spend money on",
         "color": {
+            "average": [
+                127,
+                97,
+                38
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 127,
                 97,
@@ -10885,7 +13695,7 @@
                 70.07874015748031,
                 49.80392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.11048689138576778
         }
     },
     "bk:donut": {
@@ -10913,6 +13723,16 @@
         "name": "Donut",
         "description": "Do not hesitate",
         "color": {
+            "average": [
+                193,
+                146,
+                118
+            ],
+            "common": [
+                246,
+                202,
+                159
+            ],
             "rgb": [
                 193,
                 146,
@@ -10924,7 +13744,7 @@
                 38.860103626943,
                 75.68627450980392
             ],
-            "scalar": 0.08237547892720304
+            "scalar": 0.0622222222222222
         }
     },
     "bk:sudoku": {
@@ -10947,6 +13767,16 @@
         "name": "Sudoku",
         "description": "Half of the room just gone, reduced to atoms",
         "color": {
+            "average": [
+                165,
+                169,
+                182
+            ],
+            "common": [
+                255,
+                255,
+                255
+            ],
             "rgb": [
                 165,
                 169,
@@ -10958,7 +13788,7 @@
                 9.340659340659338,
                 71.37254901960785
             ],
-            "scalar": 0.0
+            "scalar": 0.627450980392157
         }
     },
     "bk:gps_ring": {
@@ -10986,6 +13816,16 @@
         "name": "GPS Ring",
         "description": "A chance to reveal the map",
         "color": {
+            "average": [
+                26,
+                119,
+                120
+            ],
+            "common": [
+                26,
+                25,
+                50
+            ],
             "rgb": [
                 26,
                 119,
@@ -10997,7 +13837,7 @@
                 78.33333333333334,
                 47.05882352941176
             ],
-            "scalar": 0.6733333333333333
+            "scalar": 0.50177304964539
         }
     },
     "bk:shield_potion": {
@@ -11021,6 +13861,16 @@
         "name": "Shield Potion",
         "description": "Shield juice big sip",
         "color": {
+            "average": [
+                127,
+                98,
+                95
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 127,
                 98,
@@ -11032,7 +13882,7 @@
                 25.196850393700785,
                 49.80392156862745
             ],
-            "scalar": 0.725
+            "scalar": 0.015625000000000017
         }
     },
     "bk:trash_generator": {
@@ -11052,6 +13902,16 @@
         "name": "Trash Generator",
         "description": "Yes.",
         "color": {
+            "average": [
+                115,
+                77,
+                67
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 115,
                 77,
@@ -11063,7 +13923,7 @@
                 41.73913043478261,
                 45.09803921568628
             ],
-            "scalar": 0.725
+            "scalar": 0.034722222222222196
         }
     },
     "bk:crabs_claw": {
@@ -11106,6 +13966,16 @@
         "name": "Crab's Claw",
         "description": "Breaks any armor",
         "color": {
+            "average": [
+                214,
+                62,
+                72
+            ],
+            "common": [
+                234,
+                50,
+                60
+            ],
             "rgb": [
                 214,
                 62,
@@ -11117,7 +13987,7 @@
                 71.02803738317756,
                 83.92156862745098
             ],
-            "scalar": 0.9909420289855073
+            "scalar": 0.9890350877192983
         }
     },
     "bk:reverse_card": {
@@ -11134,6 +14004,16 @@
         "name": "Reverse Card",
         "description": "Rolling through projectiles reflects them",
         "color": {
+            "average": [
+                214,
+                139,
+                143
+            ],
+            "common": [
+                255,
+                255,
+                255
+            ],
             "rgb": [
                 214,
                 139,
@@ -11145,7 +14025,7 @@
                 35.04672897196263,
                 83.92156862745098
             ],
-            "scalar": 0.0
+            "scalar": 0.991111111111111
         }
     },
     "bk:magnet": {
@@ -11163,6 +14043,16 @@
         "name": "Magnet",
         "description": "Attraction & Affection",
         "color": {
+            "average": [
+                136,
+                66,
+                85
+            ],
+            "common": [
+                42,
+                47,
+                78
+            ],
             "rgb": [
                 136,
                 66,
@@ -11174,7 +14064,7 @@
                 51.470588235294116,
                 53.333333333333336
             ],
-            "scalar": 0.6435185185185185
+            "scalar": 0.9547619047619048
         }
     },
     "bk:glowing_mushroom": {
@@ -11190,6 +14080,16 @@
         "name": "Glowing Mushroom",
         "description": "He be vibing",
         "color": {
+            "average": [
+                7,
+                53,
+                93
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 7,
                 53,
@@ -11201,7 +14101,7 @@
                 92.47311827956989,
                 36.470588235294116
             ],
-            "scalar": 0.725
+            "scalar": 0.5775193798449613
         }
     },
     "bk:tinfoil_hat": {
@@ -11217,6 +14117,16 @@
         "name": "Tinfoil Hat",
         "description": "Feels safe",
         "color": {
+            "average": [
+                89,
+                96,
+                121
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 89,
                 96,
@@ -11228,7 +14138,7 @@
                 26.446280991735538,
                 47.45098039215686
             ],
-            "scalar": 0.725
+            "scalar": 0.6302083333333334
         }
     },
     "bk:rear_window": {
@@ -11251,6 +14161,16 @@
         "name": "Rear Window",
         "description": "Watches your back",
         "color": {
+            "average": [
+                92,
+                101,
+                128
+            ],
+            "common": [
+                146,
+                161,
+                185
+            ],
             "rgb": [
                 92,
                 101,
@@ -11262,7 +14182,7 @@
                 28.125,
                 50.19607843137255
             ],
-            "scalar": 0.6025641025641025
+            "scalar": 0.625
         }
     },
     "bk:refractor": {
@@ -11285,6 +14205,16 @@
         "name": "Refractor",
         "description": "A chance to attack in all directions",
         "color": {
+            "average": [
+                168,
+                176,
+                193
+            ],
+            "common": [
+                146,
+                161,
+                185
+            ],
             "rgb": [
                 168,
                 176,
@@ -11296,7 +14226,7 @@
                 12.953367875647666,
                 75.68627450980392
             ],
-            "scalar": 0.6025641025641025
+            "scalar": 0.6133333333333333
         }
     },
     "bk:fork": {
@@ -11328,6 +14258,16 @@
         "name": "Fork",
         "description": "It hurts",
         "color": {
+            "average": [
+                82,
+                87,
+                109
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 82,
                 87,
@@ -11339,7 +14279,7 @@
                 24.770642201834853,
                 42.745098039215684
             ],
-            "scalar": 0.725
+            "scalar": 0.6358024691358025
         }
     },
     "bk:rock": {
@@ -11368,6 +14308,16 @@
         "name": "Rock",
         "description": "Damage at a cost",
         "color": {
+            "average": [
+                88,
+                97,
+                125
+            ],
+            "common": [
+                42,
+                47,
+                78
+            ],
             "rgb": [
                 88,
                 97,
@@ -11379,7 +14329,7 @@
                 29.599999999999998,
                 49.01960784313725
             ],
-            "scalar": 0.6435185185185185
+            "scalar": 0.6261261261261262
         }
     },
     "bk:coffee_grinder": {
@@ -11429,6 +14379,16 @@
         "name": "Coffee Grinder",
         "description": "Small & fast projectiles",
         "color": {
+            "average": [
+                122,
+                108,
+                94
+            ],
+            "common": [
+                138,
+                72,
+                54
+            ],
             "rgb": [
                 122,
                 108,
@@ -11440,7 +14400,7 @@
                 22.950819672131146,
                 47.84313725490196
             ],
-            "scalar": 0.03571428571428572
+            "scalar": 0.08333333333333329
         }
     },
     "bk:shawarma": {
@@ -11459,6 +14419,16 @@
         "name": "Shawarma",
         "description": "Sometimes projectiles are bigger",
         "color": {
+            "average": [
+                213,
+                166,
+                125
+            ],
+            "common": [
+                230,
+                156,
+                105
+            ],
             "rgb": [
                 213,
                 166,
@@ -11470,7 +14440,7 @@
                 41.31455399061033,
                 83.52941176470588
             ],
-            "scalar": 0.06800000000000002
+            "scalar": 0.07765151515151515
         }
     },
     "bk:cats_ear": {
@@ -11494,6 +14464,16 @@
         "name": "Cat's Ear",
         "description": "Sick dodge",
         "color": {
+            "average": [
+                205,
+                100,
+                50
+            ],
+            "common": [
+                198,
+                69,
+                36
+            ],
             "rgb": [
                 205,
                 100,
@@ -11505,7 +14485,7 @@
                 75.60975609756098,
                 80.3921568627451
             ],
-            "scalar": 0.033950617283950615
+            "scalar": 0.05376344086021504
         }
     },
     "bk:gamepad": {
@@ -11540,6 +14520,16 @@
         "name": "Gamepad",
         "description": "Stable FPS",
         "color": {
+            "average": [
+                81,
+                77,
+                83
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 81,
                 77,
@@ -11551,7 +14541,7 @@
                 7.228915662650611,
                 32.549019607843135
             ],
-            "scalar": 0.725
+            "scalar": 0.7777777777777777
         }
     },
     "bk:hotdog": {
@@ -11578,6 +14568,16 @@
         "name": "Hotdog",
         "description": "Luck & Health Up",
         "color": {
+            "average": [
+                164,
+                110,
+                57
+            ],
+            "common": [
+                191,
+                111,
+                74
+            ],
             "rgb": [
                 164,
                 110,
@@ -11589,7 +14589,7 @@
                 65.2439024390244,
                 64.31372549019608
             ],
-            "scalar": 0.0527065527065527
+            "scalar": 0.08255451713395638
         }
     },
     "bk:bomb_shell": {
@@ -11610,6 +14610,16 @@
         "name": "Bomb Shell",
         "description": "Weird Health",
         "color": {
+            "average": [
+                35,
+                28,
+                49
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 35,
                 28,
@@ -11621,7 +14631,7 @@
                 42.85714285714286,
                 19.215686274509807
             ],
-            "scalar": 0.725
+            "scalar": 0.7222222222222222
         }
     },
     "bk:gold_lamp": {
@@ -11649,6 +14659,16 @@
         "name": "Gold Lamp",
         "description": "Money money money",
         "color": {
+            "average": [
+                218,
+                142,
+                37
+            ],
+            "common": [
+                255,
+                200,
+                37
+            ],
             "rgb": [
                 218,
                 142,
@@ -11660,7 +14680,7 @@
                 83.02752293577981,
                 85.49019607843137
             ],
-            "scalar": 0.1246177370030581
+            "scalar": 0.0966850828729282
         }
     },
     "bk:sharp_lamp": {
@@ -11696,6 +14716,16 @@
         "name": "Sharp Lamp",
         "description": "For melee lowers",
         "color": {
+            "average": [
+                78,
+                61,
+                58
+            ],
+            "common": [
+                61,
+                61,
+                61
+            ],
             "rgb": [
                 78,
                 61,
@@ -11707,7 +14737,7 @@
                 25.64102564102565,
                 30.58823529411765
             ],
-            "scalar": 0.0
+            "scalar": 0.025000000000000022
         }
     },
     "bk:ancient_sword": {
@@ -11744,6 +14774,16 @@
         "name": "Ancient Sword",
         "description": "Really old stick",
         "color": {
+            "average": [
+                109,
+                51,
+                115
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 109,
                 51,
@@ -11755,7 +14795,7 @@
                 55.65217391304348,
                 45.09803921568628
             ],
-            "scalar": 0.725
+            "scalar": 0.8177083333333334
         }
     },
     "bk:emerald_gun": {
@@ -11818,6 +14858,16 @@
         "name": "Emerald Gun",
         "description": "Most expensive gun on the market",
         "color": {
+            "average": [
+                61,
+                81,
+                51
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 61,
                 81,
@@ -11829,7 +14879,7 @@
                 37.03703703703703,
                 31.76470588235294
             ],
-            "scalar": 0.725
+            "scalar": 0.27777777777777773
         }
     },
     "bk:party_hat": {
@@ -11846,6 +14896,16 @@
         "name": "Party Hat",
         "description": "Why do I feel so sad",
         "color": {
+            "average": [
+                72,
+                113,
+                140
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 72,
                 113,
@@ -11857,7 +14917,7 @@
                 48.57142857142858,
                 54.90196078431373
             ],
-            "scalar": 0.725
+            "scalar": 0.5661764705882354
         }
     },
     "bk:police_hat": {
@@ -11874,6 +14934,16 @@
         "name": "Police Hat",
         "description": "Better stay away from portals",
         "color": {
+            "average": [
+                40,
+                52,
+                63
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 40,
                 52,
@@ -11885,7 +14955,7 @@
                 36.50793650793651,
                 24.705882352941178
             ],
-            "scalar": 0.725
+            "scalar": 0.5797101449275363
         }
     },
     "bk:spike_hat": {
@@ -11902,6 +14972,16 @@
         "name": "Spike Hat",
         "description": "Poke",
         "color": {
+            "average": [
+                64,
+                52,
+                67
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 64,
                 52,
@@ -11913,7 +14993,7 @@
                 22.38805970149254,
                 26.27450980392157
             ],
-            "scalar": 0.725
+            "scalar": 0.7999999999999999
         }
     },
     "bk:hood": {
@@ -11930,6 +15010,16 @@
         "name": "Hood",
         "description": "Find the ring",
         "color": {
+            "average": [
+                28,
+                27,
+                52
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 28,
                 27,
@@ -11941,7 +15031,7 @@
                 48.07692307692308,
                 20.392156862745097
             ],
-            "scalar": 0.725
+            "scalar": 0.6733333333333333
         }
     },
     "bk:bullet_hat": {
@@ -11958,6 +15048,16 @@
         "name": "Bullet Hat",
         "description": "Bang",
         "color": {
+            "average": [
+                115,
+                88,
+                81
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 115,
                 88,
@@ -11969,7 +15069,7 @@
                 29.565217391304355,
                 45.09803921568628
             ],
-            "scalar": 0.725
+            "scalar": 0.03431372549019609
         }
     },
     "bk:spook": {
@@ -12031,6 +15131,16 @@
         "name": "Spook",
         "description": "Boo",
         "color": {
+            "average": [
+                91,
+                88,
+                105
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 91,
                 88,
@@ -12042,7 +15152,7 @@
                 16.19047619047619,
                 41.17647058823529
             ],
-            "scalar": 0.725
+            "scalar": 0.6960784313725491
         }
     },
     "bk:mask": {
@@ -12059,6 +15169,16 @@
         "name": "Mask",
         "description": "Stay at 127.0.0.1",
         "color": {
+            "average": [
+                86,
+                87,
+                106
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 86,
                 87,
@@ -12070,7 +15190,7 @@
                 18.867924528301884,
                 41.568627450980394
             ],
-            "scalar": 0.725
+            "scalar": 0.6583333333333333
         }
     },
     "bk:sword_polish": {
@@ -12097,6 +15217,16 @@
         "name": "Sword Polish",
         "description": "Bigger Melee Attacks",
         "color": {
+            "average": [
+                95,
+                102,
+                128
+            ],
+            "common": [
+                146,
+                161,
+                185
+            ],
             "rgb": [
                 95,
                 102,
@@ -12108,7 +15238,7 @@
                 25.78125,
                 50.19607843137255
             ],
-            "scalar": 0.6025641025641025
+            "scalar": 0.6313131313131313
         }
     },
     "bk:pumpkin_juice": {
@@ -12138,6 +15268,16 @@
         "name": "Pumpkin Juice",
         "description": "Exciting",
         "color": {
+            "average": [
+                113,
+                84,
+                88
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 113,
                 84,
@@ -12149,7 +15289,7 @@
                 25.663716814159287,
                 44.31372549019608
             ],
-            "scalar": 0.725
+            "scalar": 0.9770114942528735
         }
     },
     "bk:bouncy_glove": {
@@ -12186,6 +15326,16 @@
         "name": "Bouncy Glove",
         "description": "Bonk",
         "color": {
+            "average": [
+                143,
+                143,
+                156
+            ],
+            "common": [
+                14,
+                7,
+                27
+            ],
             "rgb": [
                 143,
                 143,
@@ -12197,7 +15347,7 @@
                 8.33333333333334,
                 61.1764705882353
             ],
-            "scalar": 0.725
+            "scalar": 0.6666666666666666
         }
     }
 }
