@@ -2,7 +2,7 @@
 
 ## Setup
 
-The GitHub does not host the images and data used to display the items. The images and data are pulled from the [BkWikiData](https://github.com/RexcellentGames/BkWikiData).
+Burning Knight Cheat Sheet does not host the images and data used to display the items. The images and data are pulled from the [BkWikiData](https://github.com/RexcellentGames/BkWikiData).
 
 GitHub REST API is rate limited. By providing your auth token, you're able to increase the number of requests per hour.
 
