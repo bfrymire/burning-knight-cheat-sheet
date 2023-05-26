@@ -9,7 +9,8 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b production"
+    "deploy": "npm run clear-cache && gh-pages -d dist -b production",
+    "clear-cache": "rm -rf node_modules/.vite*"
   },
   "dependencies": {
     "framer-motion": "^10.12.10",
