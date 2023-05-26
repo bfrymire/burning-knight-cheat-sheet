@@ -21,7 +21,7 @@ export default function ItemsDisplay({ setItem }) {
 
         setItems(sortedColor);
         console.log("Number of items:", sortedColor.length);
-    }, [items, gap]);
+    }, [gap]);
 
     return (
         <div className="bg-slate-600 flex-1">
@@ -31,6 +31,7 @@ export default function ItemsDisplay({ setItem }) {
                 </h1>
             </div>
             <div
+                className='p-4 flex flex-wrap'
                 style={{ gap: `${gap}px` }} // Set the gap dynamically using inline style
             >
                 {items.map((item, index) => {
