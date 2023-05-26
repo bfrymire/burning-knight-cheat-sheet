@@ -43,3 +43,7 @@ npm install
 - Thanks for making the items' images and data available on [BkWikiData](https://github.com/RexcellentGames/BkWikiData)
 - Thanks to Taake's work on their [Burning Knight - Master Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2138181453) helped with understanding the items
 - Thanks to [Isaac Cheat Sheet - Platinum God](https://platinumgod.co.uk/) for inspiring the project
+
+Burning Knight Cheat Sheet is not endorced or affiliated with the game Burning Knight, developer [Rexcellent Games](https://rexcellentgames.com/), or publisher [2Awesome Studio](https://www.2awesomestudio.com/).
+
+All images and data are property of their respective owners.
