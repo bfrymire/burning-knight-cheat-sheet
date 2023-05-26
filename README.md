@@ -18,7 +18,7 @@ pip install -r ./src/scripts/requirements.txt
 GITHUB_PAT="github_pat_xxxxxxxxxxxxxxxxxxxxxx_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
-3. Run `main.py` to download images and JSON data
+3. Run `main.py` to download images and JSON data:
 
 ```bash
 python ./src/scripts/main.py
