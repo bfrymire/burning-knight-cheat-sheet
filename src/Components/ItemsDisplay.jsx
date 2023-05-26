@@ -6,7 +6,7 @@ export default function ItemsDisplay({ setItem }) {
     const itemTypes = [1, 6, 7, 10];
     const itemsBlacklist = ["bk:the_sword"];
     const [items, setItems] = useState([]);
-    const [gap, setGap] = useState(4);
+    const [gap, setGap] = useState(16);
 
     useEffect(() => {
         // Convert keys to an array of objects
@@ -17,12 +17,11 @@ export default function ItemsDisplay({ setItem }) {
 
         const filteredTypes = convertedItems.filter((item) => !item.type || itemTypes.includes(item.type));
         const filteredBlacklist = filteredTypes.filter((item) => !itemsBlacklist.includes(item.id));
-        // const sortedAlphabetically = filteredBlacklist.sort((a, b) => a.id > b.id);
         const sortedColor = filteredBlacklist.sort((a, b) => a.color.hsv[0] < b.color.hsv[0]);
 
         setItems(sortedColor);
         console.log("Number of items:", sortedColor.length);
-    }, []);
+    }, [items, gap]);
 
     return (
         <div className="bg-slate-600 flex-1">
@@ -31,7 +30,9 @@ export default function ItemsDisplay({ setItem }) {
                     Burning Knight Cheat Sheet
                 </h1>
             </div>
-            <div className={`p-4 flex flex-wrap gap-${gap}`}>
+            <div
+                style={{ gap: `${gap}px` }} // Set the gap dynamically using inline style
+            >
                 {items.map((item, index) => {
                     return (
                         <Item key={index} item={item} handleOnMouseOver={setItem} />
