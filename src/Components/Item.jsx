@@ -1,5 +1,5 @@
-export default function Item({ item, handleOnMouseOver }) {
-    const { id, name, pickup, color, file, image, pool, quality } = item;
+export default function Item({ item, handleOnMouseOver, handleOnClick }) {
+    const { name, file } = item;
     const imageSource = `/assets/images/items/${file}`;
 
     return (
