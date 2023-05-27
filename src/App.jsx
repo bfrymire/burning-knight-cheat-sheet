@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 export default function App() {
     return (
         <div className="flex flex-col min-h-full">
-            <Modal setModalItem={setModalItem} />
+            <Modal/>
             <main className="flex-1 flex flex-col">
                 <Header />
                 <ItemsManager />

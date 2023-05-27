@@ -1,13 +1,34 @@
-import { useEffect } from "react";
 import ItemText from "./ItemText";
+import { useSelector, useDispatch } from "react-redux";
+import { hideModal } from "../features/modal/modalSlice";
+import { motion } from "framer-motion";
 
 export default function Modal() {
+    const show = useSelector((state) => state.modal.show);
+    const item = useSelector((state) => state.modal.item);
+    const dispatch = useDispatch();
+
     return (
-        <div className="fixed flex items-center left-0 top-0 right-0 bottom-0 p10 z-10 inset-0 overflow-y-auto bg-[#0000009e]">
-            <div className="p-10 w-[90%] sm:w-[65%] mx-auto rounded bg-slate-700 drop-shadow-xl">
-                {/* <h1 className="underline text-xl text-center pb-2">TEST</h1> */}
-                {/* <p className="text-sm text-center text-green-500">DESCRIPTION</p> */}
-                <ItemText item={{name:"test"}} />
+        <div
+            className={`fixed flex items-center left-0 top-0 right-0 bottom-0 p10 z-10 inset-0 overflow-y-auto bg-[#0000009e] ${show ? "block" : "hidden"}`}
+            onClick={() => dispatch(hideModal())}
+        >
+            <div
+                className="p-10 max-w-screen mx-auto rounded bg-slate-700 drop-shadow-xl"
+                onClick={(e) => e.stopPropagation()}
+            >
+                {item &&
+                    <div className="flex gap-10">
+                        <div className="">
+                            < ItemText item={item} />
+                        </div>
+                        <div className="flex items-center justify-center">
+                            <div className="relative">
+                                <img src={item.imageSource} alt={`Item ${item.name}`} />
+                            </div>
+                        </div>
+                    </div>
+                }
             </div>
         </div>
     );
