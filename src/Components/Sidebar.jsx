@@ -1,23 +1,12 @@
-export default function Sidebar({ item }) {
-    const { name, pickup, id, color, lock, uprice } = item;
+import { useSelector } from "react-redux";
+import ItemText from "./ItemText";
 
+export default function Sidebar() {
+    const item = useSelector((state) => state.item.activeItem);
     return (
-        <div className="bg-slate-800 w-48 md:w-64 p-4 flex-initial relative">
+        <div className="bg-slate-800 w-48 md:w-64 p-4 flex-initial relative hidden sm:block">
             <div className="sticky top-4 left-0 right-0">
-                {false && id && <p className="absolute text-sm left-1 top-0">{id}</p>}
-                <h3 className="underline text-xl text-center pb-2">
-                    {name && name}
-                </h3>
-                {pickup &&
-                    <p className="text-sm text-center text-green-500">
-                        {pickup}
-                    </p>
-                }
-                {lock && uprice > 0 &&
-                    <p className="text-sm text-red-500 pt-4">
-                        Unlock Price: {uprice}
-                    </p>
-                }
+                {item && <ItemText item={item} />}
             </div>
         </div>
     );

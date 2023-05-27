@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import itemsData from "../data/items.json";
 import Item from "./Item";
 
-export default function ItemsDisplay({ setItem }) {
+export default function ItemsDisplay() {
     const itemTypes = [1, 6, 7, 10];
     const itemsBlacklist = ["bk:the_sword"];
     const [items, setItems] = useState([]);
@@ -36,7 +36,7 @@ export default function ItemsDisplay({ setItem }) {
             >
                 {items.map((item, index) => {
                     return (
-                        <Item key={index} item={item} handleOnMouseOver={setItem} />
+                        <Item key={index} item={item} />
                     );
                 })}
             </div>
