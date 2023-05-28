@@ -14,7 +14,7 @@ export default function Item({ item }) {
 
     return (
         <div
-            className="h-12 p-0 flex items-center"
+            className="h-12 p-0 flex items-center hover:cursor-pointer"
             onMouseEnter={() => dispatch(setItem({ item: { imageSource: imageSource, ...item } }))}
             onClick={() => dispatch(() => { handleOnClick() })}
             onMouseLeave={() => dispatch(clearItem())}
