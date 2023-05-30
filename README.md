@@ -39,7 +39,7 @@ npm install
 5. You're all set!
 
 ```bash
-npm run dev
+npm run preview
 ```
 
 ## Attributions
