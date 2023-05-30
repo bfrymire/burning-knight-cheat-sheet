@@ -44,8 +44,8 @@ npm run preview
 
 ## Attributions
 
-- Thanks for making the items' images and data available on [BkWikiData](https://github.com/RexcellentGames/BkWikiData)
-- Thanks to Taake's work on their [Burning Knight - Master Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2138181453) helped with understanding the items
+- Thanks to [Egor Dorichev](https://github.com/egordorichev) for making the items' images and data available on [BkWikiData](https://github.com/RexcellentGames/BkWikiData)
+- Thanks to Taake for their [Burning Knight - Master Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=2138181453) that helped in understanding the items
 - Thanks to [Isaac Cheat Sheet - Platinum God](https://platinumgod.co.uk/) for inspiring the project
 
 ## Disclaimer
