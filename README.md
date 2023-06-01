@@ -30,12 +30,6 @@ python ./src/scripts/main.py
 yarn install
 ```
 
-\- _or_ -
-
-```bash
-npm install
-```
-
 5. You're all set!
 
 ```bash
