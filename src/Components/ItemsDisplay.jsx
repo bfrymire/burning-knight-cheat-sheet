@@ -4,7 +4,7 @@ import Item from "./Item";
 
 export default function ItemsDisplay() {
     const itemTypes = [1, 6, 7, 10];
-    const itemsBlacklist = ["bk:the_sword"];
+    const itemsBlacklist = ["bk:the_sword", "bk:pouch"];
     const [items, setItems] = useState([]);
     const [gap, setGap] = useState(16);
 

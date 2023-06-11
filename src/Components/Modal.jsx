@@ -1,7 +1,7 @@
 import ItemText from "./ItemText";
 import { useSelector, useDispatch } from "react-redux";
 import { hideModal } from "../features/modal/modalSlice";
-import { motion, cubicBezier } from "framer-motion";
+import { motion } from "framer-motion";
 import itemShadow from "../assets/image/item_shadow.png";
 
 export default function Modal() {
@@ -11,7 +11,7 @@ export default function Modal() {
 
     return (
         <div
-            className={`fixed flex items-center left-0 top-0 right-0 bottom-0 p10 z-10 inset-0 overflow-y-auto bg-[#0000009e] ${show ? "block" : "hidden"}`}
+            className={`fixed flex items-center p-4 left-0 top-0 right-0 bottom-0 p10 z-10 inset-0 overflow-y-auto bg-[#0000009e] ${show ? "block" : "hidden"}`}
             onClick={() => dispatch(hideModal())}
         >
             <div
@@ -31,11 +31,12 @@ export default function Modal() {
                                     alt={`Item ${item.name}`}
                                     animate={{
                                         rotate: [0, 20, 0, -20, 0],
-                                        y: [0, -175 * 0.25, 0]
+                                        y: [0, -45, 0]
                                     }}
                                     transition={{
                                         duration: 2,
                                         repeat: Infinity,
+                                        ease: "easeInOut"
                                     }}
                                 />
                                 <img className="mx-auto opacity-50" src={itemShadow} alt="Item Shadow" />
