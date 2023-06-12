@@ -1,6 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
-
 export default function Footer() {
     const copyYear = new Date().getFullYear() || 2023;
     return (
@@ -9,7 +6,6 @@ export default function Footer() {
                 <p className="md:text-left">
                     <a href="https://github.com/bfrymire/burning-knight-cheat-sheet">
                         Source code available on GitHub
-                        <FontAwesomeIcon icon={icon({name: 'coffee', style: 'regular'})} />
                     </a>
                 </p>
             </div>
