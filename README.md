@@ -6,16 +6,16 @@ Burning Knight Cheat Sheet Git does not host the images and data used to display
 
 GitHub REST API is rate limited. By providing your auth token, you're able to increase the number of requests per hour.
 
-1. Install Python dependancies:
-
-```bash
-pip install -r ./src/scripts/requirements.txt
-```
-
-2. Create a `.env` file and add your GitHub PAT:
+1. Create a `.env` file and add your GitHub PAT:
 
 ```
 GITHUB_PAT="github_pat_xxxxxxxxxxxxxxxxxxxxxx_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+2. Install Python dependancies. It's recommended to use a virtual environment like `venv` or `virtualenv`:
+
+```bash
+pip install -r ./src/scripts/requirements.txt
 ```
 
 3. Run `main.py` to download images and JSON data:
