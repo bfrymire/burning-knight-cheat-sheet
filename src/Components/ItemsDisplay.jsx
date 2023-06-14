@@ -31,7 +31,7 @@ export default function ItemsDisplay() {
                 </h1>
             </div>
             <div
-                className='p-4 flex flex-wrap'
+                className="p-4 flex flex-wrap"
                 style={{ gap: `${gap}px` }} // Set the gap dynamically using inline style
             >
                 {items.map((item, index) => {

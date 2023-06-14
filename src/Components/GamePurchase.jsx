@@ -1,4 +1,5 @@
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function GamePurchase() {
     return (
@@ -9,9 +10,9 @@ export default function GamePurchase() {
             transition={{ duration: 1, type: "spring" }}
         >
             <p>
-                <a href="https://store.steampowered.com/app/851150/Burning_Knight/" rel="nofollow" target="_blank">
+                <Link to="https://store.steampowered.com/app/851150/Burning_Knight/" rel="nofollow" target="_blank">
                     Purchase Burning Knight on Steam!
-                </a>
+                </Link>
             </p>
         </motion.div>
     );
