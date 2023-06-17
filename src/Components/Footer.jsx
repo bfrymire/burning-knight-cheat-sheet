@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="p-6 container mx-auto flex flex-col text-right md:flex-row">
             <div className="grow">
                 <p className="md:text-left">
-                    <Link to="https://github.com/bfrymire/burning-knight-cheat-sheet">
+                    <Link to="https://github.com/bfrymire/burning-knight-cheat-sheet" target="_blank">
                         Source code available on GitHub
                     </Link>
                 </p>
