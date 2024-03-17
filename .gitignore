@@ -187,6 +187,3 @@ cython_debug/
 # BKCS
 notes/
 tmp/
-public/assets/images/items/
-src/data/en.json
-src/data/items.json
