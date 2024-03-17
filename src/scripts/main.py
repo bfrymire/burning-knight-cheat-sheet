@@ -30,7 +30,8 @@ def create_dotenv():
     with open('../../.env', 'w') as file:
         file.write('# Add your GitHub Personal Access Token\n')
         file.write('GITHUB_PAT=""\n')
-    print('Created .env file. Add your GitHub Personal Access Token to it.')
+        print('Created .env file.')
+    print('Add your GitHub Personal Access Token to the .env file.')
 
 def call_api(url) -> bytes:
     """
@@ -39,8 +40,7 @@ def call_api(url) -> bytes:
     :param str url: The URL to call.
     """
     headers = {}
-    if credentials['github_pat']:
-        headers['Authorization'] = f'Bearer {credentials["github_pat"]}'
+    headers['Authorization'] = f'Bearer {os.getenv("GITHUB_PAT")}'
     r = requests.get(url, headers=headers)
     if r.status_code != 200:
         raise Exception(f'API r: {r.status_code}')
@@ -62,13 +62,13 @@ def get_repo_contents(owner, repo, path=''):
         return None
 
 def download_items_data():
-    api_url = f'{bk_repo_url}contents/data/items/items.json'
-    r = call_api(api_url).json()
-    download_file(r['download_url'], f'{data_dir}items.json')
+    items_api_url = f'{bk_repo_url}contents/data/items/items.json'
+    r = call_api(items_api_url).json()
+    download_file_from_url(r['download_url'], f'{data_dir}items.json')
 
-    api_url = f'{bk_repo_url}contents/data/en.json'
-    r = call_api(api_url).json()
-    download_file(r['download_url'], f'{data_dir}en.json')
+    en_api_url = f'{bk_repo_url}contents/data/en.json'
+    r = call_api(en_api_url).json()
+    download_file_from_url(r['download_url'], f'{data_dir}en.json')
 
 def download_item_images():
     api_url = f'{bk_repo_url}contents/data/images/'
@@ -76,11 +76,13 @@ def download_item_images():
     r = call_api(api_url).json()
     images = [x for x in r if x['type'] == 'file' and x['name'].startswith('bk') and x['name'].endswith('.png')]
     for image in images:
-        download_file(image['download_url'], f'../../public/assets/images/items/items.json')
+        download_file_from_url(image['download_url'], f'../../public/assets/images/items/{image["name"]}')
 
 def resize_item_images():
     scalar = 0.25
     images_dir = f'../../public/assets/images/items/'
+    images = [x for x in os.listdir(images_dir) if x.endswith('.png')]
+    print(images)
     for image in os.listdir(images_dir):
         if image.endswith('.png'):
             with open(f'{images_dir}{image}', 'r+b') as file:
@@ -89,24 +91,33 @@ def resize_item_images():
                     img = img.resize((width, height), resample=Image.NEAREST)
                     img.save(f'{images_dir}{image}', img.format)
 
-def download_file(url, filename):
-    r = call_api(url)
-    r.raise_for_status()  # Check if the request was successful
+def download_file(response, filename):
+    # Check if the request was successful
+    response.raise_for_status()
 
-    dir = os.path.dirname(filename)
-    if not os.path.exists(dir):
-        os.makedirs(dir)
+    directory = os.path.dirname(filename)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
     with open(filename, 'wb') as file:
-        file.write(r.content)
+        file.write(response.content)
 
-    print(f'File "{filename}" downloaded successfully.')
+    if debugging:
+        if os.path.exists(filename):
+            print(f'File "{filename}" downloaded.')
+        else:
+            print(f'ERROR while downloading file: "{filename}"')
+
+def download_file_from_url(url, filename):
+    response = call_api(url)
+    download_file(response, filename)
 
 def format_items_data():
-    with open(f'../data/items.json', 'r') as file:
+    with open(f'{data_dir}items.json', 'r') as file:
         items = json.load(file)
-    with open(f'../data/en.json', 'r') as file:
+    with open(f'{data_dir}en.json', 'r') as file:
         english = json.load(file)
+
     # Get name and pick up text from english file
     for _id in items:
         item = items[_id]
@@ -129,7 +140,6 @@ def format_items_data():
         }
     with open(f'{data_dir}{bk_items_file}', 'w') as file:
         json.dump(items, file, indent=4)
-    print(items['bk:sword'])
 
 def calculate_average_color(image) -> tuple:
     width, height = image.size
@@ -233,7 +243,7 @@ def main():
     # download_item_images()
     # resize_item_images()
 
-    # download_items_data()
+    download_items_data()
     format_items_data()
 
 
