@@ -1,3 +1,5 @@
+import emeraldSprite from "../assets/images/emerald.png";
+
 const removePickupFormatting = (pickup) => {
     let pickupText = pickup;
     const formats = ["^^", "##", "%%"];
@@ -26,7 +28,7 @@ export default function ItemText({ item }) {
             }
             {lock && uprice > 0 &&
                 <p className="text-sm pt-4">
-                    Unlock Price: <img className="inline-block pixelate h-6" src="/images/items/bk_emerald.png" alt="Emerald" /> <span className="text-red-500">{uprice}</span>
+                    Unlock Price: <img className="inline-block pixelate h-6" src={emeraldSprite} alt="Emerald" /> <span className="text-red-500">{uprice}</span>
                 </p>
             }
         </>

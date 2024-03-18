@@ -28,7 +28,7 @@ export default function Modal() {
                                 <motion.img
                                     className="relative z-20 pixelate"
                                     src={item.imageSource}
-                                    alt={`yItem ${item.name}`}
+                                    alt={`${item.name}`}
                                     animate={{
                                         rotate: [0, 20, 0, -20, 0],
                                         y: [0, -45, 0]

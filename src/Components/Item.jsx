@@ -22,7 +22,7 @@ export default function Item({ item }) {
             <img
                 className="pixelate max-h-full"
                 src={imageSource}
-                alt={`xItem ${name}`}
+                alt={`${name}`}
             />
         </div>
     );
