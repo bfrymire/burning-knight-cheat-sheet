@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import NavItem from "./NavItem"
-import bkcs_logo from "../assets/image/bkcs_logo.png";
+import bkcs_logo from "../assets/images/bkcs_logo.png";
 
 const styles = {
     logoContainer: "flex items-center",

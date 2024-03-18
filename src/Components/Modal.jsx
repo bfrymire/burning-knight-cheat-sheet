@@ -2,7 +2,7 @@ import ItemText from "./ItemText";
 import { useSelector, useDispatch } from "react-redux";
 import { hideModal } from "../features/modal/modalSlice";
 import { motion } from "framer-motion";
-import itemShadow from "../assets/image/item_shadow.png";
+import itemShadow from "../assets/images/item_shadow.png";
 
 export default function Modal() {
     const show = useSelector((state) => state.modal.show);
@@ -28,7 +28,7 @@ export default function Modal() {
                                 <motion.img
                                     className="relative z-20 pixelate"
                                     src={item.imageSource}
-                                    alt={`Item ${item.name}`}
+                                    alt={`yItem ${item.name}`}
                                     animate={{
                                         rotate: [0, 20, 0, -20, 0],
                                         y: [0, -45, 0]

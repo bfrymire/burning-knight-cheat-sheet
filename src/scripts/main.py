@@ -240,7 +240,7 @@ def rgb_to_scalar(color) -> float:
     return scalar
 
 def main():
-    # download_item_images()
+    download_item_images()
     # resize_item_images()
 
     download_items_data()

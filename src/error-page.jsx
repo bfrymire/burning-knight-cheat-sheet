@@ -1,6 +1,6 @@
 import { useRouteError } from "react-router-dom";
 import { Link } from "react-router-dom";
-import burningKnightLost from "./assets/image/burning-knight-lost.png";
+import burningKnightLost from "./assets/images/burning-knight-lost.png";
 
 export default function ErrorPage() {
     const error = useRouteError();
