@@ -1,4 +1,14 @@
-# Burning Knight Cheat Sheet
+<div align="center" style="margin-bottom:2.5rem;">
+    <img src="./LOGO.png" style="margin:auto;" alt="BKCS Logo">
+</div>
+
+<h1 align="center">
+    Burning Knight Cheat Sheet
+</h1>
+
+<p align="center">
+   Burning Knight Cheat Sheet is an interactive item wiki to be used alongside the game Burning Knight.
+</p>
 
 ## Setup
 
