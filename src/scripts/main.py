@@ -25,12 +25,12 @@ debugging = True
 
 def create_dotenv():
     if os.path.exists('../../.env'):
-        print('The .env file already exists.')
-        return
-    with open('../../.env', 'w') as file:
-        file.write('# Add your GitHub Personal Access Token\n')
-        file.write('GITHUB_PAT=""\n')
-        print('Created .env file.')
+        print('The .env file already exists. Skipping file creation.')
+    else:
+        with open('../../.env', 'w') as file:
+            file.write('# Add your GitHub Personal Access Token\n')
+            file.write('GITHUB_PAT=""\n')
+            print('Created .env file.')
     print('Add your GitHub Personal Access Token to the .env file.')
 
 def call_api(url) -> bytes:
