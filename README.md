@@ -16,11 +16,13 @@ The Burning Knight item images and data are pulled from the [BkWikiData](https:/
 
 GitHub REST API is rate limited. By providing your auth token, you're able to increase the number of requests per hour.
 
-1. Create a `.env` file and add your GitHub PAT:
+1. Create a `.env` file and add your GitHub Personal Access Token:
 
 ```
-GITHUB_PAT="github_pat_xxxxxxxxxxxxxxxxxxxxxx_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+GITHUB_PAT=""
 ```
+
+Click to learn more about [GitHub's Personal Access Tokens](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 
 2. Install Python dependancies. It's recommended to use a virtual environment like `venv` or `virtualenv`:
 
@@ -43,7 +45,7 @@ yarn install
 5. You're all set!
 
 ```bash
-npm run preview
+yarn preview
 ```
 
 ## Attributions
